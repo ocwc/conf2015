@@ -45,8 +45,8 @@
 
 <div class="container">
 	<div class="col-sm-6">
-		<h2>Call for papers</h2>
-		<p>The Open Education Consortium and Athabasca University, organizers of the Open Education Global Conference 2015, invite submissions of papers on all topics related to open education for the conference proceedings, and proposals for workshops</p>
+		<h2>Call for Proposals</h2>
+		<p>The Open Education Consortium and Athabasca University, organizers of the Open Education Global Conference 2015, invite proposals for conference sessions and papers to be included in the conference proceedings.</p>
 		<p><strong>Submissions Due:</strong> November 30, 2014</p>
 		<a href="/2015/call-for-papers/" class="btn btn-primary">Learn more</a>
 	</div>

@@ -29,6 +29,7 @@ module.exports = function (grunt) {
           '../js/script.min.js': [
             'bower_components/fingerprint/fingerprint.js',
             'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
+            'bower_components/ResponsiveSlides.js/responsiveslides.min.js',
             'js/dropdowns-enhancement.js',
             'js/script.js'
           ]

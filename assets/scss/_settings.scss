@@ -4,7 +4,8 @@ $blue-light: #38A1BF;
 
 /* variable overrides */
 
-$font-family-sans-serif:  "lft-etica",sans-serif;
-
 $font-size-base:          16px;
 $line-height-base:        1.5;
+
+$headings-font-family: "etica-display", $font-family-sans-serif;
+$headings-font-weight:    200;

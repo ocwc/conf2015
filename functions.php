@@ -54,6 +54,10 @@ add_action( 'wp_enqueue_scripts', 'cf_scripts' );
  */
 require get_template_directory() . '/inc/extras.php';
 
+/**
+ * Custom Post Types
+ */
+require get_template_directory() . '/inc/post_types.php';
 
 /**
  * Custom Menu Walker for Bootstrap 3

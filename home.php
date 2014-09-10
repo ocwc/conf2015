@@ -43,4 +43,36 @@
 		<?php endwhile; ?>
 	</ul>
 
+<div class="container">
+	<div class="col-sm-6">
+		<h2>Call for papers</h2>
+		<p>The Open Education Consortium and Athabasca University, organizers of the Open Education Global Conference 2015, invite submissions of papers on all topics related to open education for the conference proceedings, and proposals for workshops</p>
+		<p><strong>Submissions Due:</strong> November 30, 2014</p>
+		<a href="/2015/call-for-papers/" class="btn btn-primary">Learn more</a>
+	</div>
+	<div class="col-sm-6">
+		<h2>Conference at Glance</h2>
+
+		<p><strong>When:</strong> 22-24 April, 2015</p>
+		<p><strong>Where: </strong> Banff, Alberta, Canada </p>
+		<p><strong>The theme </strong>for Open Education Global 2015 is Entrepreneurship and Innovation, emphasizing the exciting directions and developments in open education around the world.</p>
+
+		<a href="/2015/about-conference/" class="btn btn-primary">About The Conference</a>
+	</div>
+</div>
+
+<div class="container home-vertical-spacing">
+	<div class="col-sm-6">
+		<h2>Organized by</h2>
+
+
+		<div class="col-sm-6">
+			<p><a href="http://www.athabascau.ca/"><img src="<?php echo get_template_directory_uri(); ?>/img/au-logo.png"></a></p>
+		</div>
+		<div class="col-sm-6">
+			<p><a href="http://www.oeconsortium.org/"><img src="<?php echo get_template_directory_uri(); ?>/img/oec-logo.png"></a></p>
+		</div>
+	</div>
+</div>
+
 <?php get_footer(); ?>

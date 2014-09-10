@@ -10,7 +10,7 @@ function cf_setup() {
 		'primary' => __( 'Primary Menu', 'op' ),
 	) );
 
-	add_image_size( 'slideshow-image', 1050, 420, true);
+	add_image_size( 'slideshow-image', 1049, 420, true);
 	add_image_size( 'home-small', 245, 154, true);
 	add_image_size( 'home-featured', 179, 103, true);	
 

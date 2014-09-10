@@ -51,7 +51,7 @@
 		<a href="/2015/call-for-papers/" class="btn btn-primary">Learn more</a>
 	</div>
 	<div class="col-sm-6">
-		<h2>Conference at Glance</h2>
+		<h2>Conference at a Glance</h2>
 
 		<p><strong>When:</strong> 22-24 April, 2015</p>
 		<p><strong>Where: </strong> Banff, Alberta, Canada </p>

@@ -1,0 +1,88 @@
+body {
+	background: #E0E0E0 url("../img/background.jpg") no-repeat;
+	background-size: 100%;
+}
+
+/* header */
+.logos {
+	margin-top: 30px;
+
+	.logo img {
+		padding-right: 35px;
+	}
+
+	.oeclogo {
+		margin-top: 15px;
+	}
+}
+
+/* menu */
+.container.menu {
+	@include gradient-vertical($blue-dark, $blue-light);
+
+	margin-top: 26px;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+
+	margin-bottom: 0;
+
+	#menu-main-menu {
+
+		> a {
+	        &:hover { background-color: transparent; }
+		}
+
+	    &.active > a {
+	        &,
+	        &:hover,
+	        &:focus {
+	          background-color: transparent;
+	          cursor: pointer;
+	       	}
+	    }
+
+		> li > a {
+			color: #FFF;
+			background-color: transparent;
+
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+
+			&:hover {
+				color: #FFF;
+				background-color: $blue-dark;
+			}
+		}
+	}
+
+	.dropdown-menu {
+		background-color: $blue-light;
+		border: none;
+		
+		li a {
+			color: #FFF;
+			padding: 8px 20px;
+		}
+		
+		li a:hover {
+			color: $blue-dark;
+			background-color: #FFF;
+		}
+
+	}
+}
+
+/* home */
+
+/* pages */
+
+.content {
+	background-color: #FFF;
+}
+
+.entry-title {
+	color: $blue-dark;
+}

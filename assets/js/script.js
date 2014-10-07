@@ -1,6 +1,4 @@
 jQuery(document).ready(function($) {
-    console.log('foo');
-
     $(".rslides").responsiveSlides({
       auto: true,
       speed: 2000,
@@ -22,5 +20,4 @@ jQuery(document).ready(function($) {
     }
     w.on('scroll', s);
     iframe.on('load', s);
-
 });

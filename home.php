@@ -75,4 +75,14 @@
 	</div>
 </div>
 
+<div class="container home-vertical-spacing">
+	<div class="col-sm-12">
+		<h2>Join the Conversation by using <span class="hashtag">#oeglobal</span> hashtag</h2>
+	</div>
+
+	<div class="col-sm-12">
+		<iframe id="storyfeed" src="http://oeglobal.storyfeed.me/?embed" style="border: 0px; height: 300px; width: 100%;" scrolling="no" allowfullscreen></iframe>
+	</div>
+</div>
+
 <?php get_footer(); ?>

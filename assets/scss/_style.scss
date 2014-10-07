@@ -91,6 +91,10 @@ body {
 	padding-top: 0;
 }
 
+.hashtag {
+	font-weight: 400;
+}
+
 .card {
 	position: absolute;
 	bottom: 15px;
@@ -126,7 +130,8 @@ body {
 }
 
 .home-vertical-spacing {
-	padding-top: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 /* pages */

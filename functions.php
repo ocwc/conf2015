@@ -44,7 +44,7 @@ function cf_scripts() {
 		}
 
 		wp_enqueue_style( 'cf-style', get_template_directory_uri().'/css/style.css' );
-		wp_enqueue_script( 'cf-script', get_template_directory_uri() . '/js/script.min.js', array('jquery'), '20140910', true );
+		wp_enqueue_script( 'cf-script', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), '20140910', true );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'cf_scripts' );

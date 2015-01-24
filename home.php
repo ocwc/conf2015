@@ -27,12 +27,12 @@
 
 				<?php if ( get_field('slideshow_show_description') ) : ?>
 				<a class="card"
-					href="get_field('slideshow_url')"; >
+					href="<?php the_field('slideshow_url') ?>" >
 					<span class="card-title"><?php the_title(); ?></span>
 					<?php if ( get_field('slideshow_description') ) : ?>
 						<span class="card-description"><?php the_field('slideshow_description'); ?></span>
 					<?php endif; ?>
-				<a>
+				</a>
 				<div class="attribution">
 					<?php if ( get_field('slideshow_photo_license_text') ) :?>
 						<a href="<?php the_field('slideshow_photo_source_url'); ?>" ><?php the_field('slideshow_photo_license_text'); ?></a>

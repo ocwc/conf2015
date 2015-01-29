@@ -46,10 +46,9 @@
 
 <div class="container">
 	<div class="col-sm-6">
-		<h2>Call for Proposals</h2>
-		<p>The Open Education Consortium and Athabasca University, organizers of the Open Education Global Conference 2015, invite proposals for conference sessions and papers to be included in the conference proceedings.</p>
-		<p><strong>Submissions Due:</strong> December 10, 2014</p>
-		<a href="/2015/call-for-papers/" class="btn btn-primary">Learn more</a>
+		<h2>Keynoet Speakers</h2>
+		<p>An exciting lineup of keynote speakers at OE Global 2015 will present visionary ideas and inspirational messages to challenge us to keep innovating.</p>
+		<a href="/2015/keynotes/" class="btn btn-primary">Read more about them</a>
 	</div>
 	<div class="col-sm-6">
 		<h2>Conference at a Glance</h2>

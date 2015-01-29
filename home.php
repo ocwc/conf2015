@@ -46,9 +46,9 @@
 
 <div class="container">
 	<div class="col-sm-6">
-		<h2>Keynoet Speakers</h2>
+		<h2>Keynote Speakers</h2>
 		<p>An exciting lineup of keynote speakers at OE Global 2015 will present visionary ideas and inspirational messages to challenge us to keep innovating.</p>
-		<a href="/2015/keynotes/" class="btn btn-primary">Read more about them</a>
+		<a href="/2015/keynotes/" class="btn btn-primary">Lear More about our Keynote Speakers</a>
 	</div>
 	<div class="col-sm-6">
 		<h2>Conference at a Glance</h2>

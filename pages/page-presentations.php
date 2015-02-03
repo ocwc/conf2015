@@ -36,6 +36,13 @@
 		<?php $track = 'implementation'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
+
+	<div class="col-sm-12">
+		<h2>Pedagogy & Design</h2>
+		<?php $track = 'pedagogy'; ?>
+		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
+	</div>
+
 </div>
 
 <?php get_footer(); ?>

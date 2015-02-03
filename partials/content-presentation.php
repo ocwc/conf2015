@@ -20,4 +20,10 @@
 		<?php the_content(); ?>
 	</div>
 
+	<?php if ( get_field( 'presentation_paper') ) : ?>
+		<a class="btn btn-primary" href="<?php echo get_field('presentation_paper')['url']; ?>">Download PDF of Paper</a>
+	<?php elseif ( get_field( 'presentation_pdf' ) ) : ?>
+		<a class="btn btn-primary" href="<?php echo get_field('presentation_pdf')['url']; ?>">Download PDF of Extended Abstract</a>
+	<?php endif; ?>
+
 </article>

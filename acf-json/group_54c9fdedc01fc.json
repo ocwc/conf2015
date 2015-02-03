@@ -74,8 +74,25 @@
         },
         {
             "key": "field_54cd31c3de2f1",
-            "label": "Paper (PDF)",
+            "label": "Abstract (PDF)",
             "name": "presentation_pdf",
+            "prefix": "",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all"
+        },
+        {
+            "key": "field_54d0b4b89e900",
+            "label": "Full paper (PDF)",
+            "name": "presentation_paper",
             "prefix": "",
             "type": "file",
             "instructions": "",
@@ -122,5 +139,5 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
-    "modified": 1422962622
+    "modified": 1422963929
 }

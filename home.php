@@ -49,6 +49,10 @@
 		<h2>Keynote Speakers</h2>
 		<p>An exciting lineup of keynote speakers at OE Global 2015 will present visionary ideas and inspirational messages to challenge us to keep innovating.</p>
 		<a href="/2015/keynotes/" class="btn btn-primary">Learn More about our Keynote Speakers</a>
+
+		<h2 class="h2-home-margin">ROER4D/GO-GN research track</h2>
+		<p>We are pleased to announce combined ROER4D/GO-GN research track during Open Education Global Conference 2015</p>
+		<a class="btn btn-primary" href="/2015/roer4d-go-gn/">Learn more about ROER4D & GO-GN Track</a>
 	</div>
 	<div class="col-sm-6">
 		<h2>Conference at a Glance</h2>
@@ -57,7 +61,7 @@
 		<p><strong>Where: </strong> Banff, Alberta, Canada </p>
 		<p><strong>The theme </strong>for Open Education Global 2015 is Entrepreneurship and Innovation, emphasizing the exciting directions and developments in open education around the world.</p>
 
-		<a href="/2015/about-conference/" class="btn btn-primary">About The Conference</a>
+		<a class="btn btn-primary" href="/2015/about-conference/">About The Conference</a>
 	</div>
 </div>
 

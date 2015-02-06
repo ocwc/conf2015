@@ -93,7 +93,7 @@
 		<h2>Supported by</h2>
 		<div class="row">
 			<div class="col-sm-6">
-				<p><a href="http://www.unesco.ca/"><img src="<?php echo get_template_directory_uri(); ?>/img/unesco.png"></a></p>
+				<p><a href="http://www.unesco.ca/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/unesco.png"></a></p>
 			</div>
 		</div>
 	</div>

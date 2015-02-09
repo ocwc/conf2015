@@ -95,6 +95,9 @@
 			<div class="col-sm-6">
 				<p><a href="http://www.unesco.ca/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/unesco.png"></a></p>
 			</div>
+			<div class="col-sm-6">
+				<p><a href="http://ducere.co/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/ducere-logo.png"></a></p>
+			</div>
 		</div>
 	</div>
 </div>

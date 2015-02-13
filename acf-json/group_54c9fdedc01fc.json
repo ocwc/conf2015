@@ -69,7 +69,8 @@
                 "presentation": "Presentation",
                 "panel": "Panel",
                 "poster": "Poster",
-                "actionlab": "Action Lab"
+                "actionlab": "Action Lab",
+                "research": "Research"
             },
             "other_choice": 1,
             "save_other_choice": 0,
@@ -143,5 +144,5 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
-    "modified": 1423818875
+    "modified": 1423841137
 }

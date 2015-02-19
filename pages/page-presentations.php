@@ -43,17 +43,21 @@
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
 
+	<?php /*
 	<div class="col-sm-12">
 		<h2>Panel</h2>
 		<?php $track = 'panel'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
+	*/ ?>
 
+	<?php /*
 	<div class="col-sm-12">
 		<h2>Action Lab</h2>
 		<?php $track = 'actionlab'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
+	*/ ?>
 
 	<div class="col-sm-12">
 		<h2>ROER4D & GO-GN Research</h2>

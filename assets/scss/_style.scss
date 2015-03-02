@@ -161,3 +161,27 @@ body {
 .label {
 	font-weight: normal;
 }
+
+/*
+ * Schedule
+ */
+
+.schedule-item {
+	list-style: none;
+	
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+
+	border-bottom: 1px solid #B3B3B3;
+
+}
+
+.schedule-item:last-child {
+	border-bottom: none;
+}
+
+.panel-title {
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 10px;
+}

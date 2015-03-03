@@ -1,4 +1,4 @@
-x<?php
+<?php
 /*
 	Template name: Schedule - Wednesday
 */
@@ -68,7 +68,7 @@ x<?php
 							<?php cf_presentations(array(368, 710, 439)); ?>
 						</td>
 						<td>
-							<span class="panel-title">&nbsp;</span>
+							<span class="panel-title">ROER4D Presentations</span>
 							<?php cf_presentations(array(621, 627, 625)); ?>
 						</td>
 			    	</tr>
@@ -90,22 +90,22 @@ x<?php
 						
 						<td>
 							<span class="panel-title">Credentialing OER</span>
-							<?php cf_presentations(array(519, 302, 529)); ?>
+							<?php cf_presentations(array(453, 459)); ?>
 						</td>
 
 						<td>
 							<span class="panel-title">National Policy for OER</span>
-							<?php cf_presentations(array(519, 302, 529)); ?>
+							<?php cf_presentations(array(466, 476)); ?>
 						</td>
 
 						<td>
 							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(519, 302, 529)); ?>
+							<?php cf_presentations(array(662)); ?>
 						</td>
 
 						<td>
 							<span class="panel-title">Panel Discussion</span>
-							<?php cf_presentations(array(519, 302, 529)); ?>
+							<?php cf_presentations(array(708)); ?>
 						</td>
 
 						<td>
@@ -122,8 +122,12 @@ x<?php
 					<tr>
 						<td>16:00</td>
 						<td>
-							<span class="panel-title">&nbsp;</span><br /><br />
-							<li class="schedule-item">Poster Highlights – short talks from poster presenters</li>
+							<span class="panel-title">&nbsp;</span><br />
+							<li class="schedule-item">
+								<a href="<?php echo get_bloginfo('url') . '/schedule/posters/'; ?>">
+									Poster Highlights – short talks from poster presenters
+								</a>
+							</li>
 						</td>
 					
 						<td>
@@ -142,7 +146,7 @@ x<?php
 						</td>
 
 						<td>
-							<span class="panel-title">&nbsp;</span>
+							<span class="panel-title">ROER4D Presentations</span>
 							<?php cf_presentations(array(605, 623, 611, 615)); ?>
 						</td>
 					</tr>

@@ -185,3 +185,11 @@ body {
 	display: inline-block;
 	margin-bottom: 10px;
 }
+
+.td-3 td {
+	max-width: 33.333333333%;
+}
+
+.td-5 td:not(:first-of-type) {
+	width: 20%;
+}

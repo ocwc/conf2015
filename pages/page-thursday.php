@@ -44,7 +44,7 @@
 						<td>10:30</td>
 						<td>
 							<span class="panel-title">The Quality of OER</span>
-							<?php cf_presentations(array(290, 527, 395, 448)); ?>
+							<?php cf_presentations(array(290, 527, 446, 448)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Open Educational Practices</span>

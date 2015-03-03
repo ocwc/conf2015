@@ -48,7 +48,7 @@
 						<td class="text-center" colspan="5">Refreshments</td>
 					</tr>
 
-					<tr>
+					<tr class="td-5">
 						<td>11:00</td>
 						<td>
 							<span class="panel-title">Case Studies in Innovation & OER</span>
@@ -83,7 +83,7 @@
 						</td>
 					</tr>
 
-					<tr>
+					<tr class="td-5">
 						<td></td>
 						
 						<td>

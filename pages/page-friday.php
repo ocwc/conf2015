@@ -78,6 +78,39 @@
 							<span class="panel-title">Panel Discussion</span>
 							<?php cf_presentations(array(498)); ?>
 						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>12:30</td>
+						<td class="text-center" colspan="5">Lunch</td>
+					</tr>
+					<tr class="td-5">
+						<td>13:30</td>
+						<td>
+							<span class="panel-title">Action Lab</span>
+							<?php cf_presentations(array(743)); ?>
+						</td>
+						<td>
+							<span class="panel-title">Action Lab</span>
+							<?php cf_presentations(array(664)); ?>
+						</td>
+						<td>
+							<span class="panel-title">Action Lab</span>
+							<?php cf_presentations(array(490)); ?>
+						</td>
+						<td>
+							<span class="panel-title">Action Lab</span>
+							<?php cf_presentations(array(492)); ?>
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>16:30</td>
+						<td class="text-center" colspan="5">OE Consortium Business Meeting & Closing Ceremony</td>
+					</tr>
+					<tr>
+						<td>17:00</td>
+						<td class="text-center" colspan="5">End of day 3</td>
 					</tr>
 			    </tbody>
 			</table>

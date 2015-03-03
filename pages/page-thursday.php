@@ -131,6 +131,14 @@
 						</td>
 						<td></td>
 					</tr>
+					<tr>
+						<td>17:30</td>
+						<td class="text-center" colspan="5">End of day 2</td>
+					</tr>
+					<tr>
+						<td>20:00</td>
+						<td class="text-center" colspan="5">Ace Awards Ceremony</td>
+					</tr>
 			    </tbody>
 			</table>
 		</div>

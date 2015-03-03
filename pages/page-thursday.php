@@ -59,7 +59,7 @@
 							<?php cf_presentations(array(294, 443, 338, 366)); ?>
 						</td>
 						<td>
-							<span class="panel-title">&nbsp;</span>
+							<span class="panel-title">ROER4D Presentations</span>
 							<?php cf_presentations(array(607, 613)); ?>
 						</td>
 					</tr>
@@ -137,7 +137,11 @@
 					</tr>
 					<tr>
 						<td>20:00</td>
-						<td class="text-center" colspan="5">Ace Awards Ceremony</td>
+						<td class="text-center" colspan="5">
+							Ace Awards Ceremony<br />
+							Keynote: Kai Kight
+
+						</td>
 					</tr>
 			    </tbody>
 			</table>

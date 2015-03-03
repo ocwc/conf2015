@@ -60,7 +60,7 @@
 						</td>
 						<td>
 							<span class="panel-title">&nbsp;</span>
-							<?php cf_presentations(array(623, 613)); ?>
+							<?php cf_presentations(array(607, 613)); ?>
 						</td>
 					</tr>
 					<tr>
@@ -82,8 +82,8 @@
 							<?php cf_presentations(array(697)); ?>
 						</td>
 						<td>
-							<span class="panel-title">&nbsp;</span>
-							<?php cf_presentations(array(674)); ?>
+							<span class="panel-title">Action Lab</span>
+							<?php cf_presentations(array(453)); ?>
 						</td>
 						<td></td>
 					</tr>
@@ -127,7 +127,7 @@
 						</td>
 						<td>
 							<span class="panel-title">Moving Towards “Open”</span>
-							<?php cf_presentations(array(485, 644)); ?>
+							<?php cf_presentations(array(485, 644, 674)); ?>
 						</td>
 						<td></td>
 					</tr>

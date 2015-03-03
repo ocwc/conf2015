@@ -1,4 +1,4 @@
-<?php
+x<?php
 /*
 	Template name: Schedule - Wednesday
 */
@@ -38,8 +38,10 @@
 			    	</tr>
 			    	<tr>
 			    		<td>9:15</td>
-			    		<td>Plenary Talks: OpeningUp Alberta<br />
-							(BC OER Special Session)
+			    		<td>
+			    			<span class="panel-title">Plenary Talks</span>
+			    			<li class="schedule-item">OpeningUp Alberta</li>
+			    			<li class="schedule-item">BC OER Special Session</li>
 						</td>
 					</tr>
 					
@@ -78,13 +80,13 @@
 
 					<tr>
 						<td>13:30</td>
-						<td class="text-center" colspan="5">
+						<td class="text-center" colspan="1">
 							<strong>Special Invited Panel Speakers on Open Education</strong>
 						</td>
 					</tr>
 
 					<tr class="td-5">
-						<td></td>
+						<td>14:30</td>
 						
 						<td>
 							<span class="panel-title">Credentialing OER</span>
@@ -141,7 +143,7 @@
 
 						<td>
 							<span class="panel-title">&nbsp;</span>
-							<?php cf_presentations(array(605, 607, 611, 615)); ?>
+							<?php cf_presentations(array(605, 623, 611, 615)); ?>
 						</td>
 					</tr>
 

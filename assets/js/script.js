@@ -1,9 +1,11 @@
 jQuery(document).ready(function($) {
-    $(".rslides").responsiveSlides({
-      auto: true,
-      speed: 2000,
-      timeout: 8000
-    });
+    if ( $(".rslides").length > 0 ) {
+      $(".rslides").responsiveSlides({
+        auto: true,
+        speed: 2000,
+        timeout: 8000
+      });
+    }
 });
 
 jQuery(function() {

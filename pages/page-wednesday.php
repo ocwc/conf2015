@@ -65,7 +65,7 @@
 						</td>
 						<td>
 							<span class="panel-title">Open Access, Open Publishing</span>
-							<?php cf_presentations(array(368, 710, 439)); ?>
+							<?php cf_presentations(array(368, 710, 654)); ?>
 						</td>
 						<td>
 							<span class="panel-title">ROER4D Presentations</span>
@@ -128,6 +128,9 @@
 									Poster Highlights – short talks from poster presenters
 								</a>
 							</li>
+							<br /><br /><br /><br />
+							<span class="panel-title">17:00</span>
+							<?php cf_presentations(array(469, 652)); ?>
 						</td>
 					
 						<td>

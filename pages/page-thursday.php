@@ -52,7 +52,7 @@
 						</td>
 						<td>
 							<span class="panel-title">Identifying Impact of OER</span>
-							<?php cf_presentations(array(317, 525, 389, 342)); ?>
+							<?php cf_presentations(array(317, 342, 389, 525)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Issues in Open Textbooks</span>

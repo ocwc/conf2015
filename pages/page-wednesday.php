@@ -145,7 +145,7 @@
 
 						<td>
 							<span class="panel-title">Pedagogy and OER</span>
-							<?php cf_presentations(array(428, 433, 430, 521)); ?>
+							<?php cf_presentations(array(428, 768, 430, 521)); ?>
 						</td>
 
 						<td>

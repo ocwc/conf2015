@@ -51,8 +51,8 @@
 							<?php cf_presentations(array(393)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Panel Discussion</span>
-							<?php cf_presentations(array(699)); ?>
+							<!-- <span class="panel-title">Panel Discussion</span> -->
+							<?php //cf_presentations(array(699)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Action Lab</span>

@@ -47,6 +47,28 @@
             "disabled": 0
         },
         {
+            "key": "field_550bf9c4408f6",
+            "label": "Email(s)",
+            "name": "presentation_email",
+            "prefix": "",
+            "type": "text",
+            "instructions": "separate multiple authors with commas",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
             "key": "field_54c9fe2a1b252",
             "label": "Track",
             "name": "presentation_track",
@@ -65,12 +87,7 @@
                 "impact": "Evidence of Impact",
                 "strategy": "Strategy",
                 "implementation": "Implementation",
-                "pedagogy": "Pedagogy & Design",
-                "presentation": "Presentation",
-                "panel": "Panel",
-                "poster": "Poster",
-                "actionlab": "Action Lab",
-                "research": "ROER4D & GO-GN Research"
+                "pedagogy": "Pedagogy & Design"
             },
             "other_choice": 1,
             "save_other_choice": 0,
@@ -92,7 +109,10 @@
                 "id": ""
             },
             "return_format": "array",
-            "library": "all"
+            "library": "all",
+            "min_size": 0,
+            "max_size": 0,
+            "mime_types": ""
         },
         {
             "key": "field_54d0b4b89e900",
@@ -109,7 +129,10 @@
                 "id": ""
             },
             "return_format": "array",
-            "library": "all"
+            "library": "all",
+            "min_size": 0,
+            "max_size": 0,
+            "mime_types": ""
         },
         {
             "key": "field_54cd31dade2f2",
@@ -144,5 +167,5 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
-    "modified": 1423841232
+    "modified": 1426848244
 }

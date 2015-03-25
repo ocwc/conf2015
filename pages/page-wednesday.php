@@ -61,7 +61,7 @@
 							<?php cf_presentations(array(379, 488, 646)); ?></td>
 						<td>
 							<span class="panel-title">Open Education & Entrepreneurship</span>
-							<?php cf_presentations(array(300, 344, 391)); ?>
+							<?php cf_presentations(array(300, 344, 395)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Open Access, Open Publishing</span>
@@ -130,7 +130,7 @@
 							</li>
 							<br /><br /><br /><br />
 							<span class="panel-title">17:00</span>
-							<?php cf_presentations(array(469, 395)); ?>
+							<?php cf_presentations(array(469)); ?>
 						</td>
 					
 						<td>

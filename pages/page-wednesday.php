@@ -130,7 +130,7 @@
 							</li>
 							<br /><br /><br /><br />
 							<span class="panel-title">17:00</span>
-							<?php cf_presentations(array(469, 652)); ?>
+							<?php cf_presentations(array(469, 395)); ?>
 						</td>
 					
 						<td>

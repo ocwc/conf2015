@@ -56,11 +56,13 @@
 						</td>
 						<td>
 							<span class="panel-title">Issues in Open Textbooks</span>
-							<?php cf_presentations(array(294, 443, 338, 366)); ?>
+							<?php cf_presentations(array(294, 443, 338)); ?>
 						</td>
 						<td>
 							<span class="panel-title">ROER4D Presentations</span>
 							<?php cf_presentations(array(607, 613)); ?>
+							<span class="panel-title">GO-GN Presentations</span>
+							<?php cf_presentations(array(780, 782)); ?>
 						</td>
 					</tr>
 					<tr>
@@ -74,8 +76,8 @@
 							<?php cf_presentations(array(504)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Considerations for MOOCs</span>
-							<?php cf_presentations(array(420, 435)); ?>
+							<!-- <span class="panel-title">Considerations for MOOCs</span> -->
+							<?php //cf_presentations(array()); ?>
 						</td>
 						<td>
 							<span class="panel-title">Panel Discussion</span>
@@ -85,7 +87,10 @@
 							<span class="panel-title">Action Lab</span>
 							<?php cf_presentations(array(453)); ?>
 						</td>
-						<td></td>
+						<td>
+							<span class="panel-title">GO-GN Presentations</span>
+							<?php cf_presentations(array(784, 786)); ?>
+						</td>
 					</tr>
 					<tr class="td-5">
 						<td>14:30</td>
@@ -105,7 +110,10 @@
 							<span class="panel-title">Panel Discussion</span>
 							<?php cf_presentations(array(703)); ?>
 						</td>
-						<td></td>
+						<td>
+							<span class="panel-title">GO-GN Presentations</span>
+							<?php cf_presentations(array(788, 790)); ?>
+						</td>
 					</tr>
 					<tr>
 						<td>15:30</td>

@@ -22,7 +22,7 @@
 			            <th class="room-col">Breakout Room&nbsp;1</th>
 			            <th class="room-col">Breakout Room&nbsp;2</th>
 			            <th class="room-col">Breakout Room&nbsp;3</th>
-			            <th class="room-col">Research Track*</th>
+			            <th class="room-col">Research Track</th>
 			        </tr>
 			    </thead>
 			    <tbody>
@@ -103,7 +103,7 @@
 							<?php cf_presentations(array(502)); ?>
 						</td>
 						<td>
-							<span class="panel-title">&nbsp;</span>
+							<span class="panel-title">New Technologies in OER</span>
 							<?php cf_presentations(array(336, 377)); ?>
 						</td>
 						<td>
@@ -113,6 +113,8 @@
 						<td>
 							<span class="panel-title">GO-GN Presentations</span>
 							<?php cf_presentations(array(788, 790)); ?>
+							<br />
+							<em>End of ROER4D/GO-GN Research Presentations</em>
 						</td>
 					</tr>
 					<tr>

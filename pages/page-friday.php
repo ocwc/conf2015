@@ -22,7 +22,7 @@
 			            <th class="room-col">Breakout Room&nbsp;1</th>
 			            <th class="room-col">Breakout Room&nbsp;2</th>
 			            <th class="room-col">Breakout Room&nbsp;3</th>
-			            <th class="room-col">Research Track*</th>
+			            <!-- <th class="room-col">Research Track*</th> -->
 			        </tr>
 			    </thead>
 			    <tbody>
@@ -58,7 +58,6 @@
 							<span class="panel-title">Action Lab</span>
 							<?php cf_presentations(array(500)); ?>
 						</td>
-						<td></td>
 					</tr>
 					<tr class="td-5">
 						<td>11:30</td>
@@ -78,7 +77,6 @@
 							<span class="panel-title">Panel Discussion</span>
 							<?php cf_presentations(array(498)); ?>
 						</td>
-						<td></td>
 					</tr>
 					<tr>
 						<td>12:30</td>
@@ -87,7 +85,6 @@
 					<tr class="td-5">
 						<td>13:30</td>
 						<td>OE Consortium Update</td>
-						<td></td>
 						<td></td>
 						<td></td>
 						<td></td>
@@ -110,7 +107,6 @@
 							<span class="panel-title">Action Lab</span>
 							<?php cf_presentations(array(492)); ?>
 						</td>
-						<td></td>
 					</tr>
 					<tr>
 						<td>16:30</td>

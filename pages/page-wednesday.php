@@ -40,8 +40,7 @@
 			    		<td>9:15</td>
 			    		<td>
 			    			<span class="panel-title">Plenary Talks</span>
-			    			<li class="schedule-item">OpeningUp Alberta</li>
-			    			<li class="schedule-item">BC OER Special Session</li>
+			    			<li class="schedule-item">Opening Up Canada</li>
 						</td>
 					</tr>
 					
@@ -81,7 +80,7 @@
 					<tr>
 						<td>13:30</td>
 						<td class="text-center" colspan="1">
-							<strong>Special Invited Panel Speakers on Open Education</strong>
+							<strong>International Panel on Innovation in Open Education</strong>
 						</td>
 					</tr>
 
@@ -157,12 +156,6 @@
 					<tr>
 						<td>18:00</td>
 						<td class="text-center" colspan="5">End of day 1</td>
-					</tr>
-
-					<tr>
-						<td colspan="6">
-							*Time for GO-GN papers (Research Track) to be announced later
-						</td>
 					</tr>
 			    </tbody>
 			</table>

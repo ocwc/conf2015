@@ -145,11 +145,7 @@
 					</tr>
 					<tr>
 						<td>20:00</td>
-						<td class="text-center" colspan="5">
-							Ace Awards Ceremony<br />
-							Keynote: Kai Kight
-
-						</td>
+						<td class="text-center" colspan="5">Banquet and Open Education Awards Ceremony, Speaker and Performance: Kai Kight</td>
 					</tr>
 			    </tbody>
 			</table>

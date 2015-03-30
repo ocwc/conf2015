@@ -86,6 +86,14 @@
 					</tr>
 					<tr class="td-5">
 						<td>13:30</td>
+						<td>OE Consortium Update</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="td-5">
+						<td>14:00</td>
 						<td>
 							<span class="panel-title">Action Lab</span>
 							<?php cf_presentations(array(743)); ?>
@@ -106,7 +114,7 @@
 					</tr>
 					<tr>
 						<td>16:30</td>
-						<td class="text-center" colspan="5">OE Consortium Business Meeting & Closing Ceremony</td>
+						<td class="text-center" colspan="5">Closing Ceremony</td>
 					</tr>
 					<tr>
 						<td>17:00</td>

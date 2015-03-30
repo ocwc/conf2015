@@ -26,7 +26,7 @@
 			    	<tr>
 			    		<td>9.00&nbsp-&nbsp16.45</td>
 			    		<td class="">
-							<span class="panel-title">Pre Conference Workshop</span><br />
+							<span class="panel-title"><a href="/2015/presentations/pre-conference-workshop/">Pre Conference Workshop</a></span><br />
 			    			Getting started with Open Education: Everything you need to know to begin open education projects at your institution
 						</td>
 			    	</tr>

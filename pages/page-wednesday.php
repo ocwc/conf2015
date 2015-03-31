@@ -22,7 +22,7 @@
 			            <th class="room-col">Breakout Room&nbsp;1</th>
 			            <th class="room-col">Breakout Room&nbsp;2</th>
 			            <th class="room-col">Breakout Room&nbsp;3</th>
-			            <th class="room-col">Research Track*</th>
+			            <th class="room-col">Research Track</th>
 			        </tr>
 			    </thead>
 			    <tbody>

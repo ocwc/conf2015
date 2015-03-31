@@ -108,12 +108,12 @@
 							<?php cf_presentations(array(492)); ?>
 						</td>
 					</tr>
-					<tr>
+<!-- 					<tr>
 						<td>16:30</td>
 						<td class="text-center" colspan="5">Closing Ceremony</td>
-					</tr>
+					</tr> -->
 					<tr>
-						<td>17:00</td>
+						<td>16:30</td>
 						<td class="text-center" colspan="5">End of day 3</td>
 					</tr>
 			    </tbody>

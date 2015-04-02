@@ -40,7 +40,7 @@
 			    		<td>9:15</td>
 			    		<td>
 			    			<span class="panel-title">Plenary Talks</span>
-			    			<li class="schedule-item">Opening Up Canada</li>
+			    			<li class="schedule-item"><?php cf_presentations(array(804)); ?></li>
 						</td>
 					</tr>
 					

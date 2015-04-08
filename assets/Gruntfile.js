@@ -57,6 +57,14 @@ module.exports = function (grunt) {
         files: ['js/*.js'],
         tasks: ['uglify', 'jshint']
       }
+    },
+
+    fontelloUpdate: {
+      options: {
+        config: 'fontello.json',
+        fonts: '../css/fonts',
+        css: 'css/'
+      },
     }
 
   });
@@ -65,8 +73,10 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-fontello-update');
 
-  grunt.registerTask('build', ['sass:build', 'jshint', 'uglify']);
+  grunt.registerTask('build', ['fonts', 'sass:build', 'jshint', 'uglify']);
   grunt.registerTask('default', ['build','watch']);
   grunt.registerTask('develop', ['sass:develop', 'jshint', 'uglify', 'watch']);
+  grunt.registerTask('fonts', ['fontelloUpdate']);
 };

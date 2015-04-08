@@ -89,13 +89,16 @@
 </div>
 
 <div class="container">
-	<div class="col-sm-6">
+	<div class="col-sm-9">
 		<h2>Supported by</h2>
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-sm-3">
 				<p><a href="http://www.unesco.ca/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/unesco.png"></a></p>
 			</div>
-			<div class="col-sm-6">
+			<div class="col-sm-5">
+				<p style="margin-top: 10px;"><a href="http://en.unesco.org/70years"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/unesco70.png"></a></p>
+			</div>
+			<div class="col-sm-4">
 				<p><a href="http://ducere.co/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/ducere-logo.png"></a></p>
 			</div>
 		</div>

@@ -62,7 +62,7 @@ module.exports = function (grunt) {
     fontelloUpdate: {
       options: {
         config: 'fontello.json',
-        fonts: '../css/fonts',
+        fonts: '../font',
         css: 'css/'
       },
     }

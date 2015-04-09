@@ -79,7 +79,7 @@
 
 					<tr>
 						<td>13:30</td>
-						<td class="text-center" colspan="1">
+						<td class="" colspan="1">
 							<strong><?php cf_presentations(array(813)); ?></strong>
 						</td>
 					</tr>

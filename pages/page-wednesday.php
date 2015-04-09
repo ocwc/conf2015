@@ -80,7 +80,7 @@
 					<tr>
 						<td>13:30</td>
 						<td class="text-center" colspan="1">
-							<strong>International Panel on Innovation in Open Education</strong>
+							<strong><?php cf_presentations(array(813)); ?></strong>
 						</td>
 					</tr>
 

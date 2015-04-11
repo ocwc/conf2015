@@ -21,7 +21,7 @@
 			            <th class="room-col">Main Hall</th>
 			            <th class="room-col">
 			            	Breakout Room&nbsp;1<br />
-			            	<em>Lynx</em>
+			            	<em>(Lynx)</em>
 			            </th>
 			            <th class="room-col">
 			            	Breakout Room&nbsp;2<br />

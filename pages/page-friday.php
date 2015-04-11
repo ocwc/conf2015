@@ -19,10 +19,24 @@
 			        <tr>
 			            <th class="time-col"></th>
 			            <th class="room-col">Main Hall</th>
-			            <th class="room-col">Breakout Room&nbsp;1</th>
-			            <th class="room-col">Breakout Room&nbsp;2</th>
-			            <th class="room-col">Breakout Room&nbsp;3</th>
-			            <!-- <th class="room-col">Research Track*</th> -->
+			            <th class="room-col">
+			            	Breakout Room&nbsp;1<br />
+			            	<em>Lynx</em>
+			            </th>
+			            <th class="room-col">
+			            	Breakout Room&nbsp;2<br />
+			            	<em>(Black Bear)</em>
+			            </th>
+			            <th class="room-col">
+			            	Breakout Room&nbsp;3<br />
+			            	<em>(Den)</em>
+			            </th>
+			            <!--
+			            <th class="room-col">
+			            	Research Track<br />
+			            	<em>(Aspen)</em>
+			            </th>
+			            -->
 			        </tr>
 			    </thead>
 			    <tbody>

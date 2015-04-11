@@ -18,7 +18,8 @@
 			    <thead>
 			        <tr>
 			            <th class="time-col"></th>
-			            <th class="room-col">Workshop Room TBD</th>
+			            <th class="room-col">Workshop Room <em>(Aspen)</em>
+			            </th>
 			        </tr>
 			    </thead>
 

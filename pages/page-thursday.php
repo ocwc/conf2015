@@ -120,8 +120,8 @@
 							<?php cf_presentations(array(336, 377)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Panel Discussion</span>
-							<?php cf_presentations(array(703)); ?>
+							<span class="panel-title">Action Lab</span>
+							<?php cf_presentations(array(664)); ?>
 						</td>
 						<td>
 							<span class="panel-title">GO-GN Presentations</span>

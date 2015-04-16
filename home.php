@@ -89,18 +89,25 @@
 </div>
 
 <div class="container">
-	<div class="col-sm-9">
+	<div class="col-sm-12">
 		<h2>Supported by</h2>
 		<div class="row">
-			<div class="col-sm-3">
+			<div class="col-sm-2">
 				<p><a href="http://www.unesco.ca/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/unesco.png"></a></p>
 			</div>
-			<div class="col-sm-5">
+			<div class="col-sm-4">
 				<p style="margin-top: 10px;"><a href="http://en.unesco.org/70years"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/unesco70.png"></a></p>
 			</div>
-			<div class="col-sm-4">
-				<p><a href="http://ducere.co/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/ducere-logo.png"></a></p>
+			<div class="col-sm-3">
+				<p style="margin-top: 10px;">
+					<a href="http://ducere.co/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/ducere-logo.png"></a>
+				</p>
 			</div>
+			<div class="col-sm-3">
+				<p style="margin-top: 65px;">
+					<a href="http://www.qwogo.com/"><img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/qwogo-logo.png"></a>
+				</p>
+		</div>
 		</div>
 	</div>
 </div>

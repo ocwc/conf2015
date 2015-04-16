@@ -91,14 +91,16 @@
 						<td>
 							<!-- <span class="panel-title">Considerations for MOOCs</span> -->
 							<?php //cf_presentations(array()); ?>
+
+							<span class="panel-title">Action Lab</span>
+							<?php cf_presentations(array(453)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Panel Discussion</span>
 							<?php cf_presentations(array(697)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(453)); ?>
+
 						</td>
 						<td>
 							<span class="panel-title">GO-GN Presentations</span>

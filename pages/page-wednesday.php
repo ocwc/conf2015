@@ -101,7 +101,7 @@
 						
 						<td>
 							<span class="panel-title">Credentialing OER</span>
-							<?php cf_presentations(array(453, 459)); ?>
+							<?php cf_presentations(array(459)); ?>
 						</td>
 
 						<td>
@@ -140,8 +140,8 @@
 								</a>
 							</li>
 							<br /><br /><br /><br />
-							<span class="panel-title">17:00</span>
-							<?php cf_presentations(array(469, 420)); ?>
+							<!-- <span class="panel-title">17:00</span> -->
+							<?php //cf_presentations(array(469)); ?>
 						</td>
 					
 						<td>
@@ -156,7 +156,7 @@
 
 						<td>
 							<span class="panel-title">Pedagogy and OER</span>
-							<?php cf_presentations(array(428, 768, 430, 521)); ?>
+							<?php cf_presentations(array(428, 768, 430, 521, 420)); ?>
 						</td>
 
 						<td>

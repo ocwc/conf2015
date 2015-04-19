@@ -113,15 +113,15 @@
 							<?php cf_presentations(array(495)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(490)); ?>
+							<!-- <span class="panel-title">Action Lab</span> -->
+							<!-- <?php cf_presentations(array(490)); ?> -->
 						</td>
 						<td>
 							<span class="panel-title">Action Lab</span>
 							<?php cf_presentations(array(492)); ?>
 						</td>
 					</tr>
-<!-- 					<tr>
+<!-- 				<tr>
 						<td>16:30</td>
 						<td class="text-center" colspan="5">Closing Ceremony</td>
 					</tr> -->

@@ -115,8 +115,8 @@
 						</td>
 
 						<td>
-							<span class="panel-title">Panel Discussion</span>
-							<?php cf_presentations(array(708)); ?>
+							<!-- <span class="panel-title">Panel Discussion</span> -->
+							<!-- <?php cf_presentations(array(708)); ?> -->
 						</td>
 
 						<td>

@@ -1,11 +1,13 @@
 <div class="container">
 	<div class="row">
+		<!--
 		<div class="col-sm-12 text-right">
 			<a class="btn btn-small"
 				href="http://conference.oeconsortium.org/2015/wp-content/uploads/2015/04/OE-Global-2015-Program-Schedule.pdf">
 					<i class="icon-print"></i>Print Schedule (PDF)
 				</a>
 		</div>
+		-->
 		<div class="col-sm-12">
 			<ul class="nav nav-pills">
 				<li role="presentation"

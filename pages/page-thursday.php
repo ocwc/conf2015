@@ -115,7 +115,7 @@
 						</td>
 						<td>
 							<span class="panel-title">Panel Discussion</span>
-							<?php cf_presentations(array(502)); ?>
+							<?php cf_presentations(array(849)); ?>
 						</td>
 						<td>
 							<span class="panel-title">New Technologies in OER</span>

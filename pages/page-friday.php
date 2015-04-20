@@ -65,7 +65,7 @@
 							<?php cf_presentations(array(393)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Panel Discussion</span>
+							<span class="panel-title">Action Lab</span>
 							<?php cf_presentations(array(831)); ?>
 						</td>
 						<td>
@@ -84,6 +84,7 @@
 							<?php cf_presentations(array(701)); ?>
 						</td>
 						<td>
+							<span class="panel-title">Action Lab</span>
 							<?php cf_presentations(array(833)); ?>
 						</td>
 						<td>

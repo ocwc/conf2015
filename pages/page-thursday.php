@@ -75,7 +75,7 @@
 							<span class="panel-title">ROER4D Presentations</span>
 							<?php cf_presentations(array(607, 613)); ?>
 							<span class="panel-title">GO-GN Presentations</span>
-							<?php cf_presentations(array(780, 782)); ?>
+							<?php cf_presentations(array(852, 782)); ?>
 						</td>
 					</tr>
 					<tr>

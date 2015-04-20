@@ -46,6 +46,14 @@
 
 <div class="container">
 	<div class="col-sm-6">
+		<h2>Conference at a Glance</h2>
+
+		<p><strong>When:</strong> 22-24 April, 2015</p>
+		<p><strong>Where: </strong> Banff, Alberta, Canada </p>
+		<p><strong>The theme </strong>for Open Education Global 2015 is Entrepreneurship and Innovation, emphasizing the exciting directions and developments in open education around the world.</p>
+
+		<a class="btn btn-primary" href="/2015/about-conference/">About The Conference</a>
+
 		<h2>Keynote Speakers</h2>
 		<p>An exciting lineup of keynote speakers at OE Global 2015 will present visionary ideas and inspirational messages to challenge us to keep innovating.</p>
 		<a href="/2015/keynotes/" class="btn btn-primary">Learn More about our Keynote Speakers</a>
@@ -54,14 +62,29 @@
 		<p>We are pleased to announce combined ROER4D/GO-GN research track during Open Education Global Conference 2015</p>
 		<a class="btn btn-primary" href="/2015/roer4d-go-gn/">Learn more about ROER4D & GO-GN Track</a>
 	</div>
+	<!--
 	<div class="col-sm-6">
-		<h2>Conference at a Glance</h2>
+	</div>
+	-->
+	<div class="col-sm-6">
+		<h2>Conference updates and announcements</h2>
 
-		<p><strong>When:</strong> 22-24 April, 2015</p>
-		<p><strong>Where: </strong> Banff, Alberta, Canada </p>
-		<p><strong>The theme </strong>for Open Education Global 2015 is Entrepreneurship and Innovation, emphasizing the exciting directions and developments in open education around the world.</p>
+		<p>
+			1. <strong>Registration opens on Tuesday</strong>, from  8AM-9AM and from 4PM-7PM. 
+			On Wednesday, registration table opens at 7:30AM. Registration table will be in Alpine Meadows on Thursday and Friday from 8AM. For onsite registration, credit card payment is available, but cash is not accepted.
+		</p>
 
-		<a class="btn btn-primary" href="/2015/about-conference/">About The Conference</a>
+		<p>
+			2. <strong>Newcomers' breakfast is on the 22nd at 7:30AM</strong>. The venue is in Glacier Chinook in the Banff Park Lodge. You will see a sign once you walk in. All who are new to the conference are welcome. If you are a "regular" at the Global Conference and would like to share your insight, you are also welcome to join.
+		</p>
+
+		<p>
+			3. <strong>If you are presenting</strong>, please tweet/FB your talk using hashtag <strong>#oeglobal</strong>. We will retweet and/or respond to it.
+		</p>
+
+		<p>
+			4. <strong>Please do pay special attention to the Friday program</strong>. Whereas the first two days offer presentations to inspire and inform you on what's going on in open education, the last day of the conference is all about "participation". Panel discussions will focus on how to encourage more participation from the community. The Action Labs are actual hands-on building of something for the community. It would be great to see how your participation in these sessions lead to innovation in education.
+		</p>
 	</div>
 </div>
 

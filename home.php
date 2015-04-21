@@ -75,7 +75,7 @@
 		</p>
 
 		<p>
-			2. <strong>Newcomers' breakfast is on the 22nd at 7:30AM</strong>. The venue is in Glacier Chinook in the Banff Park Lodge. You will see a sign once you walk in. All who are new to the conference are welcome. If you are a "regular" at the Global Conference and would like to share your insight, you are also welcome to join.
+			2. <strong>Newcomers' breakfast is on the 22nd at 8:00AM</strong>. The venue is in Glacier Chinook in the Banff Park Lodge. You will see a sign once you walk in. All who are new to the conference are welcome. If you are a "regular" at the Global Conference and would like to share your insight, you are also welcome to join.
 		</p>
 
 		<p>

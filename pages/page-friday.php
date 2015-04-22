@@ -76,7 +76,7 @@
 					<tr class="td-5">
 						<td>11:30</td>
 						<td>
-							<span class="panel-title">Panel Discussion</span>
+							<span class="panel-title">Action Lab</span>
 							<?php cf_presentations(array(383)); ?>
 						</td>
 						<td>

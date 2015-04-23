@@ -161,7 +161,7 @@
 						<td class="text-center" colspan="5">End of day 2</td>
 					</tr>
 					<tr>
-						<td>19:00</td>
+						<td>19:30</td>
 						<td class="text-center" colspan="5">Banquet and Open Education Awards Ceremony, Speaker and Performance: Kai Kight</td>
 					</tr>
 			    </tbody>

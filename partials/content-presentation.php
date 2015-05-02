@@ -26,4 +26,13 @@
 		<a class="btn btn-primary" href="<?php echo get_field('presentation_pdf')['url']; ?>">Download PDF of Extended Abstract</a>
 	<?php endif; ?>
 
+	<?php if ( get_field('presentation_slideshare') ) : ?>
+		<div>
+			<h2>Presentation</h2>
+			<?php $html = wp_oembed_get(get_field('presentation_slideshare')); ?>
+			<?php echo $html; ?>
+		</div>
+	<?php endif; ?>
+
+
 </article>

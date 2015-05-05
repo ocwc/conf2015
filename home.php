@@ -70,21 +70,17 @@
 		<h2>Conference updates and announcements</h2>
 
 		<p>
-			1. <strong>Registration opens on Tuesday</strong>, from  8AM-9AM and from 4PM-7PM. 
-			On Wednesday, registration table opens at 7:30AM. Registration table will be in Alpine Meadows on Thursday and Friday from 8AM. For onsite registration, credit card payment is available, but cash is not accepted.
+			1. <b>Thank you all for participating</b> in the Open Education Global Conference 2015!
 		</p>
 
 		<p>
-			2. <strong>Newcomers' breakfast is on the 22nd at 8:00AM</strong>. The venue is in Glacier Chinook in the Banff Park Lodge. You will see a sign once you walk in. All who are new to the conference are welcome. If you are a "regular" at the Global Conference and would like to share your insight, you are also welcome to join.
+			2. <b>The next OE Global will be held in Kracow, Poland, from April 13-15, 2016.</b> We hope to see you again next year.
 		</p>
 
 		<p>
-			3. <strong>If you are presenting</strong>, please tweet/FB your talk using hashtag <strong>#oeglobal</strong>. We will retweet and/or respond to it.
+			3. <b>All presentation slides and papers will be available for view (and download) on each presentation page.</b> Presentations have slides and paper. Action Labs have slides and Google doc in some cases. Posters have a 5 minute video presentation (and the poster file in some cases). If you presented but did not leave your slides with us, please send them to <a href="mailto:conference@oeconsortium.org">conference@oeconsortium.org</a>. 
 		</p>
 
-		<p>
-			4. <strong>Please do pay special attention to the Friday program</strong>. Whereas the first two days offer presentations to inspire and inform you on what's going on in open education, the last day of the conference is all about "participation". Panel discussions will focus on how to encourage more participation from the community. The Action Labs are actual hands-on building of something for the community. It would be great to see how your participation in these sessions lead to innovation in education.
-		</p>
 	</div>
 </div>
 

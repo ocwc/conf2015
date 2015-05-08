@@ -196,3 +196,8 @@ body {
 .td-5 td:not(:first-of-type) {
 	width: 20%;
 }
+
+iframe {
+	min-width: 640px;
+	height: 510px;
+}

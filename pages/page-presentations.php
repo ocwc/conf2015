@@ -13,6 +13,12 @@
 	</div>
 
 	<div class="col-sm-12">
+		<h2>Plenary</h2>
+		<?php $track = 'Opening/Plenary'; ?>
+		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
+	</div>
+
+	<div class="col-sm-12">
 		<h2>Innovation</h2>
 		<?php $track = 'innovation'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
@@ -64,15 +70,6 @@
 		<?php $track = 'research'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
-
-	<?php /*
-	<div class="col-sm-12">
-		<h2>Presentation</h2>
-		<?php $track = 'presentation'; ?>
-		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
-	</div>
-	*/ ?>
-
 </div>
 
 <?php get_footer(); ?>

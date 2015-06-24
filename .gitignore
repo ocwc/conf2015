@@ -6,3 +6,5 @@ css/style.min.css
 css/*.map
 js/*
 build/
+/css/
+/font/

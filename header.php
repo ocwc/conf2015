@@ -20,17 +20,15 @@
 
 <body <?php body_class(); ?>>
 	<div class="container logos">
-		<div class="col-sm-8">
-			<a href="/" class="logo">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" 
-					alt="Conference Logo" />
-			</a>
+		<div class="row">
+			<div class="col-sm-3">
+				<a href="/" class="logo">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" 
+						alt="<?php echo get_bloginfo( 'name' ); ?>"
+						class="img-responsive" />
+				</a>
 
-			<img class="show-for-md-up" src="<?php echo get_template_directory_uri(); ?>/img/tagline.png" alt="Tagline" />
-		</div>
-
-		<div class="col-sm-4 text-right show-for-sm-up">
-			<img class="oeclogo" src="<?php echo get_template_directory_uri(); ?>/img/oeclogo.png" alt="Organized by OEC" />
+			</div>
 		</div>
 	</div>
 

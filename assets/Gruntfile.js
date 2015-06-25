@@ -1,61 +1,127 @@
 module.exports = function (grunt) {
+  require('jit-grunt')(grunt, {
+    'less' : 'grunt-contrib-less',
+    'uglify': 'grunt-contrib-uglify',
+    'jshint': 'grunt-contrib-jshint',
+    'watch' : 'grunt-contrib-watch',
+   });
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    sass: {
-      develop: {
+    less: {
+      develop_style: {
         options: {
-          style: 'nested',
-          loadPath: ['bower_components/bootstrap-sass-official/assets/stylesheets/']
+          compress: false,
+          strictMath: true,
+          sourceMap: true,
+          sourceMapRootpath: '../assets',
+          paths: ['bower_components/bootstrap/less/'],
         },
         files: {
-          '../css/style.css': 'scss/bootstrap.scss'
+          '../css/style.css': 'less/style.less'
         }
       },
-      build: {
+      develop_bootstrap: {
         options: {
-          style: 'compressed',
-          loadPath: ['bower_components/bootstrap-sass-official/assets/stylesheets/']
+          compress: false,
+          strictMath: true,
+          sourceMap: true,
+          sourceMapRootpath: '../assets',
+          paths: ['bower_components/bootstrap/less/']
         },
         files: {
-          '../css/style.css': 'scss/bootstrap.scss'
+          '../css/bootstrap.css': [
+            'less/bootstrap.less',
+          ],
+        }
+      },
+
+      build: {
+        options: {
+          compress: true,
+          cleancss: true,
+          strictMath: true,
+          paths: ['bower_components/bootstrap/less/']
+        },
+        files: {
+          '../css/style.min.css': [
+            'less/bootstrap.less',
+            'less/style.less'
+          ]
         }
       }
     },
 
     uglify: {
+      options: {
+        sourceMap: true,
+        compress: {
+          drop_debugger: false
+        },
+        mangle: {
+          drop_debugger: false
+        }
+      },
       build: {
         files: {
           '../js/script.min.js': [
             'bower_components/fingerprint/fingerprint.js',
-            'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
-            'bower_components/ResponsiveSlides.js/responsiveslides.min.js',
-            'js/dropdowns-enhancement.js',
+            'bower_components/slick-carousel/slick/slick.min.js',
+            // 'js/modernizr.custom.js',
+            // 'bower_components/bootstrap/dist/js/bootstrap.js',
             'js/script.js'
           ]
         }
-      }      
+      },
+      develop_components: {
+        files: {
+          '../js/components.js': [
+            'bower_components/fingerprint/fingerprint.js',
+            'bower_components/slick-carousel/slick/slick.min.js',
+            // 'js/modernizr.custom.js'
+            // 'bower_components/bootstrap/dist/js/bootstrap.js',
+          ]
+        }
+      },
+      develop_script: {
+        files: {
+          '../js/main.js': [
+            'js/script.js'
+          ]
+        }
+      }
     },
 
     jshint: {
+      options: {
+        debug: true
+      },
       'all': ['js/script.js']
     },
 
     watch: {
-      grunt: { files: ['scss/*.scss', 'Gruntfile.js', '../*.php', '../partials/*.php'],},
+      grunt: {
+        files: ['Gruntfile.js']
+      },
 
       options: {
-        livereload: true,
+        livereload: false,
       },
 
-      sass: {
-        files: ['scss/*.scss', 'Gruntfile.js', '../*.php'],
-        tasks: ['sass:develop']
+      less_style: {
+        files: ['less/*.less', 'less/libs/*.less'],
+        tasks: ['less:develop_style']
       },
 
-      uglify: {
+      less_bootstrap: {
+        files: ['less/bootstrap.less', 'less/_variables.less'],
+        tasks: ['less:develop_bootstrap']
+      },
+
+      uglify_style: {
         files: ['js/*.js'],
-        tasks: ['uglify', 'jshint']
+        tasks: ['uglify:develop_script', 'jshint']
       }
     },
 
@@ -69,14 +135,13 @@ module.exports = function (grunt) {
 
   });
 
-  grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-fontello-update');
-
-  grunt.registerTask('build', ['fonts', 'sass:build', 'jshint', 'uglify']);
-  grunt.registerTask('default', ['build','watch']);
-  grunt.registerTask('develop', ['sass:develop', 'jshint', 'uglify', 'watch']);
+  grunt.registerTask('build', ['less:develop_bootstrap', 'less:develop_style',
+                               'uglify:develop_script', 'uglify:develop_components',
+                               'less:build', 'jshint', 'uglify:build']);
+  grunt.registerTask('default', ['build']);
+  grunt.registerTask('develop', ['less:develop_bootstrap', 'less:develop_style',
+                                 'uglify:develop_script', 'uglify:develop_components',
+                                 'jshint', 'watch']);
   grunt.registerTask('fonts', ['fontelloUpdate']);
+
 };

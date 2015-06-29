@@ -137,7 +137,8 @@ module.exports = function (grunt) {
 
   });
 
-  grunt.registerTask('build', ['less:develop_bootstrap', 'less:develop_style',
+  grunt.registerTask('build', ['fonts',
+                               'less:develop_bootstrap', 'less:develop_style',
                                'uglify:develop_script', 'uglify:develop_components',
                                'less:build', 'jshint', 'uglify:build']);
   grunt.registerTask('default', ['build']);

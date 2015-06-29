@@ -1,4 +1,30 @@
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.navbar-offcanvas .navbar-nav {
+  @media @md-up {
+    margin-top: 10px;
+    margin-left: 45px;
+  }
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: @menu-text-active;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: @menu-text-active;
+  background-color: transparent;
 }

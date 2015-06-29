@@ -2,7 +2,7 @@
   @media @xs {
     height: 300px;
   }
-  
+
   @media @sm {
     height: 440px;
   }
@@ -15,16 +15,12 @@
 .container-slider {
   padding-left: 0;
   padding-right: 0;
+
+  max-width: 1450px;
 }
 
 .slider-item {
   position: relative;
-}
-
-.slider-meta {
-	position: absolute;
-	top: 30%;
-	left: 0;
 }
 
 .slick-track {
@@ -42,4 +38,65 @@
     background-position: 50% 50%;
     background-repeat:no-repeat;
     background-size: cover;
+}
+
+.slider-meta {
+	position: absolute;
+	top: 15%;
+	left: 0;
+  right: 0;
+  z-index: 10;
+
+  text-align: center;
+}
+
+.slider-meta:hover {
+  text-decoration: none;
+}
+
+.slider-title {
+  color: @white;
+  font-size: 50px;
+}
+
+.slider-description {
+  display: block;
+  margin: 0 auto;
+
+  color: @white;
+  font-size: 30px;
+  line-height: 1.25;
+
+  @media @md-up {
+    width: 80%;
+  }
+}
+
+.slider-link {
+  color: @white;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.slider-attribution {
+  display: block;
+
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+
+  color: @white;
+  text-align: center;
+}
+
+.slider-attribution:hover {
+  color: @white;
+  text-decoration: none;
+}
+
+.slider-attribution-name {
+  text-transform: uppercase;
+  font-size: 12px;
 }

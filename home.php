@@ -3,46 +3,6 @@
 
 <?php get_template_part('partials/_slick'); ?>
 
-<div class="container">
-	<div class="col-sm-6">
-		<h2>Conference at a Glance</h2>
-
-		<p><strong>When:</strong> 22-24 April, 2015</p>
-		<p><strong>Where: </strong> Banff, Alberta, Canada </p>
-		<p><strong>The theme </strong>for Open Education Global 2015 is Entrepreneurship and Innovation, emphasizing the exciting directions and developments in open education around the world.</p>
-
-		<a class="btn btn-primary" href="/2015/about-conference/">About The Conference</a>
-
-		<h2>Keynote Speakers</h2>
-		<p>An exciting lineup of keynote speakers at OE Global 2015 will present visionary ideas and inspirational messages to challenge us to keep innovating.</p>
-		<a href="/2015/keynotes/" class="btn btn-primary">Learn More about our Keynote Speakers</a>
-
-		<h2 class="h2-home-margin">ROER4D/GO-GN research track</h2>
-		<p>We are pleased to announce combined ROER4D/GO-GN research track during Open Education Global Conference 2015</p>
-		<a class="btn btn-primary" href="/2015/roer4d-go-gn/">Learn more about ROER4D & GO-GN Track</a>
-	</div>
-	<!--
-	<div class="col-sm-6">
-	</div>
-	-->
-	<div class="col-sm-6">
-		<h2>Conference updates and announcements</h2>
-
-		<p>
-			1. <b>Thank you all for participating</b> in the Open Education Global Conference 2015!
-		</p>
-
-		<p>
-			2. <b>The next OE Global will be held in Kracow, Poland, from April 13-15, 2016.</b> We hope to see you again next year.
-		</p>
-
-		<p>
-			3. <b>All presentation slides and papers will be available for view (and download) on each presentation page.</b> Presentations have slides and paper. Action Labs have slides and Google doc in some cases. Posters have a 5 minute video presentation (and the poster file in some cases). If you presented but did not leave your slides with us, please send them to <a href="mailto:conference@oeconsortium.org">conference@oeconsortium.org</a>.
-		</p>
-
-	</div>
-</div>
-
 <div class="container home-vertical-spacing">
 	<div class="col-sm-6">
 		<h2>Organized by</h2>

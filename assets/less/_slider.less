@@ -1,0 +1,45 @@
+.slider-height() {
+  @media @xs {
+    height: 300px;
+  }
+  
+  @media @sm {
+    height: 440px;
+  }
+
+  @media @md-up {
+    height: 660px;
+  }
+}
+
+.container-slider {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.slider-item {
+  position: relative;
+}
+
+.slider-meta {
+	position: absolute;
+	top: 30%;
+	left: 0;
+}
+
+.slick-track {
+	.slider-height();
+}
+
+.slider-image {
+	position: absolute;
+	top: 0;
+	z-index: 0;
+
+	width: 100%;
+	.slider-height();
+
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}

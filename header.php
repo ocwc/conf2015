@@ -19,45 +19,44 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div class="container logos">
-		<div class="row">
-			<div class="col-sm-3">
-				<a href="/" class="logo">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" 
+	<div class="navbar container navbar-default">
+    <div class="navbar-header">
+
+			<div class="col-xs-8 visible-xs-block">
+				<a href="/" class="logo-xs">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"
 						alt="<?php echo get_bloginfo( 'name' ); ?>"
 						class="img-responsive" />
 				</a>
-
-			</div>
-		</div>
-	</div>
-
-	<nav class="navbar navbar-default" role="navigation">
-		<div class="container menu">
-
-			<div class="navbar-header visible-xs-block">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
 			</div>
 
-			<?php 
-	            wp_nav_menu( array(
-	                'menu'              => 'primary',
-	                'theme_location'    => 'primary',
-	                'depth'             => 2,
-	                'container'         => 'div',
-	                'container_class'   => 'collapse navbar-collapse',
-	        		'container_id'      => 'main-menu',
-	                'menu_class'        => 'nav navbar-nav',
-	                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-	                'walker'            => new wp_bootstrap_navwalker())
-	            );
-	        ?>
-		</div>
-	</nav>	
 
-	<div class="container content">
+      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-offcanvas" data-canvas="body">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="navbar-offcanvas offcanvas">
+			<div class="col-sm-3 hidden-xs">
+				<a href="/" class="logo-smup">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"
+						alt="<?php echo get_bloginfo( 'name' ); ?>"
+						class="img-responsive" />
+				</a>
+			</div>
+
+			<?php
+			    wp_nav_menu( array(
+			        'menu'              => 'primary',
+			        'theme_location'    => 'primary',
+			        'depth'             => 2,
+			        'container'         => false,
+			        'menu_class'        => 'col-sm-9 nav navbar-nav',
+			        'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+			        'walker'            => new wp_bootstrap_navwalker())
+			    );
+			?>
+    </div>
+</div>

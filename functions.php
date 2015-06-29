@@ -5,14 +5,14 @@ function cf_setup() {
 	remove_action('wp_head', 'wlwmanifest_link');
 
 	add_theme_support( 'post-thumbnails' );
-	
+
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'op' ),
 	) );
 
-	add_image_size( 'slideshow-image', 1049, 420, true);
+	add_image_size( 'slideshow-image', 1450, 660, true);
 	add_image_size( 'home-small', 245, 154, true);
-	add_image_size( 'home-featured', 179, 103, true);	
+	add_image_size( 'home-featured', 179, 103, true);
 
 	register_sidebar( array(
 	   'name' => __( 'Footer'),
@@ -73,4 +73,3 @@ require get_template_directory() . '/inc/post_types.php';
  * Custom Menu Walker for Bootstrap 3
  */
 require get_template_directory() . '/lib/wp_bootstrap_navwalker.php';
-

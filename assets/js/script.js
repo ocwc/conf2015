@@ -1,13 +1,16 @@
 jQuery(document).ready(function($) {
-    if ( $(".rslides").length > 0 ) {
-      $(".rslides").responsiveSlides({
-        auto: true,
-        speed: 2000,
-        timeout: 8000
-      });
-    }
+  $('.slider').slick({
+    dots: true,
+    infinite: true,
+    // speed: 5,
+    slidesToShow: 1,
+    appendArrows: false,
+    // autoplay: true,
+    autoplaySpeed: 3000
+  });
 });
 
+/*
 jQuery(function() {
 
   var iframe = jQuery('#storyfeed');
@@ -27,3 +30,4 @@ jQuery(function() {
   iframe.on('load', s);
 
 });
+*/

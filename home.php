@@ -1,48 +1,7 @@
 <?php get_header(); ?>
 
-<?php $custom_query = new WP_Query(array(
-									'post_type' => 'slideshow',
-									'ignore_sticky_posts' => 1,
-									'orderby' => 'rand'
-									// 'posts_per_page' => 1
-									));
-?>
-	<ul class="rslides">
-		<?php while ( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
-			<?php $image_list = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'slideshow-image' );
 
-				if (count($image_list) > 0) {
-					$image_src = $image_list[0];
-				}
-			?>
-
-			<li class="slide">
-				<?php if ( get_field('slideshow_url') ) : ?>
-					<a href="<?php the_field('slideshow_url'); ?>">
-						<img src="<?php echo $image_src; ?>" />
-					</a>
-				<?php else: ?>
-					<img src="<?php echo $image_src; ?>" />
-				<?php endif; ?>
-
-				<?php if ( get_field('slideshow_show_description') ) : ?>
-				<a class="card"
-					href="<?php the_field('slideshow_url') ?>" >
-					<span class="card-title"><?php the_title(); ?></span>
-					<?php if ( get_field('slideshow_description') ) : ?>
-						<span class="card-description"><?php the_field('slideshow_description'); ?></span>
-					<?php endif; ?>
-				</a>
-				<div class="attribution">
-					<?php if ( get_field('slideshow_photo_license_text') ) :?>
-						<a href="<?php the_field('slideshow_photo_source_url'); ?>" ><?php the_field('slideshow_photo_license_text'); ?></a>
-					<?php endif; ?>
-				</div>
-				<?php endif; ?>
-			</li>
-		<?php endwhile; ?>
-		<?php wp_reset_postdata(); ?>
-	</ul>
+<?php get_template_part('partials/_slick'); ?>
 
 <div class="container">
 	<div class="col-sm-6">
@@ -78,7 +37,7 @@
 		</p>
 
 		<p>
-			3. <b>All presentation slides and papers will be available for view (and download) on each presentation page.</b> Presentations have slides and paper. Action Labs have slides and Google doc in some cases. Posters have a 5 minute video presentation (and the poster file in some cases). If you presented but did not leave your slides with us, please send them to <a href="mailto:conference@oeconsortium.org">conference@oeconsortium.org</a>. 
+			3. <b>All presentation slides and papers will be available for view (and download) on each presentation page.</b> Presentations have slides and paper. Action Labs have slides and Google doc in some cases. Posters have a 5 minute video presentation (and the poster file in some cases). If you presented but did not leave your slides with us, please send them to <a href="mailto:conference@oeconsortium.org">conference@oeconsortium.org</a>.
 		</p>
 
 	</div>
@@ -154,9 +113,7 @@
 		</ul>
 	</div>
 
-	<div class="col-sm-12">
-		<iframe id="storyfeed" src="http://oeglobal.storyfeed.me/?embed&maxposts=9" style="border: 0px; height: 300px; width: 100%;" scrolling="no" allowfullscreen></iframe>
-	</div>
+	<?php //get_template_part('partials/_storyfeed'); ?>
 </div>
 
 <?php get_footer(); ?>

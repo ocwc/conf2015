@@ -69,7 +69,8 @@ module.exports = function (grunt) {
             'bower_components/fingerprint/fingerprint.js',
             'bower_components/slick-carousel/slick/slick.min.js',
             // 'js/modernizr.custom.js',
-            // 'bower_components/bootstrap/dist/js/bootstrap.js',
+            'bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js',
+            'bower_components/bootstrap/dist/js/bootstrap.js',
             'js/script.js'
           ]
         }
@@ -80,7 +81,8 @@ module.exports = function (grunt) {
             'bower_components/fingerprint/fingerprint.js',
             'bower_components/slick-carousel/slick/slick.min.js',
             // 'js/modernizr.custom.js'
-            // 'bower_components/bootstrap/dist/js/bootstrap.js',
+            'bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js',
+            'bower_components/bootstrap/dist/js/bootstrap.js',
           ]
         }
       },

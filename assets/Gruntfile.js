@@ -131,7 +131,7 @@ module.exports = function (grunt) {
       options: {
         config: 'fontello.json',
         fonts: '../font',
-        css: 'css/'
+        css: 'less/fonts'
       },
     }
 

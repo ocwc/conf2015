@@ -1,29 +1,143 @@
 {
 	"name": "",
-	"css_prefix_text": "icon-",
+	"css_prefix_text": "ikon-",
 	"css_use_suffix": false,
 	"hinting": true,
 	"units_per_em": 1000,
 	"ascent": 850,
 	"glyphs": [
 		{
-			"uid": "7277ded7695b2a307a5f9d50097bb64c",
-			"css": "print",
-			"code": 59399,
+			"uid": "2a6740fc2f9d0edea54205963f662594",
+			"css": "spin3",
+			"code": 59398,
+			"src": "fontelico"
+		},
+		{
+			"uid": "0f4cae16f34ae243a6144c18a003f2d8",
+			"css": "cancel-circled",
+			"code": 59411,
 			"src": "fontawesome"
 		},
 		{
-			"uid": "5408be43f7c42bccee419c6be53fdef5",
-			"css": "doc-text",
-			"code": 59392,
+			"uid": "598a5f2bcf3521d1615de8e1881ccd17",
+			"css": "clock",
+			"code": 59407,
+			"src": "fontawesome"
+		},
+		{
+			"uid": "fb1c799ffe5bf8fb7f8bcb647c8fe9e6",
+			"css": "right-dir",
+			"code": 59394,
 			"src": "fontawesome"
 		},
 		{
 			"uid": "be13b8c668eb18839d5d53107725f1de",
 			"css": "slideshare",
-			"code": 59393,
+			"code": 59406,
 			"src": "fontawesome"
+		},
+		{
+			"uid": "47a1f80457068fbeab69fdb83d7d0817",
+			"css": "youtube-play",
+			"code": 59405,
+			"src": "fontawesome"
+		},
+		{
+			"uid": "414fe97e4af5215a06d29be0f2cecdf5",
+			"css": "network",
+			"code": 59397,
+			"src": "entypo"
+		},
+		{
+			"uid": "4a413ef43c364dafa42766e74c31bbca",
+			"css": "cc",
+			"code": 59412,
+			"src": "entypo"
+		},
+		{
+			"uid": "72681d2825fef7fd83711278f845547b",
+			"css": "cc-by",
+			"code": 59413,
+			"src": "entypo"
+		},
+		{
+			"uid": "9d4f81f2d81e14141b68706668498441",
+			"css": "print",
+			"code": 59408,
+			"src": "typicons"
+		},
+		{
+			"uid": "33cea6d7bd699348c0d593e105361a51",
+			"css": "facebook-circled",
+			"code": 59403,
+			"src": "typicons"
+		},
+		{
+			"uid": "b523a5bcf8d08725038873d89bb003fd",
+			"css": "twitter-circled",
+			"code": 59404,
+			"src": "typicons"
+		},
+		{
+			"uid": "59ba4f90d2ca2a843f4f930b03270362",
+			"css": "plus-circle",
+			"code": 59409,
+			"src": "iconic"
+		},
+		{
+			"uid": "8596dc69a5e7e0297e8926b6e2563509",
+			"css": "resize-small-alt",
+			"code": 59399,
+			"src": "iconic"
+		},
+		{
+			"uid": "d2c499942f8a7c037d5a94f123eeb478",
+			"css": "layers",
+			"code": 59400,
+			"src": "iconic"
+		},
+		{
+			"uid": "9f41cbda67dafb38926a4201a01691c9",
+			"css": "sun",
+			"code": 59395,
+			"src": "iconic"
+		},
+		{
+			"uid": "ec21fe3492bb04d9e29103c319556ed8",
+			"css": "search",
+			"code": 59396,
+			"src": "mfglabs"
+		},
+		{
+			"uid": "c55fdf978f617992b43ee7cbaa6ef87e",
+			"css": "menu",
+			"code": 59410,
+			"src": "mfglabs"
+		},
+		{
+			"uid": "500cde26773d15aaac1bfaa2a33cc5a9",
+			"css": "spread",
+			"code": 59401,
+			"src": "mfglabs"
+		},
+		{
+			"uid": "56a766cedf13005162899b02cf9546b9",
+			"css": "library",
+			"code": 59402,
+			"src": "maki"
+		},
+		{
+			"uid": "22cfc7af2c4f158b37317c65c92b48c2",
+			"css": "location",
+			"code": 59392,
+			"src": "elusive"
+		},
+		{
+			"uid": "43e4647c57186b5e06874621b5e665be",
+			"css": "calendar",
+			"code": 59393,
+			"src": "linecons"
 		}
 	],
-	"session": "e5cea697de324988d45306eecf557a29"
+	"session": "1d8c6ee7896808bf868b4185c956b6da"
 }

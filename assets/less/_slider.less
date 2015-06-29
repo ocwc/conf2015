@@ -42,12 +42,16 @@
 
 .slider-meta {
 	position: absolute;
-	top: 15%;
+	top: 5%;
 	left: 0;
   right: 0;
   z-index: 10;
 
   text-align: center;
+
+  @media @sm-up {
+    top: 15%;
+  }
 }
 
 .slider-meta:hover {
@@ -56,7 +60,12 @@
 
 .slider-title {
   color: @white;
-  font-size: 50px;
+
+  font-size: 30px;
+
+  @media @md-up {
+    font-size: 50px;
+  }
 }
 
 .slider-description {
@@ -64,18 +73,25 @@
   margin: 0 auto;
 
   color: @white;
-  font-size: 30px;
+  font-size: 16px;
   line-height: 1.25;
+
+  width: 95%;
 
   @media @md-up {
     width: 80%;
+    font-size: 30px;
   }
 }
 
 .slider-link {
   color: @white;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: underline;
+
+  @media @md-up {
+    font-size: 20px;
+  }
 }
 
 .slider-attribution {
@@ -88,7 +104,12 @@
   z-index: 10;
 
   color: @white;
+  font-size: 16px;
   text-align: center;
+
+  @media @xs {
+    bottom: 15%;
+  }
 }
 
 .slider-attribution:hover {
@@ -97,6 +118,7 @@
 }
 
 .slider-attribution-name {
+  margin-top: 5px;
   text-transform: uppercase;
   font-size: 12px;
 }

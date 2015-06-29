@@ -23,7 +23,7 @@
     <div class="navbar-header">
 
 			<div class="col-xs-8 visible-xs-block">
-				<a href="/" class="logo-xs">
+				<a href="<?php echo get_bloginfo( 'url' ); ?>" class="logo-xs">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"
 						alt="<?php echo get_bloginfo( 'name' ); ?>"
 						class="img-responsive" />
@@ -40,7 +40,7 @@
 
     <div class="navbar-offcanvas offcanvas">
 			<div class="col-sm-3 hidden-xs">
-				<a href="/" class="logo-smup">
+				<a href="<?php echo get_bloginfo( 'url' ); ?>" class="logo-smup">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"
 						alt="<?php echo get_bloginfo( 'name' ); ?>"
 						class="img-responsive" />

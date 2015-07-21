@@ -1,3 +1,4 @@
+
 <?php get_header(); ?>
 
 <?php $custom_query = new WP_Query(array(
@@ -74,11 +75,11 @@
 		</p>
 
 		<p>
-			2. <b>The next OE Global will be held in Kracow, Poland, from April 13-15, 2016.</b> We hope to see you again next year.
+			2. <b>The next OE Global will be held in Kraków, Poland, from April 12-14, 2016.</b> We hope to see you again next year.
 		</p>
 
 		<p>
-			3. <b>All presentation slides and papers will be available for view (and download) on each presentation page.</b> Presentations have slides and paper. Action Labs have slides and Google doc in some cases. Posters have a 5 minute video presentation (and the poster file in some cases). If you presented but did not leave your slides with us, please send them to <a href="mailto:conference@oeconsortium.org">conference@oeconsortium.org</a>. 
+			3. <b>All presentation slides and papers will be available for view (and download) on each presentation page.</b> Presentations have slides and paper. Action Labs have slides and Google doc in some cases. Posters have a 5 minute video presentation (and the poster file in some cases). If you presented but did not leave your slides with us, please send them to <a href="mailto:conference@oeconsortium.org">conference@oeconsortium.org</a>.
 		</p>
 
 	</div>

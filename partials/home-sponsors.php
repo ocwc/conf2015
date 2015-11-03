@@ -2,7 +2,7 @@
   <div class="container home-vertical-spacing">
     <div class="row">
       <div class="col-sm-12 text-center">
-    		<h2><?php the_field('sponsors_title', 'options'); ?></h2>
+    		<h2 class="grayLight"><?php the_field('sponsors_title', 'options'); ?></h2>
     	</div>
 
       <div class="row row-centered">
@@ -10,7 +10,7 @@
 
           <?php if( get_row_layout() === 'heading' ) : ?>
             <div class="col-sm-12 col-centered">
-              <h3 class="heading-underlined clearfix"><?php the_sub_field('text'); ?></h3>
+              <h3 class="heading-underlined grayLight clearfix"><?php the_sub_field('text'); ?></h3>
             </div>
           <?php endif; ?>
 

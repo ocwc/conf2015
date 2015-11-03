@@ -13,6 +13,12 @@
 			"src": "fontelico"
 		},
 		{
+			"uid": "ad33e708f4d2e25c5056c931da1528d6",
+			"css": "ok-circled2",
+			"code": 59414,
+			"src": "fontawesome"
+		},
+		{
 			"uid": "0f4cae16f34ae243a6144c18a003f2d8",
 			"css": "cancel-circled",
 			"code": 59411,
@@ -139,5 +145,5 @@
 			"src": "linecons"
 		}
 	],
-	"session": "1d8c6ee7896808bf868b4185c956b6da"
+	"session": "88cc96aeb97487a31bb41e8f4f3cc7a9"
 }

@@ -10,7 +10,6 @@ jQuery(document).ready(function($) {
   });
 });
 
-/*
 jQuery(function() {
 
   var iframe = jQuery('#storyfeed');
@@ -30,4 +29,3 @@ jQuery(function() {
   iframe.on('load', s);
 
 });
-*/

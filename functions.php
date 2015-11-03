@@ -44,7 +44,7 @@ function cf_scripts() {
 		wp_enqueue_style( 'cf-admin', get_template_directory_uri() . '/css/admin.css' );
 	} else {
 
-	    if ( WP_DEBUG === true ) {
+	    if ( defined('OEC_DEBUG') && OEC_DEBUG === true ) {
 	      wp_enqueue_style( 'cf-bootstrap', get_template_directory_uri() . '/css/bootstrap.css' );
 	      wp_enqueue_style( 'cf-style', get_template_directory_uri() . '/css/style.css' );
 
@@ -58,6 +58,10 @@ function cf_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'cf_scripts' );
+
+if( function_exists('acf_add_options_page') ) {
+	acf_add_options_page();
+}
 
 /**
  * Custom functions that act independently of the theme templates.

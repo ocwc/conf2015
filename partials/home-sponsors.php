@@ -15,7 +15,7 @@
           <?php endif; ?>
 
           <?php if( get_row_layout() === 'sponsor' ) : ?>
-            <div class="col-sm-2 col-centered">
+            <div class="col-sm-3 col-centered">
               <?php $image = get_sub_field('logo'); ?>
               <?php if ( get_sub_field('link') ) : ?>
                 <a href="<?php get_sub_field('link'); ?>">

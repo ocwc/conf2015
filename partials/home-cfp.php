@@ -14,6 +14,7 @@
         <li>Collaboration</li>
         <li>Research to Advance Open Education</li>
         <li>Open Education Initiatives in Europe</li>
+        <li>Open Education as Strategy</li>
       </ul>
     </div>
 

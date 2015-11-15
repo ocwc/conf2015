@@ -1,4 +1,4 @@
-<div class="awards-container">
+<div class="awards-container hidden-xs">
   <div class="container home-vertical-spacing boffset-35">
     <div class="row">
       <div class="col-sm-4 col-sm-offset-1">

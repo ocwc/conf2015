@@ -8,10 +8,26 @@ jQuery(document).ready(function($) {
     // autoplay: true,
     autoplaySpeed: 3000
   });
+
+  $('.home-gallery-item').magnificPopup({
+      type: 'image',
+      gallery: {
+          enabled: true
+      },
+      image: {
+        titleSrc: 'title'
+      },
+      mainClass: 'mfp-with-zoom',
+      zoom: {
+          enabled: true,
+          duration: 300,
+          easing: 'ease-in-out'
+      }
+  });
+
 });
 
 jQuery(function() {
-
   var iframe = jQuery('#storyfeed');
   var w = jQuery(window), b = jQuery(document.body);
   // resize on message

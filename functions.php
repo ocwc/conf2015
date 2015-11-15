@@ -11,7 +11,7 @@ function cf_setup() {
 	) );
 
 	add_image_size( 'slideshow-image', 1450, 660, true);
-	add_image_size( 'home-small', 245, 154, true);
+	add_image_size( 'home-small', 362, 240, true);
 	add_image_size( 'home-featured', 179, 103, true);
 
 	register_sidebar( array(

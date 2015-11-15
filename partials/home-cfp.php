@@ -1,4 +1,4 @@
-<div class="container home-vertical-spacing boffset-35">
+<div class="container home-vertical-spacing boffset-35 hidden-xs">
   <div class="row">
     <div class="col-sm-12 text-center">
       <h2 class="grayLight">Call for Proposals</h2>

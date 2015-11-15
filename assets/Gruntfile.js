@@ -47,6 +47,7 @@ module.exports = function (grunt) {
         },
         files: {
           '../css/style.min.css': [
+            'bower_components/magnific-popup/dist/magnific-popup.css',
             'less/bootstrap.less',
             'less/style.less'
           ]

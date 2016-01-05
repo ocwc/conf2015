@@ -3,7 +3,9 @@
 
 	<?php get_template_part('partials/_slick'); ?>
 
-	<?php get_template_part('partials/home', 'cfp'); ?>
+	<?php get_template_part('partials/home', 'keynotes'); ?>
+
+	<?php // get_template_part('partials/home', 'cfp'); ?>
 
 	<?php get_template_part('partials/home', 'awards'); ?>
 

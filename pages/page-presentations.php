@@ -13,39 +13,33 @@
 	</div>
 
 	<div class="col-sm-12">
-		<h2>Plenary</h2>
-		<?php $track = 'Opening/Plenary'; ?>
+		<h2>Integration of Open Practices</h2>
+		<?php $track = 'integration'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
 
 	<div class="col-sm-12">
-		<h2>Innovation</h2>
-		<?php $track = 'innovation'; ?>
+		<h2>Collaboration</h2>
+		<?php $track = 'collaboration'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
 
 	<div class="col-sm-12">
-		<h2>Evidence of Impact</h2>
-		<?php $track = 'impact'; ?>
-		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
-	</div>
-
-	<div class="col-sm-12">
-		<h2>Strategy</h2>
+		<h2>Open Education as Strategy</h2>
 		<?php $track = 'strategy'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
 
 
 	<div class="col-sm-12">
-		<h2>Implementation</h2>
-		<?php $track = 'implementation'; ?>
+		<h2>Research to Advance Open Education</h2>
+		<?php $track = 'research'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
 
 	<div class="col-sm-12">
-		<h2>Pedagogy & Design</h2>
-		<?php $track = 'pedagogy'; ?>
+		<h2>Open Education Initiatives in Europe</h2>
+		<?php $track = 'initiatives'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
 

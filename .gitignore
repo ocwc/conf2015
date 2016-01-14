@@ -9,3 +9,6 @@ build/
 /css/
 /font/
 /assets/less/fonts/
+/vendor/
+composer.lock
+

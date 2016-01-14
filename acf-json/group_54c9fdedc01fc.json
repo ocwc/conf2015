@@ -6,7 +6,6 @@
             "key": "field_54c9fdf91b250",
             "label": "Author(s)",
             "name": "presentation_author",
-            "prefix": "",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -28,7 +27,6 @@
             "key": "field_54ca00dab17ce",
             "label": "Institution(s)",
             "name": "presentation_institution",
-            "prefix": "",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -50,7 +48,6 @@
             "key": "field_54c9fe2a1b252",
             "label": "Track",
             "name": "presentation_track",
-            "prefix": "",
             "type": "radio",
             "instructions": "",
             "required": 0,
@@ -61,12 +58,11 @@
                 "id": ""
             },
             "choices": {
-                "innovation": "Innovation",
-                "impact": "Evidence of Impact",
-                "strategy": "Strategy",
-                "implementation": "Implementation",
-                "pedagogy": "Pedagogy & Design",
-                "research": "ROER4D & GO-GN Research"
+                "integration": "Integration of Open Practices",
+                "collaboration": "Collaboration",
+                "strategy": "Open Education as Strategy",
+                "research": "Research to Advance Open Education",
+                "initiatives": "Open Education Initiatives in Europe"
             },
             "other_choice": 1,
             "save_other_choice": 0,
@@ -77,7 +73,6 @@
             "key": "field_54cd31c3de2f1",
             "label": "Abstract (PDF)",
             "name": "presentation_pdf",
-            "prefix": "",
             "type": "file",
             "instructions": "",
             "required": 0,
@@ -97,7 +92,6 @@
             "key": "field_54d0b4b89e900",
             "label": "Full paper (PDF)",
             "name": "presentation_paper",
-            "prefix": "",
             "type": "file",
             "instructions": "",
             "required": 0,
@@ -117,7 +111,6 @@
             "key": "field_54cd31dade2f2",
             "label": "Slideshare",
             "name": "presentation_slideshare",
-            "prefix": "",
             "type": "url",
             "instructions": "",
             "required": 0,
@@ -146,5 +139,7 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
-    "modified": 1427317970
+    "active": 1,
+    "description": "",
+    "modified": 1452809732
 }

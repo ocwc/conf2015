@@ -77,3 +77,10 @@ require get_template_directory() . '/inc/post_types.php';
  * Custom Menu Walker for Bootstrap 3
  */
 require get_template_directory() . '/lib/wp_bootstrap_navwalker.php';
+
+/**
+ *  Excel Importer
+ */
+if ( defined('WP_CLI') && WP_CLI ) {
+    require get_template_directory() . '/inc/cli-importer.php';
+}

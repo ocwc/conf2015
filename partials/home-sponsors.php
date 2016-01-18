@@ -18,7 +18,7 @@
             <div class="col-sm-3 col-centered col-xs-12">
               <?php $image = get_sub_field('logo'); ?>
               <?php if ( get_sub_field('link') ) : ?>
-                <a href="<?php get_sub_field('link'); ?>">
+                <a href="<?php the_sub_field('link'); ?>">
                   <img class="img-responsive" src="<?php echo $image['sizes']['medium']; ?>" alt="<?php echo $image['title']; ?>" />
                 </a>
               <?php else : ?>

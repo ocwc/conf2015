@@ -59,11 +59,13 @@
 	</div>
 	*/ ?>
 
+	<?php /*
 	<div class="col-sm-12">
 		<h2>ROER4D & GO-GN Research</h2>
 		<?php $track = 'research'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
+	*/ ?>
 </div>
 
 <?php get_footer(); ?>

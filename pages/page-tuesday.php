@@ -10,25 +10,27 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12">
-			<h1>Tuesday,	21 April 2015</h1>
+			<h1>Tuesday, 12 April</h1>
 		</div>
 
 		<div class="col-sm-12">
 			<table class="table table-striped">
-			    <thead>
-			        <tr>
-			            <th class="time-col"></th>
-			            <th class="room-col">Workshop Room <em>(Aspen)</em>
-			            </th>
-			        </tr>
-			    </thead>
+				<table class="table table-striped">
+				    <thead>
+				        <tr>
+				            <th class="time-col"></th>
+				            <th class="room-col">Room&nbsp;A</th>
+				            <th class="room-col">Room&nbsp;B</th>
+				            <th class="room-col">Room&nbsp;C</th>
+				            <th class="room-col">Room&nbsp;D</th>
+				        </tr>
+				    </thead>
 
 			    <tbody>
 			    	<tr>
-			    		<td>9.00&nbsp-&nbsp16.45</td>
+			    		<td>9.00&nbsp-&nbsp11.00</td>
 			    		<td class="">
-							<span class="panel-title"><a href="/2015/presentations/pre-conference-workshop/">Pre Conference Workshop</a></span><br />
-			    			Getting started with Open Education: Everything you need to know to begin open education projects at your institution
+							<span class="panel-title">Plenary Session: Conference Welcome and Opening Up Poland</span>
 						</td>
 			    	</tr>
 			    </tbody>

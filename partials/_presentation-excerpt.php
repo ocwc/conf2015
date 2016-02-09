@@ -1,4 +1,5 @@
 <tr>
+	<td><?php the_ID(); ?></td>
 	<td class="col-sm-6">
 		<?php the_field('presentation_author'); ?> <br />
 		<em><?php the_field('presentation_institution'); ?></em>

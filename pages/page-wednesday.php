@@ -10,166 +10,81 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12">
-			<h1>Wednesday,	22 April 2015</h1>
+			<h1>Wednesday,	13 April</h1>
 		</div>
 
 		<div class="col-sm-12 row">
 			<table class="table table-striped">
-			    <thead>
-			        <tr>
-			            <th class="time-col"></th>
-			            <th class="room-col">Main Hall</th>
-			            <th class="room-col">
-			            	Breakout Room&nbsp;1<br />
-			            	<em>(Lynx)</em>
-			            </th>
-			            <th class="room-col">
-			            	Breakout Room&nbsp;2<br />
-			            	<em>(Black Bear)</em>
-			            </th>
-			            <th class="room-col">
-			            	Breakout Room&nbsp;3<br />
-			            	<em>(Den)</em>
-			            </th>
-			            <th class="room-col">
-			            	Research Track<br />
-			            	<em>(Aspen)</em>
-			            </th>
-			        </tr>
-			    </thead>
-			    <tbody>
-			    	<tr>
-			    		<td>8:00</td>
-			    		<td class="text-center" colspan="5">Registration & Refreshments</td>
-			    	</tr>
-			    	<tr>
-			    		<td>9:00</td>
-			    		<td>
-			    			Welcome: Rory McGreal
-			    		</td>
-			    	</tr>
-			    	<tr>
-			    		<td>9:15</td>
-			    		<td>
-			    			<span class="panel-title">Plenary Talks</span>
-			    			<li class="schedule-item"><?php cf_presentations(array(804)); ?></li>
+				<thead>
+						<tr>
+								<th class="time-col"></th>
+								<th class="room-col">Room&nbsp;A</th>
+								<th class="room-col">Room&nbsp;B</th>
+								<th class="room-col">Room&nbsp;C</th>
+								<th class="room-col">Room&nbsp;D</th>
+						</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>9.00&nbsp-&nbsp10.30</td>
+						<td class="">
+							<span class="panel-title">"Keynote Panel: Opening Up Europe featuring Anka Mulder and Jan Gondal"	</span>
 						</td>
 					</tr>
-					
-					<tr>
-						<td>10:30</td>
-						<td class="text-center" colspan="5">Refreshments</td>
-					</tr>
-
 					<tr class="td-5">
-						<td>11:00</td>
+						<td>11.00&nbsp-&nbsp12.30</td>
 						<td>
-							<span class="panel-title">Case Studies in Innovation & OER</span>
-							<?php cf_presentations(array(519, 302, 529)); ?>
+							<?php cf_presentations(array(554, 556, 546)); ?>
 						</td>
 						<td>
-							<span class="panel-title">The Future of Education</span>
-							<?php cf_presentations(array(379, 488, 646)); ?></td>
-						<td>
-							<span class="panel-title">Open Education & Entrepreneurship</span>
-							<?php cf_presentations(array(300, 344, 395)); ?>
+							<?php cf_presentations(array(537, 602, 569)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Open Access, Open Publishing</span>
-							<?php cf_presentations(array(368, 710, 654)); ?>
+							<?php cf_presentations(array(564, 649, 655)); ?>
 						</td>
 						<td>
-							<span class="panel-title">ROER4D Presentations</span>
-							<?php cf_presentations(array(621, 627, 625)); ?>
-						</td>
-			    	</tr>
+							Virtual self-efficacy profiles of students in an OER-enhanced course: a cluster analysis
+							Shihua Li, Koen Lombaerts and Chang Zhu
 
-					<tr>
-						<td>12:30</td>
-						<td class="text-center" colspan="5">Lunch</td>
-					</tr>
-
-					<tr>
-						<td>13:30</td>
-						<td class="" colspan="1">
-							<strong><?php cf_presentations(array(813)); ?></strong>
+							<br />
+							<?php cf_presentations(array(565, 542)); ?>
 						</td>
 					</tr>
-
 					<tr class="td-5">
-						<td>14:30</td>
-						
+						<td>13.30&nbsp-&nbsp15.00</td>
 						<td>
-							<span class="panel-title">Credentialing OER</span>
-							<?php cf_presentations(array(459)); ?>
+							<?php cf_presentations(array(531, 566, 535)); ?>
 						</td>
-
 						<td>
-							<span class="panel-title">National Policy for OER</span>
-							<?php cf_presentations(array(466, 476)); ?>
+							<?php cf_presentations(array(591, 598, 544)); ?>
 						</td>
-
 						<td>
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(662)); ?>
+							<?php cf_presentations(array(604, 601, 532)); ?>
 						</td>
-
 						<td>
-							<!-- <span class="panel-title">Panel Discussion</span> -->
-							<!-- <?php cf_presentations(array(708)); ?> -->
-						</td>
-
-						<td>
-							<span class="panel-title">&nbsp;</span>
-							<?php cf_presentations(array(617, 619)); ?>
+							<?php cf_presentations(array(543, 586, 605)); ?>
 						</td>
 					</tr>
-
-					<tr>
-						<td>15:30</td>
-						<td class="text-center" colspan="5">Refreshments</td>
-					</tr>
-
-					<tr>
-						<td>16:00</td>
+					<tr class="td-5">
+						<td>15.30&nbsp-&nbsp17.30</td>
 						<td>
-							<span class="panel-title">&nbsp;</span><br />
-							<li class="schedule-item">
-								<a href="<?php echo get_bloginfo('url') . '/schedule/posters/'; ?>">
-									Poster Highlights – short talks from poster presenters
-								</a>
-							</li>
-							<br /><br /><br /><br />
-							<!-- <span class="panel-title">17:00</span> -->
-							<?php //cf_presentations(array(469)); ?>
+							<?php cf_presentations(array(592, 585, 651, 561)); ?>
 						</td>
-					
 						<td>
-							<span class="panel-title">A Closer look at MOOCs</span>
-							<?php cf_presentations(array(461, 523, 722, 511)); ?>
+							<?php cf_presentations(array(589, 590, 575, 568)); ?>
 						</td>
-
 						<td>
-							<span class="panel-title">Community, Network and OER</span>
-							<?php cf_presentations(array(532, 480, 455, 706)); ?>
+							[Action Lab] The Mind of the Universe - an entry into the World of Open? <br />
+							<em>Fred Mulder</em>
+							<br /><br />
+							[Action Lab] Open Education Through Open Govt<br />
+							<em>Jan Gondol and Nicloe Allen</em>
 						</td>
-
 						<td>
-							<span class="panel-title">Pedagogy and OER</span>
-							<?php cf_presentations(array(428, 768, 430, 521, 420)); ?>
-						</td>
-
-						<td>
-							<span class="panel-title">ROER4D Presentations</span>
-							<?php cf_presentations(array(605, 623, 611, 615)); ?>
+							<?php cf_presentations(array(541, 540, 555, 559)); ?>
 						</td>
 					</tr>
-
-					<tr>
-						<td>18:00</td>
-						<td class="text-center" colspan="5">End of day 1</td>
-					</tr>
-			    </tbody>
+				</tbody>
 			</table>
 		</div>
 	</div>

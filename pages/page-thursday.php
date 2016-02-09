@@ -10,161 +10,75 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12">
-			<h1>Thursday,	23 April 2015</h1>
+			<h1>Thursday,	14 April</h1>
 		</div>
 
 		<div class="col-sm-12 row">
 			<table class="table table-striped">
-			    <thead>
-			        <tr>
-			            <th class="time-col"></th>
-			            <th class="room-col">Main Hall</th>
-			            <th class="room-col">
-			            	Breakout Room&nbsp;1<br />
-			            	<em>(Lynx)</em>
-			            </th>
-			            <th class="room-col">
-			            	Breakout Room&nbsp;2<br />
-			            	<em>(Black Bear)</em>
-			            </th>
-			            <th class="room-col">
-			            	Breakout Room&nbsp;3<br />
-			            	<em>(Den)</em>
-			            </th>
-			            <th class="room-col">
-			            	Research Track<br />
-			            	<em>(Aspen)</em>
-			            </th>
-
-			        </tr>
-			    </thead>
-			    <tbody>
-			    	<tr>
-			    		<td>8:00</td>
-			    		<td class="text-center" colspan="5">Registration & Refreshments</td>
-			    	</tr>
-			    	<tr>
-			    		<td>9:00</td>
-			    		<td>
-			    			Keynote: Dirk van Damme
-			    		</td>
-			    	</tr>
+				<thead>
+						<tr>
+								<th class="time-col"></th>
+								<th class="room-col">Room&nbsp;A</th>
+								<th class="room-col">Room&nbsp;B</th>
+								<th class="room-col">Room&nbsp;C</th>
+								<th class="room-col">Room&nbsp;D</th>
+						</tr>
+				</thead>
+				<tbody>
 					<tr>
-						<td>10:00</td>
-						<td class="text-center" colspan="5">Refreshments</td>
-					</tr>
-					<tr class="td-5">
-						<td>10:30</td>
-						<td>
-							<span class="panel-title">The Quality of OER</span>
-							<?php cf_presentations(array(290, 527, 446, 448)); ?>
-						</td>
-						<td>
-							<span class="panel-title">Open Educational Practices</span>
-							<?php cf_presentations(array(514, 397, 391, 381)); ?>
-						</td>
-						<td>
-							<span class="panel-title">Identifying Impact of OER</span>
-							<?php cf_presentations(array(317, 342, 389, 525)); ?>
-						</td>
-						<td>
-							<span class="panel-title">Issues in Open Textbooks</span>
-							<?php cf_presentations(array(294, 443, 338)); ?>
-						</td>
-						<td>
-							<span class="panel-title">ROER4D Presentations</span>
-							<?php cf_presentations(array(607, 613)); ?>
-							<span class="panel-title">GO-GN Presentations</span>
-							<?php cf_presentations(array(852, 782)); ?>
-						</td>
-					</tr>
-					<tr>
-						<td>12:30</td>
-						<td class="text-center" colspan="5">Lunch</td>
-					</tr>
-					<tr class="td-5">
-						<td>13:30</td>
-						<td>
-							<span class="panel-title">Panel Discussion</span>
-							<?php cf_presentations(array(504)); ?>
-						</td>
-						<td>
-							<!-- <span class="panel-title">Considerations for MOOCs</span> -->
-							<?php //cf_presentations(array()); ?>
-
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(453)); ?>
-						</td>
-						<td>
-							<span class="panel-title">Panel Discussion</span>
-							<?php cf_presentations(array(697)); ?>
-						</td>
-						<td>
-
-						</td>
-						<td>
-							<span class="panel-title">GO-GN Presentations</span>
-							<?php cf_presentations(array(784, 786)); ?>
+						<td>9.00&nbsp-&nbsp10.30</td>
+						<td class="">
+							<span class="panel-title">Keynote: Jaroslaw Lipszyc</span>
 						</td>
 					</tr>
 					<tr class="td-5">
-						<td>14:30</td>
+						<td>11.00&nbsp-&nbsp12.45</td>
 						<td>
-							<span class="panel-title">Survey of  OER users</span>
-							<?php cf_presentations(array(288, 313)); ?>
+							[Action Lab]<br/>
+							Teaching coding and computer science: a test case for OER? <br />
+							<em>Colin De La Higuera</em>
 						</td>
 						<td>
-							<span class="panel-title">Panel Discussion</span>
-							<?php cf_presentations(array(849)); ?>
+							[Action Lab] All Day<br />
+							Open Badges in Education 2016 <br />
+							<em>Vladan Devedzic</em>
 						</td>
 						<td>
-							<span class="panel-title">New Technologies in OER</span>
-							<?php cf_presentations(array(336, 377)); ?>
+							[Action Lab]<br/>
+							The Open Research Agenda <br />
+							<em>Robert Farrow, Beatriz de Los Arcos, Rebecca Pitt and Martin Weller</em>
 						</td>
 						<td>
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(664)); ?>
+							[Action Lab] <br/>
+							Less commonly used languages and OER<br/>
+							<em>Gard Titlestad</em>
 						</td>
-						<td>
-							<span class="panel-title">GO-GN Presentations</span>
-							<?php cf_presentations(array(788, 790)); ?>
-							<br />
-							<em>End of ROER4D/GO-GN Research Presentations</em>
-						</td>
-					</tr>
-					<tr>
-						<td>15:30</td>
-						<td class="text-center" colspan="5">Refreshments</td>
 					</tr>
 					<tr class="td-5">
-						<td>16:00</td>
+						<td>13:45-17:00<br/>
+								coffee break at 15:30</td>
 						<td>
-							<span class="panel-title">Case Studies from Different Regions</span>
-							<?php cf_presentations(array(371, 672, 472)); ?>
+							[Action Lab]<br />
+							Accessibility and OER<br />
+							<em>Jutta Treviranus</em>
 						</td>
 						<td>
-							<span class="panel-title">Embedding OER in Educational Practice</span>
-							<?php cf_presentations(array(296, 469, 478)); ?>
+							[Action Lab] Continued<br />
+							Open Badges in Education 2016<br />
+							<em>Vladan Devedzic</em>
 						</td>
 						<td>
-							<span class="panel-title">MOOCs and Data</span>
-							<?php cf_presentations(array(332, 324, 464)); ?>
+							[Action Lab]<br />
+							Open Course Design Workshop<br />
+							<em>Martijn Ouwehand and Nelson Jorge</em>
 						</td>
 						<td>
-							<span class="panel-title">Moving Towards “Open”</span>
-							<?php cf_presentations(array(485, 644, 674)); ?>
+							[Action Lab]  <br />
+							OER World Map Workshop <br />
+							<em>Jan Neumann</em>
 						</td>
-						<td></td>
 					</tr>
-					<tr>
-						<td>17:30</td>
-						<td class="text-center" colspan="5">End of day 2</td>
-					</tr>
-					<tr>
-						<td>19:30</td>
-						<td class="text-center" colspan="5">Banquet and Open Education Awards Ceremony, Speaker and Performance: Kai Kight</td>
-					</tr>
-			    </tbody>
+				</tbody>
 			</table>
 		</div>
 	</div>

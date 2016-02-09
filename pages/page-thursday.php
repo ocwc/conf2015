@@ -18,8 +18,8 @@
 				<thead>
 						<tr>
 								<th class="time-col"></th>
-								<th class="room-col">Room&nbsp;A</th>
-								<th class="room-col">Room&nbsp;B</th>
+								<th class="room-col">Room&nbsp;A1</th>
+								<th class="room-col">Room&nbsp;A2</th>
 								<th class="room-col">Room&nbsp;C</th>
 								<th class="room-col">Room&nbsp;D</th>
 						</tr>

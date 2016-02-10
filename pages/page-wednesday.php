@@ -40,14 +40,10 @@
 							<?php cf_presentations(array(537, 602, 569)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(564, 649, 655)); ?>
+							<?php cf_presentations(array(564, 649, 595)); ?>
 						</td>
 						<td>
-							Virtual self-efficacy profiles of students in an OER-enhanced course: a cluster analysis
-							Shihua Li, Koen Lombaerts and Chang Zhu
-
-							<br />
-							<?php cf_presentations(array(565, 542)); ?>
+							<?php cf_presentations(array(682, 565, 542)); ?>
 						</td>
 					</tr>
 					<tr class="td-5">

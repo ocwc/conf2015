@@ -51,13 +51,13 @@
 	</div>
 	*/ ?>
 
-	<?php /*
+
 	<div class="col-sm-12">
 		<h2>Action Lab</h2>
 		<?php $track = 'actionlab'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
-	*/ ?>
+
 
 	<?php /*
 	<div class="col-sm-12">

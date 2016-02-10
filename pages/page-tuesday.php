@@ -19,7 +19,8 @@
 				    <thead>
 				        <tr>
 				            <th class="time-col"></th>
-				            <th class="room-col">Room&nbsp;A</th>
+				            <th class="room-col">Room&nbsp;A1</th>
+										<th class="room-col">Room&nbsp;A2</th>
 				            <th class="room-col">Room&nbsp;B</th>
 				            <th class="room-col">Room&nbsp;C</th>
 				            <th class="room-col">Room&nbsp;D</th>
@@ -38,6 +39,7 @@
 							<td>
 								<?php cf_presentations(array(550, 560)); ?>
 							</td>
+							<td></td>
 							<td>
 								<?php cf_presentations(array(529, 588)); ?>
 							</td>
@@ -55,7 +57,10 @@
 								<?php cf_presentations(array(583, 573, 553)); ?>
 							</td>
 							<td>
-								<?php cf_presentations(array(593, 539)); ?>
+								<?php cf_presentations(array(593, 539, 655)); ?>
+							</td>
+							<td>
+								<?php cf_presentations(array(572, 599, 574)); ?>
 							</td>
 							<td>
 								<?php cf_presentations(array(576, 587, 538)); ?>
@@ -67,10 +72,13 @@
 						<tr class="td-5">
 							<td>15.30&nbsp-&nbsp17.30</td>
 							<td>
-								<?php cf_presentations(array(576, 596, 551)); ?>
+								<?php cf_presentations(array(585, 576, 596, 551)); ?>
 							</td>
 							<td>
-								<?php cf_presentations(array(603, 595)); ?>
+								Poster Highlights
+							</td>
+							<td>
+								<?php cf_presentations(array(603)); ?>
 							</td>
 							<td>
 								<?php cf_presentations(array(571, 545, 548, 534)); ?>

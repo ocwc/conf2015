@@ -34,21 +34,19 @@
 					<tr class="td-5">
 						<td>11.00&nbsp-&nbsp12.45</td>
 						<td>
-							[Action Lab]<br/>
-							Teaching coding and computer science: a test case for OER? <br />
-							<em>Colin De La Higuera</em>
+							<?php cf_presentations(array(580)); ?>
 						</td>
 						<td>
-							[Action Lab] All Day<br />
-							Open Badges in Education 2016 <br />
-							<em>Vladan Devedzic</em>
+							<?php cf_presentations(array(528)); ?>
 						</td>
 						<td>
+							<?php cf_presentations(array()); ?>
 							[Action Lab]<br/>
 							The Open Research Agenda <br />
 							<em>Robert Farrow, Beatriz de Los Arcos, Rebecca Pitt and Martin Weller</em>
 						</td>
 						<td>
+							<?php cf_presentations(array()); ?>
 							[Action Lab] <br/>
 							Less commonly used languages and OER<br/>
 							<em>Gard Titlestad</em>

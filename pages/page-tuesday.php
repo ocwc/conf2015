@@ -44,8 +44,7 @@
 								<?php cf_presentations(array(529, 588)); ?>
 							</td>
 							<td>
-								[Action Lab]Open Access Education in Professional Writing: The LOOC Model
- 								<em>Robert Bonk</em>
+								<?php cf_presentations(array(530)); ?>
 							</td>
 							<td>
 								<?php cf_presentations(array(533, 547)); ?>

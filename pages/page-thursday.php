@@ -40,40 +40,26 @@
 							<?php cf_presentations(array(528)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array()); ?>
-							[Action Lab]<br/>
-							The Open Research Agenda <br />
-							<em>Robert Farrow, Beatriz de Los Arcos, Rebecca Pitt and Martin Weller</em>
+							<?php cf_presentations(array(562)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array()); ?>
-							[Action Lab] <br/>
-							Less commonly used languages and OER<br/>
-							<em>Gard Titlestad</em>
+							<?php cf_presentations(array(684)); ?>
 						</td>
 					</tr>
 					<tr class="td-5">
 						<td>13:45-17:00<br/>
 								coffee break at 15:30</td>
 						<td>
-							[Action Lab]<br />
-							Accessibility and OER<br />
-							<em>Jutta Treviranus</em>
+							<?php cf_presentations(array(686)); ?>
 						</td>
 						<td>
-							[Action Lab] Continued<br />
-							Open Badges in Education 2016<br />
-							<em>Vladan Devedzic</em>
+							<?php cf_presentations(array(528)); ?>
 						</td>
 						<td>
-							[Action Lab]<br />
-							Open Course Design Workshop<br />
-							<em>Martijn Ouwehand and Nelson Jorge</em>
+							<?php cf_presentations(array(578)); ?>
 						</td>
 						<td>
-							[Action Lab]  <br />
-							OER World Map Workshop <br />
-							<em>Jan Neumann</em>
+							<?php cf_presentations(array(600)); ?>
 						</td>
 					</tr>
 				</tbody>

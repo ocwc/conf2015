@@ -28,7 +28,7 @@
 					<tr>
 						<td>9.00&nbsp-&nbsp10.30</td>
 						<td class="">
-							<span class="panel-title">"Keynote Panel: Opening Up Europe featuring Anka Mulder and Jan Gondal"	</span>
+							<?php cf_presentations(array(696)); ?>
 						</td>
 					</tr>
 					<tr class="td-5">
@@ -70,11 +70,7 @@
 							<?php cf_presentations(array(589, 590, 575, 568)); ?>
 						</td>
 						<td>
-							[Action Lab] The Mind of the Universe - an entry into the World of Open? <br />
-							<em>Fred Mulder</em>
-							<br /><br />
-							[Action Lab] Open Education Through Open Govt<br />
-							<em>Jan Gondol and Nicloe Allen</em>
+							<?php cf_presentations(array(690, 597)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(541, 540, 555, 559)); ?>

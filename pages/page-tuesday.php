@@ -31,7 +31,7 @@
 			    	<tr>
 			    		<td>9.00&nbsp-&nbsp11.00</td>
 			    		<td class="">
-								<span class="panel-title">Plenary Session: Conference Welcome<br /> and Opening Up Poland</span>
+								<?php cf_presentations(array(692)); ?>
 							</td>
 			    	</tr>
 						<tr class="td-5">

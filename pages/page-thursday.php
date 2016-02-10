@@ -28,7 +28,7 @@
 					<tr>
 						<td>9.00&nbsp-&nbsp10.30</td>
 						<td class="">
-							<span class="panel-title">Keynote: Jaroslaw Lipszyc</span>
+							<?php cf_presentations(array(694)); ?>
 						</td>
 					</tr>
 					<tr class="td-5">

@@ -20,6 +20,7 @@
 								<th class="time-col"></th>
 								<th class="room-col">Room&nbsp;A1</th>
 								<th class="room-col">Room&nbsp;A2</th>
+								<th class="room-col">Room&nbsp;B</th>
 								<th class="room-col">Room&nbsp;C</th>
 								<th class="room-col">Room&nbsp;D</th>
 						</tr>
@@ -40,6 +41,9 @@
 							<?php cf_presentations(array(528)); ?>
 						</td>
 						<td>
+							<?php cf_presentations(array(723)); ?>
+						</td>
+						<td>
 							<?php cf_presentations(array(562)); ?>
 						</td>
 						<td>
@@ -54,6 +58,9 @@
 						</td>
 						<td>
 							<?php cf_presentations(array(528)); ?>
+						</td>
+						<td>
+							<?php cf_presentations(array(723)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(578)); ?>

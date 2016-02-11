@@ -3,7 +3,7 @@
 	Template name: Schedule - Tuesday
 */
 ?>
-<?php if ( $is_pdf ) : ?>
+<?php if ( isset($is_pdf) ) : ?>
 	<style media="screen">
 		td {
 			font-size: 12px;
@@ -110,7 +110,7 @@
 	</div>
 </div>
 
-<?php if ( $is_pdf ) : ?>
+<?php if ( isset($is_pdf) ) : ?>
 <?php else: ?>
 	<?php get_footer(); ?>
 <?php endif; ?>

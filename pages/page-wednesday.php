@@ -3,7 +3,7 @@
 	Template name: Schedule - Wednesday
 */
 ?>
-<?php if ( $is_pdf ) : ?>
+<?php if ( isset($is_pdf) ) : ?>
 <?php else : ?>
 	<?php get_header(); ?>
 	<?php get_template_part('partials/_event_days'); ?>
@@ -84,7 +84,7 @@
 	</div>
 </div>
 
-<?php if ( $is_pdf ) : ?>
+<?php if ( isset($is_pdf) ) : ?>
 <?php else: ?>
 	<?php get_footer(); ?>
 <?php endif; ?>

@@ -3,9 +3,21 @@
 	Template name: Schedule - Tuesday
 */
 ?>
-<?php get_header(); ?>
-
-<?php get_template_part('partials/_event_days'); ?>
+<?php if ( $is_pdf ) : ?>
+	<style media="screen">
+		td {
+			font-size: 12px;
+			border: 1px solid #ababab;
+		}
+		table {
+			page-break-after: always;
+		}
+	</style>
+		<?php get_header(); ?>
+<?php else : ?>
+	<?php get_header(); ?>
+	<?php get_template_part('partials/_event_days'); ?>
+<?php endif; ?>
 
 <div class="container">
 	<div class="row">
@@ -98,4 +110,7 @@
 	</div>
 </div>
 
-<?php get_footer(); ?>
+<?php if ( $is_pdf ) : ?>
+<?php else: ?>
+	<?php get_footer(); ?>
+<?php endif; ?>

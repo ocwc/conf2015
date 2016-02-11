@@ -84,3 +84,26 @@
 .td-5 td:not(:first-of-type) {
 	width: 20%;
 }
+
+.td-4 td:not(:first-of-type) {
+	width: 25%;
+}
+
+
+caption {
+  padding-top: 0;
+
+  @media screen {
+    display: none;
+  }
+}
+
+.page-break {
+  @media print {
+    // display: block;
+    // page-break-before: page-break-inside !important;
+    page-break-inside: avoid !important;
+    color: red !important;
+    border: 1px solid red !important;
+  }
+}

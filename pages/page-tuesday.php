@@ -4,16 +4,7 @@
 */
 ?>
 <?php if ( isset($is_pdf) ) : ?>
-	<style media="screen">
-		td {
-			font-size: 12px;
-			border: 1px solid #ababab;
-		}
-		table {
-			page-break-after: always;
-		}
-	</style>
-		<?php get_header(); ?>
+	<?php get_header(); ?>
 <?php else : ?>
 	<?php get_header(); ?>
 	<?php get_template_part('partials/_event_days'); ?>
@@ -26,19 +17,18 @@
 		</div>
 
 		<div class="col-sm-12">
-			<table class="table table-striped">
 				<table class="table table-striped">
-				    <thead>
-				        <tr>
-				            <th class="time-col"></th>
-				            <th class="room-col">Room&nbsp;A1</th>
-										<th class="room-col">Room&nbsp;A2</th>
-				            <th class="room-col">Room&nbsp;B</th>
-				            <th class="room-col">Room&nbsp;C</th>
-				            <th class="room-col">Room&nbsp;D</th>
-				        </tr>
-				    </thead>
-
+					<caption>Tuesday, 12 April</caption>
+			    <thead>
+			        <tr>
+			            <th class="time-col"></th>
+			            <th class="room-col">Room&nbsp;A1</th>
+									<th class="room-col">Room&nbsp;A2</th>
+			            <th class="room-col">Room&nbsp;B</th>
+			            <th class="room-col">Room&nbsp;C</th>
+			            <th class="room-col">Room&nbsp;D</th>
+			        </tr>
+			    </thead>
 			    <tbody>
 			    	<tr>
 			    		<td>9.00&nbsp-&nbsp11.00</td>
@@ -64,6 +54,26 @@
 								<?php cf_presentations(array(533, 547)); ?>
 							</td>
 				    </tr>
+
+						<?php /* PDF */ ?>
+						<?php if ( isset($is_pdf) ) : ?>
+						</tbody>
+					</table>
+					<table class="table table-striped">
+						<caption>Tuesday, 12 April (continued)</caption>
+						<thead>
+				        <tr>
+				            <th class="time-col"></th>
+				            <th class="room-col">Room&nbsp;A1</th>
+										<th class="room-col">Room&nbsp;A2</th>
+				            <th class="room-col">Room&nbsp;B</th>
+				            <th class="room-col">Room&nbsp;C</th>
+				            <th class="room-col">Room&nbsp;D</th>
+				        </tr>
+				    </thead>
+						<tbody
+						<?php endif; ?>
+
 						<tr class="td-5">
 							<td>13.30&nbsp-&nbsp15.00</td>
 							<td>
@@ -82,6 +92,26 @@
 								<?php cf_presentations(array(671)); ?>
 							</td>
 				    </tr>
+
+						<?php /* PDF */ ?>
+						<?php if ( isset($is_pdf) ) : ?>
+						</tbody>
+					</table>
+					<table class="table table-striped">
+						<caption>Tuesday, 12 April (continued)</caption>
+						<thead>
+				        <tr>
+				            <th class="time-col"></th>
+				            <th class="room-col">Room&nbsp;A1</th>
+										<th class="room-col">Room&nbsp;A2</th>
+				            <th class="room-col">Room&nbsp;B</th>
+				            <th class="room-col">Room&nbsp;C</th>
+				            <th class="room-col">Room&nbsp;D</th>
+				        </tr>
+				    </thead>
+						<tbody
+						<?php endif; ?>
+
 						<tr class="td-5">
 							<td>15.30&nbsp-&nbsp17.30</td>
 							<td>
@@ -103,7 +133,7 @@
 						<tr>
 			    		<td>18.00</td>
 			    		<td colspan="5" class="">
-								<span class="panel-title">Opening Reception</span>
+								<li class="schedule-item">Opening Reception</li>
 							</td>
 			    	</tr>
 			    </tbody>

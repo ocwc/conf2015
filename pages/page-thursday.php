@@ -17,6 +17,7 @@
 
 		<div class="col-sm-12 row">
 			<table class="table table-striped">
+				<caption>Wednesday,	14 April</caption>
 				<thead>
 						<tr>
 								<th class="time-col"></th>

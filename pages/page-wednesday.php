@@ -17,6 +17,7 @@
 
 		<div class="col-sm-12 row">
 			<table class="table table-striped">
+				<caption>Wednesday,	13 April</caption>
 				<thead>
 						<tr>
 								<th class="time-col"></th>
@@ -33,7 +34,7 @@
 							<?php cf_presentations(array(696)); ?>
 						</td>
 					</tr>
-					<tr class="td-5">
+					<tr class="td-4">
 						<td>11.00&nbsp-&nbsp12.30</td>
 						<td>
 							<?php cf_presentations(array(554, 556, 546)); ?>
@@ -48,7 +49,26 @@
 							<?php cf_presentations(array(682, 565, 542)); ?>
 						</td>
 					</tr>
-					<tr class="td-5">
+
+					<?php /* PDF */ ?>
+					<?php if ( isset($is_pdf) ) : ?>
+					</tbody>
+				</table>
+				<table class="table table-striped">
+					<caption>Wednesday,	13 April (continued)</caption>
+					<thead>
+							<tr>
+									<th class="time-col"></th>
+									<th class="room-col">Room&nbsp;A</th>
+									<th class="room-col">Room&nbsp;B</th>
+									<th class="room-col">Room&nbsp;C</th>
+									<th class="room-col">Room&nbsp;D</th>
+							</tr>
+					</thead>
+					<tbody
+					<?php endif; ?>
+
+					<tr class="td-4">
 						<td>13.30&nbsp-&nbsp15.00</td>
 						<td>
 							<?php cf_presentations(array(531, 566, 535)); ?>
@@ -63,7 +83,26 @@
 							<?php cf_presentations(array(543, 586, 605)); ?>
 						</td>
 					</tr>
-					<tr class="td-5">
+
+					<?php /* PDF */ ?>
+					<?php if ( isset($is_pdf) ) : ?>
+					</tbody>
+				</table>
+				<table class="table table-striped">
+					<caption>Wednesday,	13 April (continued)</caption>
+					<thead>
+							<tr>
+									<th class="time-col"></th>
+									<th class="room-col">Room&nbsp;A</th>
+									<th class="room-col">Room&nbsp;B</th>
+									<th class="room-col">Room&nbsp;C</th>
+									<th class="room-col">Room&nbsp;D</th>
+							</tr>
+					</thead>
+					<tbody
+					<?php endif; ?>
+
+					<tr class="td-4">
 						<td>15.30&nbsp-&nbsp17.30</td>
 						<td>
 							<?php cf_presentations(array(592, 585, 651, 561)); ?>

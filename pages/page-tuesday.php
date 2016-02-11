@@ -79,7 +79,7 @@
 								<?php cf_presentations(array(576, 587, 538)); ?>
 							</td>
 							<td>
-								 [Action Lab] The Role of Stakeholders and Parterships in Open Education
+								<?php cf_presentations(array(671)); ?>
 							</td>
 				    </tr>
 						<tr class="td-5">

@@ -88,7 +88,7 @@
 								<?php cf_presentations(array(585, 576, 596, 551)); ?>
 							</td>
 							<td>
-								Poster Highlights
+								<?php cf_presentations(array(558, 577, 763)); ?>
 							</td>
 							<td>
 								<?php cf_presentations(array(603)); ?>

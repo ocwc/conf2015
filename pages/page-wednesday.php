@@ -37,7 +37,7 @@
 					<tr class="td-4">
 						<td>11.00&nbsp-&nbsp12.30</td>
 						<td>
-							<?php cf_presentations(array(554, 556, 546)); ?>
+							<?php cf_presentations(array(554, 556, 800)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(537, 602, 569)); ?>

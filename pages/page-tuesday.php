@@ -127,7 +127,7 @@
 								<?php cf_presentations(array(571, 545, 548, 534)); ?>
 							</td>
 							<td>
-								 <?php cf_presentations(array(567, 570, 810, 581, 653)); ?>
+								 <?php cf_presentations(array(567, 570, 581, 810, 653)); ?>
 							</td>
 				    </tr>
 						<tr>

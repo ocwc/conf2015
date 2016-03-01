@@ -133,7 +133,7 @@
 						<tr>
 			    		<td>18.00</td>
 			    		<td colspan="5" class="">
-								<li class="schedule-item">Opening Reception</li>
+								<?php cf_presentations(array(827)); ?>
 							</td>
 			    	</tr>
 			    </tbody>

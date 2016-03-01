@@ -46,7 +46,7 @@
 							<?php cf_presentations(array(564, 649, 595)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(682, 565, 542)); ?>
+							<?php cf_presentations(array(682, 832, 565, 542)); ?>
 						</td>
 					</tr>
 
@@ -115,6 +115,12 @@
 						</td>
 						<td>
 							<?php cf_presentations(array(541, 540, 555, 559)); ?>
+						</td>
+					</tr>
+					<tr>
+						<td>19.00</td>
+						<td>
+						<?php cf_presentations(array(823)); ?>
 						</td>
 					</tr>
 				</tbody>

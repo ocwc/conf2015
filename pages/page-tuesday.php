@@ -42,7 +42,7 @@
 								<?php cf_presentations(array(550, 560)); ?>
 							</td>
 							<td>
-								<?php cf_presentations(array(746, 563)); ?>
+								<?php cf_presentations(array(746, 835)); ?>
 							</td>
 							<td>
 								<?php cf_presentations(array(529, 588)); ?>

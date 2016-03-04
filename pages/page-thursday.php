@@ -50,7 +50,7 @@
 							<?php cf_presentations(array(562)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(684)); ?>
+							
 						</td>
 					</tr>
 					<tr class="td-5">

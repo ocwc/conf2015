@@ -21,7 +21,8 @@
 				<thead>
 						<tr>
 								<th class="time-col"></th>
-								<th class="room-col">Room&nbsp;A</th>
+								<th class="room-col">Room&nbsp;A1</th>
+								<th class="room-col">Room&nbsp;A2</th>
 								<th class="room-col">Room&nbsp;B</th>
 								<th class="room-col">Room&nbsp;C</th>
 								<th class="room-col">Room&nbsp;D</th>
@@ -30,13 +31,13 @@
 				<tbody>
 					<tr>
 						<td>9.00&nbsp-&nbsp10.30</td>
-						<td class="">
+						<td class="" colspan="2">
 							<?php cf_presentations(array(696)); ?>
 						</td>
 					</tr>
-					<tr class="td-4">
+					<tr class="td-5">
 						<td>11.00&nbsp-&nbsp12.30</td>
-						<td>
+						<td colspan="2">
 							<?php cf_presentations(array(554, 556, 800)); ?>
 						</td>
 						<td>
@@ -65,13 +66,16 @@
 									<th class="room-col">Room&nbsp;D</th>
 							</tr>
 					</thead>
-					<tbody
+					<tbody>
 					<?php endif; ?>
 
-					<tr class="td-4">
+					<tr class="td-5">
 						<td>13.30&nbsp-&nbsp15.00</td>
 						<td>
 							<?php cf_presentations(array(531, 566, 535)); ?>
+						</td>
+						<td>
+							<?php cf_presentations(array(690)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(591, 598, 544)); ?>
@@ -102,16 +106,19 @@
 					<tbody
 					<?php endif; ?>
 
-					<tr class="td-4">
+					<tr class="td-5">
 						<td>15.30&nbsp-&nbsp17.30</td>
 						<td>
 							<?php cf_presentations(array(592, 585, 651, 561)); ?>
 						</td>
 						<td>
+							<?php cf_presentations(array(684)); ?>
+						</td>
+						<td>
 							<?php cf_presentations(array(589, 590, 575, 568)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(690, 597)); ?>
+							<?php cf_presentations(array(597)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(541, 540, 555, 559)); ?>

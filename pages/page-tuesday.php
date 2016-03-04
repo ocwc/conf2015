@@ -32,7 +32,7 @@
 			    <tbody>
 			    	<tr>
 			    		<td>9.00&nbsp-&nbsp11.00</td>
-			    		<td class="">
+			    		<td class="" colspan="2">
 								<?php cf_presentations(array(692)); ?>
 							</td>
 			    	</tr>

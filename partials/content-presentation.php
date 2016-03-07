@@ -1,16 +1,18 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('col-md-10 col-md-offset-1'); ?>>
 	<?php $tracks = get_field_object('presentation_track')['choices']; ?>
-	<h4>
-		<a href="<?php echo get_bloginfo('url'); ?>/presentations/">
-			<span class="label label-primary">
-				<?php if ( array_key_exists(get_field('presentation_track'), $tracks) ) : ?>
-					<?php echo $tracks[get_field('presentation_track')]; ?>
-				<?php else : ?>
-					<?php the_field('presentation_track'); ?>
-				<?php endif; ?>
-			</span>
-		</a>
-	</h4>
+	<?php if ( get_field('presentation_track') && $tracks) :?>
+		<h4>
+			<a href="<?php echo get_bloginfo('url'); ?>/presentations/">
+				<span class="label label-primary">
+					<?php if ( array_key_exists(get_field('presentation_track'), $tracks) ) : ?>
+						<?php echo $tracks[get_field('presentation_track')]; ?>
+					<?php else : ?>
+						<?php the_field('presentation_track'); ?>
+					<?php endif; ?>
+				</span>
+			</a>
+		</h4>
+	<?php endif; ?>
 
 	<h1><?php the_title(); ?></h1>
 	<h3><?php the_field('presentation_author'); ?> <br /></h3>

@@ -118,10 +118,18 @@
 								<?php cf_presentations(array(585, 596, 815, 551)); ?>
 							</td>
 							<td>
-								<?php cf_presentations(array(558, 577, 763)); ?>
+								<?php cf_presentations(array(763)); ?>
+								<p>
+									Poster Highlights will take place in a different venue: Hall 1.
+								</p>
+								<p>
+									Poster presenters will deliver short presentations in Hall 1 from
+									15:30 until 16:30.
+								</p>
+
 							</td>
 							<td>
-								<?php cf_presentations(array(603)); ?>
+								<?php cf_presentations(array(558, 577, 603)); ?>
 							</td>
 							<td>
 								<?php cf_presentations(array(571, 545, 548, 534)); ?>

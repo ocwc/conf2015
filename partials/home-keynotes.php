@@ -5,19 +5,25 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-4 text-center">
+    <div class="col-sm-3 text-center">
       <a href="/2016/keynote-speakers/">
         <img src="http://conference.oeconsortium.org/2016/wp-content/uploads/2015/11/img-jjn-gondol.png" />
       </a>
       <h3>Jan Gondol</h3>
     </div>
-    <div class="col-sm-4 text-center">
+    <div class="col-sm-3 text-center">
       <a href="/2016/keynote-speakers/">
         <img src="http://conference.oeconsortium.org/2016/wp-content/uploads/2015/11/img-anka-mulder.png" />
       </a>
       <h3>Anka Mulder</h3>
     </div>
-    <div class="col-sm-4 text-center">
+    <div class="col-sm-3 text-center">
+      <a href="/2016/keynote-speakers/">
+        <img src="http://conference.oeconsortium.org/2016/wp-content/uploads/2015/11/Lisa.png" />
+      </a>
+      <h3>Lisa Marie Blaschke</h3>
+    </div>
+    <div class="col-sm-3 text-center">
       <a href="/2016/keynote-speakers/">
         <img src="http://conference.oeconsortium.org/2016/wp-content/uploads/2015/11/img-jaroslaw-lipszyc.png" />
       </a>

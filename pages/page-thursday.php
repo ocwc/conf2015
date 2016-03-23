@@ -47,10 +47,10 @@
 							<?php cf_presentations(array(723)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(859)); ?>
+							<?php cf_presentations(array(562)); ?>
 						</td>
 						<td>
-
+							<?php cf_presentations(array(859)); ?>
 						</td>
 					</tr>
 					<tr class="td-5">

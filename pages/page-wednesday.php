@@ -109,7 +109,7 @@
 					<tr class="td-5">
 						<td>15.30&nbsp-&nbsp17.30</td>
 						<td>
-							<?php cf_presentations(array(592, 585, 651, 561)); ?>
+							<?php cf_presentations(array(592, 585, 651, 561, 875)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(684)); ?>

@@ -60,7 +60,7 @@
 							<?php cf_presentations(array(686)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(528)); ?>
+							<?php cf_presentations(array(873)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(723)); ?>

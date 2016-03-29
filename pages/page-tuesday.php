@@ -51,7 +51,7 @@
 								<?php cf_presentations(array(530)); ?>
 							</td>
 							<td>
-								<?php cf_presentations(array(533, 547)); ?>
+								<?php cf_presentations(array(533, 870, 547)); ?>
 							</td>
 				    </tr>
 

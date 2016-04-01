@@ -35,6 +35,10 @@
 							<?php cf_presentations(array(694)); ?>
 						</td>
 					</tr>
+					<tr>
+						<td>10.30&nbsp-&nbsp11.00</td>
+						<td class="text-center" colspan="5">Coffee and Tea Break</td>
+					</tr>
 					<tr class="td-5">
 						<td>11.00&nbsp-&nbsp12.45</td>
 						<td>
@@ -53,9 +57,13 @@
 							<?php cf_presentations(array(859)); ?>
 						</td>
 					</tr>
+					<tr>
+						<td>12:30&nbsp-&nbsp13:30</td>
+						<td class="text-center" colspan="5">Lunch</td>
+					</tr>
 					<tr class="td-5">
-						<td>13:45-17:00<br/>
-								coffee break at 15:30</td>
+						<td>13.45-17.00<br/>
+								coffee break at 15.30</td>
 						<td>
 							<?php cf_presentations(array(686)); ?>
 						</td>

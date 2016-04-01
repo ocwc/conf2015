@@ -36,6 +36,10 @@
 								<?php cf_presentations(array(692)); ?>
 							</td>
 			    	</tr>
+						<tr>
+							<td>11.00&nbsp-&nbsp11.30</td>
+							<td class="text-center" colspan="5">Coffee and Tea Break</td>
+						</tr>
 						<tr class="td-5">
 							<td>11.30&nbsp-&nbsp12.30</td>
 							<td>
@@ -73,7 +77,10 @@
 				    </thead>
 						<tbody
 						<?php endif; ?>
-
+						<tr>
+							<td>12.30&nbsp-&nbsp13.30</td>
+							<td class="text-center" colspan="5">Lunch</td>
+						</tr>
 						<tr class="td-5">
 							<td>13.30&nbsp-&nbsp15.00</td>
 							<td>
@@ -111,7 +118,10 @@
 				    </thead>
 						<tbody
 						<?php endif; ?>
-
+						<tr>
+							<td>15.00&nbsp-&nbsp15.30</td>
+							<td class="text-center" colspan="5">Coffee and Tea Break</td>
+						</tr>
 						<tr class="td-5">
 							<td>15.30&nbsp-&nbsp17.30</td>
 							<td>
@@ -124,7 +134,7 @@
 								</p>
 								<p>
 									Poster presenters will deliver short presentations in Hall 1 from
-									15:30 until 16:30.
+									15.30 until 16.30.
 								</p>
 
 							</td>

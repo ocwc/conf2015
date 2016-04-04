@@ -125,7 +125,7 @@
 						<tr class="td-5">
 							<td>15.30&nbsp-&nbsp17.30</td>
 							<td>
-								<?php cf_presentations(array(585, 596, 815, 551)); ?>
+								<?php cf_presentations(array(585, 596, 815, 551, 899)); ?>
 							</td>
 							<td>
 								<?php cf_presentations(array(763)); ?>

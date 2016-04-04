@@ -30,6 +30,10 @@
 				</thead>
 				<tbody>
 					<tr>
+						<td>08.00&nbsp-&nbsp13.30</td>
+						<td class="text-center" colspan="5">Registration - Hall 1</td>
+					</tr>
+					<tr>
 						<td>9.00&nbsp-&nbsp10.30</td>
 						<td class="" colspan="2">
 							<?php cf_presentations(array(696)); ?>

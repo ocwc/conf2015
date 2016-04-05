@@ -31,7 +31,7 @@
 				<tbody>
 					<tr>
 						<td>08.00&nbsp-&nbsp13.30</td>
-						<td class="text-center" colspan="5">Registration - Hall 1</td>
+						<td class="text-center" colspan="5">Registrations - Hall 1</td>
 					</tr>
 					<tr>
 						<td>9.00&nbsp-&nbsp10.30</td>
@@ -41,7 +41,7 @@
 					</tr>
 					<tr>
 						<td>10.30&nbsp-&nbsp11.00</td>
-						<td class="text-center" colspan="5">Coffee and Tea Break</td>
+						<td class="text-center" colspan="5">Tea/Coffee Break</td>
 					</tr>
 					<tr class="td-5">
 						<td>11.00&nbsp-&nbsp12.30</td>
@@ -78,7 +78,7 @@
 					<?php endif; ?>
 					<tr>
 						<td>12.30&nbsp-&nbsp13.30</td>
-						<td class="text-center" colspan="5">Coffee and Tea Break</td>
+						<td class="text-center" colspan="5">Tea/Coffee Break</td>
 					</tr>
 					<tr class="td-5">
 						<td>13.30&nbsp-&nbsp15.00</td>
@@ -140,7 +140,7 @@
 					</tr>
 					<tr>
 						<td>19.00</td>
-						<td>
+						<td class="text-center">
 						<?php cf_presentations(array(823)); ?>
 						</td>
 					</tr>

@@ -86,7 +86,7 @@
 					</tr>
 					<tr>
 						<td>17.00</td>
-						<td class="text-center">
+						<td class="text-center" colspan="5">
 							CLOSING RECEPTION
 						</td>
 					</tr>

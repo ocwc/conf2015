@@ -140,8 +140,8 @@
 					</tr>
 					<tr>
 						<td>19.00</td>
-						<td class="text-center">
-						<?php cf_presentations(array(823)); ?>
+						<td class="text-center" colspan="5">
+							<?php cf_presentations(array(823)); ?>
 						</td>
 					</tr>
 				</tbody>

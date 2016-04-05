@@ -35,7 +35,7 @@
 					</tr>
 					<tr>
 						<td>9.00&nbsp-&nbsp10.30</td>
-						<td class="" colspan="2">
+						<td class="" colspan="5">
 							<?php cf_presentations(array(696)); ?>
 						</td>
 					</tr>
@@ -78,7 +78,7 @@
 					<?php endif; ?>
 					<tr>
 						<td>12.30&nbsp-&nbsp13.30</td>
-						<td class="text-center" colspan="5">Tea/Coffee Break</td>
+						<td class="text-center" colspan="5">Lunch</td>
 					</tr>
 					<tr class="td-5">
 						<td>13.30&nbsp-&nbsp15.00</td>

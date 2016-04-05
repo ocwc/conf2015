@@ -118,7 +118,7 @@
 					<?php endif; ?>
 					<tr>
 						<td>15.00&nbsp-&nbsp15.30</td>
-						<td class="text-center" colspan="5">Coffee and Tea Break</td>
+						<td class="text-center" colspan="5">Tea/Coffee Break</td>
 					</tr>
 					<tr class="td-5">
 						<td>15.30&nbsp-&nbsp17.30</td>

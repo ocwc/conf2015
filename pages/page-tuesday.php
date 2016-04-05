@@ -32,7 +32,7 @@
 			    <tbody>
 						<tr>
 							<td>08.00&nbsp-&nbsp16:00</td>
-							<td class="text-center" colspan="5">Registration - Hall 1</td>
+							<td class="text-center" colspan="5">Registrations - Hall 1</td>
 						</tr>
 						<tr>
 			    		<td>9.00&nbsp-&nbsp9.15</td>
@@ -42,13 +42,13 @@
 			    	</tr>
 			    	<tr>
 			    		<td>9.15&nbsp-&nbsp11.00</td>
-			    		<td class="" colspan="2">
+			    		<td class="" colspan="5">
 								<?php cf_presentations(array(692)); ?>
 							</td>
 			    	</tr>
 						<tr>
 							<td>11.00&nbsp-&nbsp11.30</td>
-							<td class="text-center" colspan="5">Coffee and Tea Break</td>
+							<td class="text-center" colspan="5">Tea/Coffee Break</td>
 						</tr>
 						<tr class="td-5">
 							<td>11.30&nbsp-&nbsp12.30</td>
@@ -130,7 +130,7 @@
 						<?php endif; ?>
 						<tr>
 							<td>15.00&nbsp-&nbsp15.30</td>
-							<td class="text-center" colspan="5">Coffee and Tea Break</td>
+							<td class="text-center" colspan="5">Tea/Coffee Break</td>
 						</tr>
 						<tr class="td-5">
 							<td>15.30&nbsp-&nbsp17.30</td>
@@ -140,13 +140,11 @@
 							<td>
 								<?php cf_presentations(array(763)); ?>
 								<p>
-									Poster Highlights will take place in a different venue: Hall 1.
+									Poster Highlights will take place in Hall 1.
 								</p>
 								<p>
-									Poster presenters will deliver short presentations in Hall 1 from
-									15.30 until 16.30.
+									Poster presenters will deliver short presentations in Hall 1 from 15:30 until 16:30.
 								</p>
-
 							</td>
 							<td>
 								<?php cf_presentations(array(558, 577, 603)); ?>
@@ -160,7 +158,7 @@
 				    </tr>
 						<tr>
 			    		<td>18.00</td>
-			    		<td colspan="5" class="">
+			    		<td colspan="5" class="text-center">
 								<?php cf_presentations(array(827)); ?>
 							</td>
 			    	</tr>

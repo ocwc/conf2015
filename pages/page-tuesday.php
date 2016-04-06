@@ -34,14 +34,8 @@
 							<td>08.00&nbsp-&nbsp16:00</td>
 							<td class="text-center" colspan="5">Registrations - Hall 1</td>
 						</tr>
-						<tr>
-			    		<td>9.00&nbsp-&nbsp9.15</td>
-			    		<td class="" colspan="2">
-								Opening
-							</td>
-			    	</tr>
 			    	<tr>
-			    		<td>9.15&nbsp-&nbsp11.00</td>
+			    		<td>9.00&nbsp-&nbsp11.00</td>
 			    		<td class="" colspan="5">
 								<?php cf_presentations(array(692)); ?>
 							</td>

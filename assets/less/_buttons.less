@@ -1,0 +1,44 @@
+@import "mixins/gradients";
+
+.btn-color(@color-primary) {
+	position: relative;
+	top: 0;
+
+	color: @white;
+	border-color: @color-primary;
+
+	#gradient > .vertical(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0), 0%, 100%);
+	background-color: @color-primary;
+
+	box-shadow: 0 2px darken(@color-primary, 20%);
+	border-radius: 0;
+
+	&:hover, &:focus {
+		position: relative;
+		top: -1px;
+
+		color: @white;
+		#gradient > .vertical(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0), 0%, 100%);
+		box-shadow: 0 3px darken(@color-primary, 20%);
+	}
+
+	&:active {
+		position: relative;
+		top: 2px;
+
+		#gradient > .vertical(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0), 0%, 100%);
+		box-shadow: none;
+	}
+}
+
+.btn-orange {
+  .btn-color(@orange);
+}
+
+.btn-featured {
+	padding: 12px 50px;
+	margin-top: 25px;
+	
+	font-size: 18px;
+	letter-spacing: 1px;
+}

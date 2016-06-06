@@ -1,9 +1,10 @@
 <?php get_header(); ?>
 
+	<?php get_template_part('partials/home', 'featured'); ?>
 
-	<?php get_template_part('partials/_slick'); ?>
+	<?php //get_template_part('partials/_slick'); ?>
 
-	<?php get_template_part('partials/home', 'keynotes'); ?>
+	<?php //get_template_part('partials/home', 'keynotes'); ?>
 
 	<?php // get_template_part('partials/home', 'cfp'); ?>
 

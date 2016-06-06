@@ -17,12 +17,22 @@
   padding-left: 10px;
   padding-right: 10px;
 
-  font-size: 15px;
+  font-size: 16px;
+  color: @menu-text;
+  letter-spacing: 0.5px;
+
+  .home & {
+    color: @menu-text-home;
+  }
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: @menu-text-active;
+
+  .home & {
+    color: @menu-text-home-active;
+  }
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -30,4 +40,19 @@
 .navbar-default .navbar-nav > .active > a:focus {
   color: @menu-text-active;
   background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: transparent;
+}
+
+.dropdown-menu {
+  background-color: @orange;
+}
+
+.dropdown-menu > li > a {
+  color: @white;
+  letter-spacing: 0.5px;
 }

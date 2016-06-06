@@ -17,7 +17,7 @@
           title="<?php the_sub_field('attribution'); ?>"
           href="<?php echo $image['sizes']['large']; ?>"
           >
-          
+
           <img
             src="<?php echo $image['sizes']['home-small']; ?>"
             class="img-responsive"

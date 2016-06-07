@@ -1,5 +1,5 @@
 <div class="awards-container hidden-xs">
-  <div class="container home-vertical-spacing boffset-35">
+  <div class="container">
     <div class="row">
       <div class="col-sm-4 col-sm-offset-1">
         <img class="img-responsive" src="<?php echo get_template_directory_uri() . '/img/awards/badge-oeawards-2016.png'; ?>">

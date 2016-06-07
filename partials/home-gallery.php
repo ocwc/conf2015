@@ -1,9 +1,10 @@
 <?php if ( have_rows('home_gallery', 'options') ) : ?>
-  <div class="container home-vertical-spacing">
+<div class="home-gallery-container">
+  <div class="container">
     <div class="row">
-      <div class="col-sm-12 text-center">
-    		<h2 class="grayLight"><?php the_field('home_gallery_title', 'options'); ?></h2>
-        <p class="text-center"><?php the_field('home_gallery_description', 'options'); ?></p>
+      <div class="col-sm-12 text-center boffset-35">
+    		<h2 class="u-text-white"><?php the_field('home_gallery_title', 'options'); ?></h2>
+        <p class="text-center u-text-white"><?php the_field('home_gallery_description', 'options'); ?></p>
     	</div>
     </div>
 
@@ -27,4 +28,5 @@
     <?php endwhile; ?>
     </div>
   </div>
+</div>
 <?php endif; ?>

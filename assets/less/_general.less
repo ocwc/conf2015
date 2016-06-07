@@ -121,6 +121,19 @@ li {
   text-decoration: none;
 }
 
+.btn-white {
+  .btn(@white, transparent);
+}
+
+.btn-white:hover,
+.btn-white:active,
+.btn-white:focus {
+  color: @black;
+  background-color: @white;
+  text-decoration: none;
+}
+
+
 /*
  * Gravity forms
  */
@@ -266,7 +279,8 @@ li {
   padding-top: 30px;
   padding-bottom: 0px;
 
-  background-color: @yellow;
+  // background-color: @yellow;
+  background-image: radial-gradient(48% 103%, #6FC4F5 48%, #4DA1DF 74%, #00499A 100%)
 }
 
 /* Home Featured */

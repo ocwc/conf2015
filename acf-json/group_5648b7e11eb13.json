@@ -59,7 +59,7 @@
             },
             "collapsed": "",
             "min": "",
-            "max": 9,
+            "max": "",
             "layout": "table",
             "button_label": "Add Flickr Image",
             "sub_fields": [
@@ -144,5 +144,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1447607318
+    "modified": 1465375333
 }

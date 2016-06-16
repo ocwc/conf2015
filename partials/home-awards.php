@@ -11,7 +11,7 @@
       </div>
       <div class="col-sm-4 col-sm-offset-4">
         <div class="text-center voffset-20 boffset-35">
-          <a href="http://www.oeconsortium.org/projects/open-education-awards-for-excellence/" class="btn-white btn-block" target="_blank">Submit Nomination</a>
+          <a href="http://www.oeconsortium.org/projects/open-education-awards-for-excellence/" class="btn-white btn-block" target="_blank">Learn more</a>
         </div>
       </div>
       </div>

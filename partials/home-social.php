@@ -5,12 +5,12 @@
 	<div class="col-sm-4">
 		<ul class="share-buttons pull-right">
 			<li>
-          <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fconference.oeconsortium.org%2F2016%2F&text=OEC%20Global%202015%20%23oecglobal:%20http%3A%2F%2Fconference.oeconsortium.org%2F2016%2F&via=oeconsortium" target="_blank" title="Tweet">
+          <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fconference.oeconsortium.org%2F2017%2F&text=OEC%20Global%202017%20%23oecglobal:%20http%3A%2F%2Fconference.oeconsortium.org%2F2017%2F&via=oeconsortium" target="_blank" title="Tweet">
             <i class="ikon-twitter-circled"></i>
           </a>
       </li>
 			<li>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fconference.oeconsortium.org%2F2016%2F&t=OEC%20Global%202016%20%23oecglobal" target="_blank">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fconference.oeconsortium.org%2F2017%2F&t=OEC%20Global%202017%20%23oecglobal" target="_blank">
           <i class="ikon-facebook-circled"></i>
         </a>
       </li>

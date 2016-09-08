@@ -141,10 +141,10 @@ module.exports = function (grunt) {
 
   });
 
-  grunt.registerTask('build', ['fonts',
-                               'less:develop_bootstrap', 'less:develop_style',
+  grunt.registerTask('build', ['less:develop_bootstrap', 'less:develop_style',
                                'uglify:develop_script', 'uglify:develop_components',
-                               'less:build', 'jshint', 'uglify:build']);
+                               'less:build', 'jshint', 'uglify:build',
+                               'fonts']);
   grunt.registerTask('default', ['build']);
   grunt.registerTask('develop', ['less:develop_bootstrap', 'less:develop_style',
                                  'uglify:develop_script', 'uglify:develop_components',

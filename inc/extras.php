@@ -34,3 +34,11 @@ function cf_presentations( $posts ) {
 
 	wp_reset_postdata();
 }
+
+function ping_api_server( $entry, $form ) {
+    $url = 'http://members.oeconsortium.org/conferences/invoice/ping/';
+
+    $result = wp_remote_get( $url, array( 'timeout' => 120, 'httpversion' => '1.1' ) );
+    $response = wp_remote_retrieve_body( $result );
+}
+add_action( 'gform_after_submission', 'ping_api_server', 10, 2 );

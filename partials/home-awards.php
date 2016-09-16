@@ -6,7 +6,7 @@
       </div>
       <div class="col-sm-8 col-sm-offset-2 awards-text voffset-35">
         <p class="u-text-white">
-          The Open Education Awards for Excellence provide annual recognition to outstanding contributions in the Open Education Consortium community. These awards recognize distinctive open education sites, technological innovations, notable open courses, and exemplary leaders in Open Education worldwide.
+          The Open Education Awards for Excellence provide annual recognition to outstanding contributions in the Open Education community. These awards recognize distinctive Open Educational Resources, Open Projects &amp; Initiatives, as well as exemplary leaders in Open Education worldwide.
         </p>
       </div>
       <div class="col-sm-4 col-sm-offset-4">

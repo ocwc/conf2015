@@ -3,6 +3,11 @@
     "title": "Presentation",
     "fields": [
         {
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
             "key": "field_54c9fdf91b250",
             "label": "Author(s)",
             "name": "presentation_author",
@@ -15,15 +20,15 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": "",
             "readonly": 0,
             "disabled": 0
         },
         {
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
             "key": "field_54ca00dab17ce",
             "label": "Institution(s)",
             "name": "presentation_institution",
@@ -36,15 +41,24 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": "",
             "readonly": 0,
             "disabled": 0
         },
         {
+            "layout": "vertical",
+            "choices": {
+                "integration": "Integration of Open Practices",
+                "collaboration": "Collaboration",
+                "strategy": "Open Education as Strategy",
+                "research": "Research to Advance Open Education",
+                "initiatives": "Open Education Initiatives in Europe",
+                "actionlab": "Action Lab"
+            },
+            "default_value": "",
+            "other_choice": 1,
+            "save_other_choice": 0,
+            "allow_null": 0,
+            "return_format": "value",
             "key": "field_54c9fe2a1b252",
             "label": "Track",
             "name": "presentation_track",
@@ -56,21 +70,14 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            },
-            "choices": {
-                "integration": "Integration of Open Practices",
-                "collaboration": "Collaboration",
-                "strategy": "Open Education as Strategy",
-                "research": "Research to Advance Open Education",
-                "initiatives": "Open Education Initiatives in Europe",
-                "actionlab": "Action Lab"
-            },
-            "other_choice": 1,
-            "save_other_choice": 0,
-            "default_value": "",
-            "layout": "vertical"
+            }
         },
         {
+            "return_format": "array",
+            "library": "all",
+            "min_size": 0,
+            "max_size": 0,
+            "mime_types": "",
             "key": "field_54cd31c3de2f1",
             "label": "Abstract (PDF)",
             "name": "presentation_pdf",
@@ -82,14 +89,14 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            },
+            }
+        },
+        {
             "return_format": "array",
             "library": "all",
             "min_size": 0,
             "max_size": 0,
-            "mime_types": ""
-        },
-        {
+            "mime_types": "",
             "key": "field_54d0b4b89e900",
             "label": "Full paper (PDF)",
             "name": "presentation_paper",
@@ -101,14 +108,11 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            },
-            "return_format": "array",
-            "library": "all",
-            "min_size": 0,
-            "max_size": 0,
-            "mime_types": ""
+            }
         },
         {
+            "default_value": "",
+            "placeholder": "",
             "key": "field_54cd31dade2f2",
             "label": "Slideshare",
             "name": "presentation_slideshare",
@@ -120,9 +124,26 @@
                 "width": "",
                 "class": "",
                 "id": ""
-            },
+            }
+        },
+        {
             "default_value": "",
-            "placeholder": ""
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "key": "field_5877adfd78f01",
+            "label": "Easy chair paper number",
+            "name": "presentation_easychair_id",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
         }
     ],
     "location": [
@@ -142,5 +163,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1455102664
+    "modified": 1484238347
 }

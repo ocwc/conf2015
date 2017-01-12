@@ -16,120 +16,70 @@
 		<div class="col-sm-12 row">
 			<table class="table table-striped">
 			    <thead>
-			        <tr>
-			            <th class="time-col"></th>
-			            <th class="room-col">Main Hall</th>
-			            <th class="room-col">
-			            	Breakout Room&nbsp;1<br />
-			            	<em>(Lynx)</em>
-			            </th>
-			            <th class="room-col">
-			            	Breakout Room&nbsp;2<br />
-			            	<em>(Black Bear)</em>
-			            </th>
-			            <th class="room-col">
-			            	Breakout Room&nbsp;3<br />
-			            	<em>(Den)</em>
-			            </th>
-			            <!--
-			            <th class="room-col">
-			            	Research Track<br />
-			            	<em>(Aspen)</em>
-			            </th>
-			            -->
-			        </tr>
+					<tr>
+							<th class="time-col"></th>
+							<th class="room-col">Auditorium (no Labs)</th>
+							<th class="room-col">Room&nbsp;2</th>
+							<th class="room-col">Room&nbsp;3</th>
+							<th class="room-col">Room&nbsp;4</th>
+							<th class="room-col">Room&nbsp;5</th>
+							<th class="room-col">Room&nbsp;6</th>
+					</tr>
 			    </thead>
 			    <tbody>
-			    	<tr>
-			    		<td>8:00</td>
-			    		<td class="text-center" colspan="5">Registration & Refreshments</td>
-			    	</tr>
-			    	<tr>
-			    		<td>9:00</td>
-			    		<td>
-			    			Keynote: Mark Surman
-			    		</td>
-			    	</tr>
 					<tr>
-						<td>10:00</td>
-						<td class="text-center" colspan="5">Refreshments</td>
+						<td>08.00&nbsp-&nbsp9.00</td>
+						<td class="text-center" colspan="6">Registrations</td>
 					</tr>
 					<tr class="td-5">
-						<td>10:30</td>
+						<td>09.00 - 10.30</td>
 						<td>
-							<span class="panel-title">Panel Discussion</span>
-							<?php cf_presentations(array(334)); ?>
+							<?php cf_presentations(array(402, 425)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(393)); ?>
+							<?php cf_presentations(array(345)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(831)); ?>
+							<?php cf_presentations(array(382, 445, 387)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(500)); ?>
-						</td>
-					</tr>
-					<tr class="td-5">
-						<td>11:30</td>
-						<td>
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(383)); ?>
+							<?php cf_presentations(array(355, 384, 434)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Panel Discussion</span>
-							<?php cf_presentations(array(701)); ?>
+							<?php cf_presentations(array(409, 395, 408)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(833)); ?>
-						</td>
-						<td>
-							<span class="panel-title">Panel Discussion</span>
-							<?php cf_presentations(array(498)); ?>
+							<?php cf_presentations(array(353, 367, 372)); ?>
 						</td>
 					</tr>
 					<tr>
-						<td>12:30</td>
-						<td class="text-center" colspan="5">Lunch</td>
+						<td>10:30-11.00</td>
+						<td class="text-center" colspan="6">Tea/Coffee Break</td>
 					</tr>
 					<tr class="td-5">
-						<td>13:30</td>
-						<td>OE Consortium Update</td>
+						<td>11:00-12:30</td>
 						<td></td>
 						<td></td>
-						<td></td>
-					</tr>
-					<tr class="td-5">
-						<td>14:00</td>
 						<td>
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(743)); ?>
+							<?php cf_presentations(array(410, 447, 406)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(495)); ?>
+							<?php cf_presentations(array(351)); ?>
 						</td>
 						<td>
-							<!-- <span class="panel-title">Action Lab</span> -->
-							<!-- <?php cf_presentations(array(490)); ?> -->
+							<?php cf_presentations(array(424, 415)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Action Lab</span>
-							<?php cf_presentations(array(492)); ?>
+							<?php cf_presentations(array(350)); ?>
 						</td>
 					</tr>
-<!-- 				<tr>
-						<td>16:30</td>
-						<td class="text-center" colspan="5">Closing Ceremony</td>
-					</tr> -->
 					<tr>
-						<td>16:30</td>
-						<td class="text-center" colspan="5">End of day 3</td>
+						<td>12:45-13:35</td>
+						<td class="text-center" colspan="6">Lunch</td>
 					</tr>
+					<tr class="td-5">
+						<td>13:45-15.30</td>
+						<td class="text-center" colspan="6">The Cape Town Open Education Declaration +10 Panel and Celebration</td>
 			    </tbody>
 			</table>
 		</div>

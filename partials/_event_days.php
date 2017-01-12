@@ -19,12 +19,12 @@
 				<li role="presentation"
 					<?php if ( $post->post_name === 'thursday' ) : ?>class="active"<?php endif; ?>
 				>
-					<a href="<?php echo get_bloginfo('url') . '/schedule/wednesday/'; ?>">Thursday, 9 March</a>
+					<a href="<?php echo get_bloginfo('url') . '/schedule/thursday/'; ?>">Thursday, 9 March</a>
 				</li>
 				<li role="presentation"
 					<?php if ( $post->post_name === 'friday' ) : ?>class="active"<?php endif; ?>
 				>
-					<a href="<?php echo get_bloginfo('url') . '/schedule/thursday/'; ?>">Friday, 10 March</a>
+					<a href="<?php echo get_bloginfo('url') . '/schedule/friday/'; ?>">Friday, 10 March</a>
 				</li>
 				<li role="presentation"
 					<?php if ( $post->post_name === 'posters' ) : ?>class="active"<?php endif; ?>

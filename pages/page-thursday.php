@@ -19,75 +19,106 @@
 			<table class="table table-striped">
 				<caption>Thursday, 9 March</caption>
 				<thead>
-						<tr>
-								<th class="time-col"></th>
-								<th class="room-col">Room&nbsp;A1</th>
-								<th class="room-col">Room&nbsp;A2</th>
-								<th class="room-col">Room&nbsp;B</th>
-								<th class="room-col">Room&nbsp;C</th>
-								<th class="room-col">Room&nbsp;D</th>
-						</tr>
+					<th class="room-col">Room&nbsp;1</th>
+					<th class="room-col">Room&nbsp;2</th>
+					<th class="room-col">Room&nbsp;3</th>
+					<th class="room-col">Room&nbsp;4</th>
+					<th class="room-col">Room&nbsp;5</th>
+					<th class="room-col">Room&nbsp;6</th>
 				</thead>
 				<tbody>
 					<tr>
-						<td>08.00&nbsp-&nbsp13.30</td>
-						<td class="text-center" colspan="5">Registrations - Hall 1</td>
+						<td>&nbsp8.00&nbsp-&nbsp13.30</td>
+						<td class="text-center" colspan="6">Registrations</td>
 					</tr>
 					<tr>
-						<td>9.00&nbsp-&nbsp10.30</td>
+						<td>&nbsp9.00&nbsp-&nbsp10.00</td>
+						<td class="text-center" colspan="6">Announcements &amp; Keynote Panel</td>
+						<!--
 						<td class="">
-							<?php cf_presentations(array(694)); ?>
+							<?php //cf_presentations(array(694)); ?>
 						</td>
+						-->
 					</tr>
 					<tr>
-						<td>10.30&nbsp-&nbsp11.00</td>
-						<td class="text-center" colspan="5">Tea/Coffee Break</td>
+						<td>10.00&nbsp-&nbsp10.30</td>
+						<td class="text-center" colspan="6">Tea/Coffee Break</td>
 					</tr>
 					<tr class="td-5">
 						<td>11.00&nbsp-&nbsp12.45</td>
 						<td>
-							<?php cf_presentations(array(580)); ?>
+							<?php cf_presentations(array(359, 392)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(528)); ?>
+							<?php cf_presentations(array(346)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(723)); ?>
+							<?php cf_presentations(array(342)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(562)); ?>
+							<?php cf_presentations(array(377, 380, 396, 426)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(859)); ?>
+							<?php cf_presentations(array(361, 448, 451)); ?>
+						</td>
+						<td>
+							<?php cf_presentations(array(431, 432, 389)); ?>
 						</td>
 					</tr>
 					<tr>
 						<td>12:30&nbsp-&nbsp13:30</td>
-						<td class="text-center" colspan="5">Lunch</td>
+						<td class="text-center" colspan="6">Lunch</td>
 					</tr>
 					<tr class="td-5">
-						<td>13.45-17.00<br/>
-								coffee break at 15.30</td>
+						<td>13.30 - 15.00</td>
 						<td>
-							<?php cf_presentations(array(686)); ?>
+							<?php cf_presentations(array(362)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(873)); ?>
+							<?php cf_presentations(array(452, 435, 378, 376)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(723)); ?>
+							<?php cf_presentations(array(394, 438)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(578)); ?>
+							<?php cf_presentations(array(379, 354, 418)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(600)); ?>
+							<?php cf_presentations(array(344)); ?>
+						</td>
+						<td>
+							<?php cf_presentations(array(357, 348)); ?>
 						</td>
 					</tr>
 					<tr>
-						<td>17.00</td>
+						<td>15:00&nbsp-&nbsp15:30</td>
+						<td class="text-center" colspan="6">Tea/Coffee Break</td>
+					</tr>
+					<tr>
+						<td>15.30 - 17.30</td>
+						<td>
+							<?php cf_presentations(array(363, 454, 433)); ?>
+						</td>
+						<td>
+							<?php cf_presentations(array(430, 455, 460)); ?>
+						</td>
+						<td>
+							<?php cf_presentations(array(428, 399, 421)); ?>
+						</td>
+						<td>
+							<?php cf_presentations(array(340)); ?>
+						</td>
+						<td>
+							<?php cf_presentations(array(341, 427)); ?>
+						</td>
+						<td>
+							<?php cf_presentations(array(443, 414, 375)); ?>
+						</td>
+					</tr>
+					<tr>
+						<td>19.00</td>
 						<td class="text-center" colspan="5">
-							CLOSING RECEPTION
+							DINNER (CTICC) and award ceremony
 						</td>
 					</tr>
 				</tbody>

@@ -13,6 +13,13 @@
 	</div>
 
 	<div class="col-sm-12">
+		<?php $track = ''; ?>
+		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
+	</div>
+
+
+	<?php /*
+	<div class="col-sm-12">
 		<h2>Integration of Open Practices</h2>
 		<?php $track = 'integration'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
@@ -42,6 +49,7 @@
 		<?php $track = 'initiatives'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
+	/* ?>
 
 	<?php /*
 	<div class="col-sm-12">
@@ -51,12 +59,13 @@
 	</div>
 	*/ ?>
 
-
+	<?php /*
 	<div class="col-sm-12">
 		<h2>Action Lab</h2>
 		<?php $track = 'actionlab'; ?>
 		<?php include(locate_template( 'partials/_presentation-loop.php' ) ); ?>
 	</div>
+	*/ ?>
 
 
 	<?php /*

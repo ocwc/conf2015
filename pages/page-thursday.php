@@ -12,12 +12,12 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12">
-			<h1>Thursday,	14 April</h1>
+			<h1>Thursday, 9 March</h1>
 		</div>
 
 		<div class="col-sm-12 row">
 			<table class="table table-striped">
-				<caption>Wednesday,	14 April</caption>
+				<caption>Thursday, 9 March</caption>
 				<thead>
 						<tr>
 								<th class="time-col"></th>

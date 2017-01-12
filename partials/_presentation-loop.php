@@ -4,12 +4,12 @@
 							'order' => 'ASC',
 							'posts_per_page' => -1,
 
-							'meta_query' => array(
-								array(
-									'key' => 'presentation_track',
-									'value' => $track
-								),
-							)
+							// 'meta_query' => array(
+							// 	array(
+							// 		'key' => 'presentation_track',
+							// 		'value' => $track
+							// 	),
+							// )
 						));
 ?>
 

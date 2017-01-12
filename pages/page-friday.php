@@ -10,7 +10,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12">
-			<h1>Friday,	24 April 2015</h1>
+			<h1>Friday, 10 March</h1>
 		</div>
 
 		<div class="col-sm-12 row">

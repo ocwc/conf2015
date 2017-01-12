@@ -1,7 +1,7 @@
 <tr>
 	<?php if ( is_user_logged_in() ) : ?>
-		<td><?php the_ID(); ?></td>
-		<td>x<?php the_field('presentation_easychair_id'); ?>y</td>
+		<td><?php //the_ID(); ?></td>
+		<td><?php //the_field('presentation_easychair_id'); ?></td>
 	<?php endif; ?>
 	<td class="col-sm-6">
 		<?php the_field('presentation_author'); ?> <br />

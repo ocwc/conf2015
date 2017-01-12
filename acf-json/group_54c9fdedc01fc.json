@@ -57,7 +57,7 @@
             "default_value": "",
             "other_choice": 1,
             "save_other_choice": 0,
-            "allow_null": 0,
+            "allow_null": 1,
             "return_format": "value",
             "key": "field_54c9fe2a1b252",
             "label": "Track",
@@ -163,5 +163,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1484238347
+    "modified": 1484238435
 }

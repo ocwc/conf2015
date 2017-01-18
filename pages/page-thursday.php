@@ -92,7 +92,7 @@
 					</tr>
 					<tr>
 						<td>15:00&nbsp-&nbsp15:30</td>
-						<td class="text-center" colspan="6">Tea/Coffee Break</td>
+						<td class="text-center" colspan="6">Tea/Coffee Break &amp; Poster Presentations</td>
 					</tr>
 					<tr>
 						<td>15.30 - 17.30</td>

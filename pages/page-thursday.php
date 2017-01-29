@@ -42,7 +42,7 @@
 					</tr>
 					<tr>
 						<td>10.00&nbsp-&nbsp10.30</td>
-						<td class="text-center" colspan="6">Tea/Coffee Break</td>
+						<td class="text-center" colspan="6">Tea/Coffee Break &amp; Poster Presentations</td>
 					</tr>
 					<tr class="td-5">
 						<td>11.00&nbsp-&nbsp12.45</td>
@@ -92,7 +92,7 @@
 					</tr>
 					<tr>
 						<td>15:00&nbsp-&nbsp15:30</td>
-						<td class="text-center" colspan="6">Tea/Coffee Break</td>
+						<td class="text-center" colspan="6">Tea/Coffee Break &amp; Poster Presentations</td>
 					</tr>
 					<tr>
 						<td>15.30 - 17.30</td>
@@ -118,7 +118,7 @@
 					<tr>
 						<td>19.00</td>
 						<td class="text-center" colspan="5">
-							DINNER (CTICC) and award ceremony
+							Gala Dinner (CTICC) and Open Education Awards for Excellence Ceremony
 						</td>
 					</tr>
 				</tbody>

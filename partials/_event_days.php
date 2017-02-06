@@ -29,7 +29,7 @@
 				<li role="presentation"
 					<?php if ( $post->post_name === 'posters' ) : ?>class="active"<?php endif; ?>
 				>
-				<a href="<?php echo get_bloginfo('url') . '/schedule/posters/'; ?>">Posters</a>
+					<a href="<?php echo get_bloginfo('url') . '/schedule/posters/'; ?>">Posters</a>
 				</li>
 			</ul>
 		</div>

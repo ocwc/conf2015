@@ -24,9 +24,11 @@
 
 			    <tbody>
 			    	<tr class="td-3">
-						<td><?php cf_presentations(array(518, 519, 520)); ?></td>
-						<td><?php cf_presentations(array(521, 522, 523)); ?></td>
-						<td><?php cf_presentations(array(524, 525, 526)); ?></td>
+						<td>
+							<?php cf_presentations(array(518, 519, 520)); ?>
+							<?php cf_presentations(array(521, 522, 523)); ?>
+							<?php cf_presentations(array(524, 525, 526)); ?>
+						</td>
 			    	</tr>
 			    </tbody>
 			</table>

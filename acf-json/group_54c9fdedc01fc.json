@@ -52,7 +52,8 @@
                 "strategy": "Open Education as Strategy",
                 "research": "Research to Advance Open Education",
                 "initiatives": "Open Education Initiatives in Europe",
-                "actionlab": "Action Lab"
+                "actionlab": "Action Lab",
+                "poster: Poster": "poster: Poster"
             },
             "default_value": "",
             "other_choice": 1,
@@ -163,5 +164,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1484238435
+    "modified": 1486378773
 }

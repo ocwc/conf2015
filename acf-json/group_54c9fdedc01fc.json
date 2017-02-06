@@ -150,7 +150,9 @@
             "layout": "vertical",
             "choices": {
                 "30min": "30 minutes",
-                "60min": "1 hour"
+                "60min": "1 hour",
+                "90min: 1 hour 30 minutes": "90min: 1 hour 30 minutes",
+                "120min: 2 hours": "120min: 2 hours"
             },
             "default_value": "",
             "other_choice": 0,
@@ -212,5 +214,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1486383935
+    "modified": 1486384293
 }

@@ -18,6 +18,18 @@
 	<h3><?php the_field('presentation_author'); ?> <br /></h3>
 	<h4><em><?php the_field('presentation_institution'); ?></em></h4>
 
+	<?php if ( get_field('presentation_type') || get_field('presentation_length') ) : ?>
+		<h4>
+			<?php if ( get_field('presentation_type') ) : ?>
+				<span class="label label-success"><?php echo get_field('presentation_type')['label']; ?></span>
+			<?php endif; ?>
+
+			<?php if ( get_field('presentation_length') ) : ?>
+				<span class="label label-info"><?php echo get_field('presentation_length')['label']; ?></span>
+			<?php endif; ?>
+		</h4>
+	<?php endif; ?>
+
 	<div class="entry-content">
 		<?php the_content(); ?>
 	</div>

@@ -156,7 +156,7 @@
             "other_choice": 0,
             "save_other_choice": 0,
             "allow_null": 1,
-            "return_format": "value",
+            "return_format": "array",
             "key": "field_58985ab80f3ea",
             "label": "Presentation Length",
             "name": "presentation_length",
@@ -180,7 +180,7 @@
             "other_choice": 0,
             "save_other_choice": 0,
             "allow_null": 1,
-            "return_format": "value",
+            "return_format": "array",
             "key": "field_58985b13f3370",
             "label": "Presentation Type",
             "name": "presentation_type",
@@ -212,5 +212,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1486380388
+    "modified": 1486383935
 }

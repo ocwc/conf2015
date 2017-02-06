@@ -145,6 +145,54 @@
                 "class": "",
                 "id": ""
             }
+        },
+        {
+            "layout": "vertical",
+            "choices": {
+                "30min": "30 minutes",
+                "60min: 1 hour": "60min: 1 hour"
+            },
+            "default_value": "",
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "allow_null": 0,
+            "return_format": "value",
+            "key": "field_58985ab80f3ea",
+            "label": "Presentation Length",
+            "name": "presentation_length",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "layout": "vertical",
+            "choices": {
+                "actionlab": "Action Lab",
+                "panel": "Panel"
+            },
+            "default_value": "",
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "allow_null": 0,
+            "return_format": "value",
+            "key": "field_58985b13f3370",
+            "label": "Presentation Type",
+            "name": "presentation_type",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
         }
     ],
     "location": [
@@ -164,5 +212,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1486378773
+    "modified": 1486379832
 }

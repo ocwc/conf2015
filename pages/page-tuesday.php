@@ -134,7 +134,7 @@
 							<td>
 								<?php cf_presentations(array(763)); ?>
 								<p>
-									Poster Highlights will take place in Hall 1.
+									<a href="posters">Poster Highlights</a> will take place in Hall 1.
 								</p>
 								<p>
 									Poster presenters will deliver short presentations in Hall 1 from 15:30 until 16:30.

@@ -18,7 +18,7 @@
 			<table class="table table-striped">
 			    <thead>
 			        <tr>
-			            <th class="room-col text-center" colspan="3">Foyer</th>
+			            <th class="room-col text-center" colspan="3">Hall 1</th>
 			        </tr>
 			    </thead>
 

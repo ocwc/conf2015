@@ -42,7 +42,7 @@
 					</tr>
 					<tr>
 						<td>10.00&nbsp-&nbsp10.30</td>
-						<td class="text-center" colspan="6">Tea/Coffee Break &amp; Poster Presentations</td>
+						<td class="text-center" colspan="6">Tea/Coffee Break &amp; <a href="../posters">Poster Presentations</a></td>
 					</tr>
 					<tr class="td-5">
 						<td>11.00&nbsp-&nbsp12.45</td>
@@ -92,7 +92,7 @@
 					</tr>
 					<tr>
 						<td>15:00&nbsp-&nbsp15:30</td>
-						<td class="text-center" colspan="6">Tea/Coffee Break &amp; Poster Presentations</td>
+						<td class="text-center" colspan="6">Tea/Coffee Break &amp; <a href="../posters">Poster Presentations</a></td>
 					</tr>
 					<tr>
 						<td>15.30 - 17.30</td>

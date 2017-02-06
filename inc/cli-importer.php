@@ -66,6 +66,7 @@ class Import_Presentations_Command extends WP_CLI_Command {
            // if ( $track_num === 5) {
            //   update_field('presentation_track','initiatives', $post_id);
            // }
+           update_field('presentation_track','poster', $post_id);
 
 
          }

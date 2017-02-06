@@ -10,8 +10,8 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12">
-			<h1>OE Global 2015 Posters/Demonstrations</h1>
-			<h2>Poster highlight on Wednesday 22 April 2015, Displayed in Foyer until 23 April</h2>
+			<h1>OE Global 2017 Posters</h1>
+			<?php /* <h2>Poster highlight on Wednesday 22 April 2015, Displayed in Foyer until 23 April</h2> */ ?>
 		</div>
 
 		<div class="col-sm-12 row">
@@ -24,9 +24,9 @@
 
 			    <tbody>
 			    	<tr class="td-3">
-			    		<td><?php cf_presentations(array(426, 713, 506)); ?></td>
-			    		<td><?php cf_presentations(array(719, 716, 326)); ?></td>
-			    		<td><?php cf_presentations(array(666, 509)); ?></td>
+						<td><?php cf_presentations(array(518, 519, 520)); ?></td>
+						<td><?php cf_presentations(array(521, 522, 523)); ?></td>
+						<td><?php cf_presentations(array(524, 525, 526)); ?></td>
 			    	</tr>
 			    </tbody>
 			</table>

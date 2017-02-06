@@ -45,7 +45,7 @@
 						<td class="text-center" colspan="6">Tea/Coffee Break &amp; <a href="../posters">Poster Presentations</a></td>
 					</tr>
 					<tr class="td-5">
-						<td>11.00&nbsp-&nbsp12.45</td>
+						<td>10.30&nbsp-&nbsp12.30</td>
 						<td>
 							<?php cf_presentations(array(359, 392)); ?>
 						</td>

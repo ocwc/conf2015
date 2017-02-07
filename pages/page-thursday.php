@@ -56,12 +56,15 @@
 							<?php cf_presentations(array(342)); ?>
 						</td>
 						<td>
+							<span class="panel-title">OERzing Student Experience</span>
 							<?php cf_presentations(array(377, 380, 396, 426)); ?>
 						</td>
 						<td>
+							<span class="panel-title">MOOCs</span>
 							<?php cf_presentations(array(361, 448, 451)); ?>
 						</td>
 						<td>
+							<span class="panel-title">OER and Technology</span>
 							<?php cf_presentations(array(431, 432, 389)); ?>
 						</td>
 					</tr>
@@ -72,18 +75,22 @@
 					<tr class="td-5">
 						<td>13.30 - 15.00</td>
 						<td>
+							<span class="panel-title">OER Based Degree &amp; College</span>
 							<?php cf_presentations(array(362)); ?>
 						</td>
 						<td>
+							<span class="panel-title">Research in OER</span>
 							<?php cf_presentations(array(452, 435, 378, 376)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(394, 438)); ?>
 						</td>
 						<td>
+							<span class="panel-title">OER in HE  and Beyond</span>
 							<?php cf_presentations(array(379, 354, 418)); ?>
 						</td>
 						<td>
+							<span class="panel-title">MOOCs</span>
 							<?php cf_presentations(array(344)); ?>
 						</td>
 						<td>
@@ -97,21 +104,26 @@
 					<tr>
 						<td>15.30 - 17.30</td>
 						<td>
+							<span class="panel-title">Openness and Distance Education</span>
 							<?php cf_presentations(array(363, 454, 433)); ?>
 						</td>
 						<td>
+							<span class="panel-title">Africa/Action research</span>
 							<?php cf_presentations(array(430, 455, 460)); ?>
 						</td>
 						<td>
+							<span class="panel-title">Open Information</span>
 							<?php cf_presentations(array(428, 399, 421)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(340)); ?>
 						</td>
 						<td>
+							<span class="panel-title">MOOCs</span>
 							<?php cf_presentations(array(341, 427)); ?>
 						</td>
 						<td>
+							<span class="panel-title">OER and Technology</span>
 							<?php cf_presentations(array(443, 414, 375)); ?>
 						</td>
 					</tr>

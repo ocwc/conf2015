@@ -34,21 +34,26 @@
 					<tr class="td-5">
 						<td>09.00 - 10.30</td>
 						<td>
+							<span class="panel-title">Lessons learnt</span>
 							<?php cf_presentations(array(402, 425, 503)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(345)); ?>
 						</td>
 						<td>
+							<span class="panel-title">OER across the globe</span>
 							<?php cf_presentations(array(382, 445, 387)); ?>
 						</td>
 						<td>
+							<span class="panel-title">Case studies Europe</span>
 							<?php cf_presentations(array(355, 384, 434)); ?>
 						</td>
 						<td>
+							<span class="panel-title">Open pedagogy</span>
 							<?php cf_presentations(array(409, 395, 408)); ?>
 						</td>
 						<td>
+							<span class="panel-title">OER ed tech innovation</span>
 							<?php cf_presentations(array(353, 367, 372)); ?>
 						</td>
 					</tr>
@@ -67,6 +72,7 @@
 							<?php cf_presentations(array(351)); ?>
 						</td>
 						<td>
+							<span class="panel-title">OEP</span>
 							<?php cf_presentations(array(424, 415)); ?>
 						</td>
 						<td>

@@ -45,7 +45,7 @@
 					<tr class="td-5">
 						<td>11.00&nbsp-&nbsp12.30</td>
 						<td>
-							<?php cf_presentations(array(456, 393, 385)); ?>
+							<?php //cf_presentations(array(, 385)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Research in OER</span>
@@ -53,15 +53,15 @@
 						</td>
 						<td>
 							<span class="panel-title">Public/Organizational Change</span>
-							<?php cf_presentations(array(416, 381, 371, 417)); ?>
+							<?php cf_presentations(array(416, 381, 371, 417, 456)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Opening Higher Education</span>
-							<?php cf_presentations(array(411, 386, 423, 369)); ?>
+							<?php cf_presentations(array(393, 411, 386, 423, 369)); ?>
 						</td>
 						<td>
 							<span class="panel-title">MOOCs</span>
-							<?php cf_presentations(array(360, 459,356)); ?>
+							<?php cf_presentations(array(360, 459, 356, 401, 368)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Open Educational Practice</span>
@@ -80,7 +80,7 @@
 						</td>
 						<td>
 							<span class="panel-title">Research in OER</span>
-							<?php cf_presentations(array(419, 439, 405)); ?>
+							<?php cf_presentations(array(419, 439, 405, 404)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Schools/ K12</span>
@@ -92,11 +92,11 @@
 						</td>
 						<td>
 							<span class="panel-title">MOOCs</span>
-							<?php cf_presentations(array(401, 440, 446)); ?>
+							<?php cf_presentations(array(446, 349)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Open Educational Practice</span>
-							<?php cf_presentations(array(343)); ?>
+							<?php cf_presentations(array(391, 343)); ?>
 						</td>
 					</tr>
 					<tr>
@@ -107,25 +107,25 @@
 						<td>15.30&nbsp-&nbsp17.30</td>
 						<td>
 							<span class="panel-title">Open Educational Practice</span>
-							<?php cf_presentations(array(358, 437, 444)); ?>
+							<?php cf_presentations(array(437, 358)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Research in OER</span>
-							<?php cf_presentations(array(449, 404, 457, 422)); ?>
+							<?php cf_presentations(array(449, 457, 422)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Teacher Education</span>
-							<?php cf_presentations(array(442, 436, 374, 391)); ?>
+							<?php cf_presentations(array(442, 436, 374)); ?>
 						</td>
 						<td>
 							<span class="panel-title">OER Access and Adoption</span>
-							<?php cf_presentations(array(383, 398, 403, 412)); ?>
+							<?php cf_presentations(array(398, 403, 412)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(427, 368, 349)); ?>
+							<?php cf_presentations(array(427)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(352, 458)); ?>
+							<?php cf_presentations(array(352)); ?>
 						</td>
 					</tr>
 					<tr>

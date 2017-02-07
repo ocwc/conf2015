@@ -28,7 +28,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td>&nbsp8.00&nbsp-&nbsp13.30</td>
+						<td>&nbsp8.00&nbsp-&nbsp9.00</td>
 						<td class="text-center" colspan="6">Registrations</td>
 					</tr>
 					<tr>
@@ -47,7 +47,7 @@
 					<tr class="td-5">
 						<td>10.30&nbsp-&nbsp12.30</td>
 						<td>
-							<?php cf_presentations(array(359, 392)); ?>
+							
 						</td>
 						<td>
 							<?php cf_presentations(array(346)); ?>
@@ -76,11 +76,11 @@
 						<td>13.30 - 15.00</td>
 						<td>
 							<span class="panel-title">OER Based Degree &amp; College</span>
-							<?php cf_presentations(array(362)); ?>
+							<?php cf_presentations(array(359, 362)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Research in OER</span>
-							<?php cf_presentations(array(452, 435, 378, 376)); ?>
+							<?php cf_presentations(array(452, 435, 378, 376, 351)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(394, 438)); ?>
@@ -108,19 +108,17 @@
 							<?php cf_presentations(array(363, 454, 433)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Africa/Action research</span>
-							<?php cf_presentations(array(430, 455, 460)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Open Information</span>
-							<?php cf_presentations(array(428, 399, 421)); ?>
+							<?php cf_presentations(array(428, 421, 383)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(340)); ?>
 						</td>
 						<td>
 							<span class="panel-title">MOOCs</span>
-							<?php cf_presentations(array(341, 427)); ?>
+							<?php cf_presentations(array(440, 341, 427)); ?>
 						</td>
 						<td>
 							<span class="panel-title">OER and Technology</span>

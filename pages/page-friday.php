@@ -34,8 +34,6 @@
 					<tr class="td-5">
 						<td>09.00 - 10.30</td>
 						<td>
-							<span class="panel-title">Lessons learnt</span>
-							<?php cf_presentations(array(402, 425, 503)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(345)); ?>
@@ -50,11 +48,11 @@
 						</td>
 						<td>
 							<span class="panel-title">Open pedagogy</span>
-							<?php cf_presentations(array(409, 395, 408)); ?>
+							<?php cf_presentations(array(425, 409, 395, 408)); ?>
 						</td>
 						<td>
 							<span class="panel-title">OER ed tech innovation</span>
-							<?php cf_presentations(array(353, 367, 372)); ?>
+							<?php cf_presentations(array(503, 353, 367, 372)); ?>
 						</td>
 					</tr>
 					<tr>
@@ -66,17 +64,18 @@
 						<td></td>
 						<td></td>
 						<td>
-							<?php cf_presentations(array(410, 447, 406)); ?>
+							<?php cf_presentations(array(444, 410, 447, 406)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(351)); ?>
+							<span class="panel-title">Africa/Action research</span>
+							<?php cf_presentations(array(399, 430, 455, 460)); ?>
 						</td>
 						<td>
 							<span class="panel-title">OEP</span>
 							<?php cf_presentations(array(424, 415)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(350)); ?>
+							<?php cf_presentations(array(458, 350)); ?>
 						</td>
 					</tr>
 					<tr>

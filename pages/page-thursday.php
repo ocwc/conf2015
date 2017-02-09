@@ -19,7 +19,8 @@
 			<table class="table table-striped">
 				<caption>Thursday, 9 March</caption>
 				<thead>
-					<th class="room-col">Room&nbsp;1</th>
+					<th></th>
+					<th class="room-col">Auditorium</th>
 					<th class="room-col">Room&nbsp;2</th>
 					<th class="room-col">Room&nbsp;3</th>
 					<th class="room-col">Room&nbsp;4</th>
@@ -65,7 +66,7 @@
 						</td>
 						<td>
 							<span class="panel-title">OER and Technology</span>
-							<?php cf_presentations(array(431, 432, 389)); ?>
+							<?php cf_presentations(array(431, 432, 389, 348)); ?>
 						</td>
 					</tr>
 					<tr>
@@ -80,7 +81,7 @@
 						</td>
 						<td>
 							<span class="panel-title">Research in OER</span>
-							<?php cf_presentations(array(452, 435, 378, 376, 351)); ?>
+							<?php cf_presentations(array(452, 435, 378, 376)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(394, 438)); ?>
@@ -94,7 +95,6 @@
 							<?php cf_presentations(array(344)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(357, 348)); ?>
 						</td>
 					</tr>
 					<tr>
@@ -108,6 +108,7 @@
 							<?php cf_presentations(array(363, 454, 433)); ?>
 						</td>
 						<td>
+							<?php cf_presentations(array(351)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Open Information</span>
@@ -126,9 +127,19 @@
 						</td>
 					</tr>
 					<tr>
-						<td>19.00</td>
-						<td class="text-center" colspan="5">
-							Gala Dinner (CTICC) and Open Education Awards for Excellence Ceremony
+						<td>18.00</td>
+						<td class="text-center" colspan="6">
+							<strong>Gala Dinner (CTICC) and Open Education Awards for Excellence Ceremony</strong>
+
+<p class="text-left gala-dinner-description">
+<strong>18:00</strong> - African Drumming Performance – This will include a group of drummers in African attire with additional djembes which guests can use to participate in the drumming on arrival.<br />
+<strong>18:45</strong> - Starters<br />
+<strong>19:15</strong> - Open Education Awards for Excellence<br />
+<strong>20:00</strong> - Dinner<br />
+<strong>21:00</strong> - Entertainment - AFRO ELITE <br />
+<strong>22:00</strong> - Dessert<br />
+<strong>22:30</strong> - Gala Dinner Ends
+</p>
 						</td>
 					</tr>
 				</tbody>

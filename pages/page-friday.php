@@ -18,7 +18,7 @@
 			    <thead>
 					<tr>
 							<th class="time-col"></th>
-							<th class="room-col">Auditorium (no Labs)</th>
+							<th class="room-col">Auditorium</th>
 							<th class="room-col">Room&nbsp;2</th>
 							<th class="room-col">Room&nbsp;3</th>
 							<th class="room-col">Room&nbsp;4</th>
@@ -48,7 +48,7 @@
 						</td>
 						<td>
 							<span class="panel-title">Open pedagogy</span>
-							<?php cf_presentations(array(425, 409, 395, 408)); ?>
+							<?php cf_presentations(array(409, 395, 408)); ?>
 						</td>
 						<td>
 							<span class="panel-title">OER ed tech innovation</span>
@@ -72,7 +72,7 @@
 						</td>
 						<td>
 							<span class="panel-title">OEP</span>
-							<?php cf_presentations(array(424, 415)); ?>
+							<?php cf_presentations(array(425, 424, 415)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(458, 350)); ?>

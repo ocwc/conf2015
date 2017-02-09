@@ -21,7 +21,7 @@
 				<thead>
 						<tr>
 								<th class="time-col"></th>
-								<th class="room-col">Auditorium (no Labs)</th>
+								<th class="room-col">Auditorium</th>
 								<th class="room-col">Room&nbsp;2</th>
 								<th class="room-col">Room&nbsp;3</th>
 								<th class="room-col">Room&nbsp;4</th>
@@ -43,7 +43,7 @@
 						<td class="text-center" colspan="6">Tea/Coffee Break</td>
 					</tr>
 					<tr class="td-5">
-						<td>11.00&nbsp-&nbsp12.30</td>
+						<td>10.30&nbsp-&nbsp12.30</td>
 						<td>
 							<?php //cf_presentations(array(, 385)); ?>
 						</td>
@@ -104,7 +104,7 @@
 						<td class="text-center" colspan="6">Tea/Coffee Break</td>
 					</tr>
 					<tr class="td-5">
-						<td>15.30&nbsp-&nbsp17.30</td>
+						<td>15.30&nbsp-&nbsp17.00</td>
 						<td>
 							<span class="panel-title">Open Educational Practice</span>
 							<?php cf_presentations(array(437, 358)); ?>
@@ -129,7 +129,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>19.00</td>
+						<td>18.00</td>
 						<td class="text-center" colspan="6">Free time</td>
 					</tr>
 				</tbody>

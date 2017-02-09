@@ -79,12 +79,23 @@
 						</td>
 					</tr>
 					<tr>
-						<td>12:45-13:35</td>
+						<td>12:30-13:30</td>
 						<td class="text-center" colspan="6">Lunch</td>
 					</tr>
 					<tr class="td-5">
 						<td>13:45-15.30</td>
-						<td class="text-center" colspan="6">The Cape Town Open Education Declaration +10 Panel and Celebration</td>
+						<td class="text-center declaration" colspan="6">
+							The Cape Town Open Education Declaration +10 Panel and Celebration<br />
+							Chair: Phillip Schmidt<br />
+							Panelists: Delia Browne, Sanjaya Mishra, Richard Baraniuk and Alek Tarkowski<br />
+						</td>
+					</tr>
+					<tr class="td-5">
+						<td>15.30</td>
+						<td class="text-center declaration" colspan="6">
+							Conference Ends - <a href="http://conference.oeconsortium.org/2017/optional-tours/">Optional Tours</a>
+						</td>
+					</tr>
 			    </tbody>
 			</table>
 		</div>

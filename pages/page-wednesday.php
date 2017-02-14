@@ -36,7 +36,16 @@
 					</tr>
 					<tr>
 						<td>9.00&nbsp-&nbsp10.00</td>
-						<td class="text-center" colspan="6">Welcome &amp; Keynote</td>
+						<td class="text-center" colspan="6">
+							Welcome &amp; Keynote
+							<p class="text-left gala-dinner-description">
+   								Opening Remarks: Open Education Consortium President  (10) <br />
+                                Introductions: Laura Czerniewicz (5)<br />
+                                Welcome: Dr Max Price (10) <br />
+                                Keynote: Narend Baijnath: The End of the OER Crusade: Towards a New Evangelism (30)<br />
+                                Concluding Remarks: Program Chair: Glenda Cox ( 5)<br />
+                            </p>
+						</td>
 					</tr>
 					<tr>
 						<td>10.00&nbsp-&nbsp10.30</td>

@@ -34,12 +34,12 @@
 					</tr>
 					<tr>
 						<td>&nbsp9.00&nbsp-&nbsp10.00</td>
-						<td class="text-center" colspan="6">Announcements &amp; Keynote Panel</td>
-						<!--
-						<td class="">
-							<?php //cf_presentations(array(694)); ?>
+						<td class="text-center" colspan="6">Announcements &amp; Keynote Panel					
+							<p class="text-left gala-dinner-description">
+								Chair: Cheryl Hodgkinson- Williams<br />
+								Speakers: Patricia Arinto, Mark Horner and Carina Bossu
+							</p>
 						</td>
-						-->
 					</tr>
 					<tr>
 						<td>10.00&nbsp-&nbsp10.30</td>

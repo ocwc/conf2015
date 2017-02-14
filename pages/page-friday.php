@@ -43,15 +43,15 @@
 							<?php cf_presentations(array(382, 445, 387)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Case studies Europe</span>
+							<span class="panel-title">OER Case Studies in Europe</span>
 							<?php cf_presentations(array(355, 384, 434)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Open pedagogy</span>
+							<span class="panel-title">Open Educational Practice</span>
 							<?php cf_presentations(array(409, 395, 408)); ?>
 						</td>
 						<td>
-							<span class="panel-title">OER ed tech innovation</span>
+							<span class="panel-title">OER and Innovation</span>
 							<?php cf_presentations(array(503, 353, 367, 372)); ?>
 						</td>
 					</tr>
@@ -64,14 +64,15 @@
 						<td></td>
 						<td></td>
 						<td>
+							<span class="panel-title">Open Education Policy, Social Justice and Ethics</span>
 							<?php cf_presentations(array(444, 410, 447, 406)); ?>
 						</td>
 						<td>
-							<span class="panel-title">Africa/Action research</span>
+							<span class="panel-title">Research in OER</span>
 							<?php cf_presentations(array(399, 430, 455, 460)); ?>
 						</td>
 						<td>
-							<span class="panel-title">OEP</span>
+							<span class="panel-title">Open Educational Practice</span>
 							<?php cf_presentations(array(425, 424, 415)); ?>
 						</td>
 						<td>

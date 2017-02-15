@@ -48,10 +48,10 @@
 					<tr class="td-5">
 						<td>10.30&nbsp-&nbsp12.30</td>
 						<td>
-							
+							<span class="panel-title">Open for Participation</span>
 						</td>
 						<td>
-							<span class="panel-title">Open for Participation</span>
+							<?php cf_presentations(array(346)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(342)); ?>

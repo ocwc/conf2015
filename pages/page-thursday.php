@@ -51,7 +51,7 @@
 							
 						</td>
 						<td>
-							<?php cf_presentations(array(346)); ?>
+							<span class="panel-title">Open for Participation</span>
 						</td>
 						<td>
 							<?php cf_presentations(array(342)); ?>
@@ -84,7 +84,7 @@
 							<?php cf_presentations(array(452, 435, 378, 376)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(394, 438)); ?>
+							<span class="panel-title">Open for Participation</span>
 						</td>
 						<td>
 							<span class="panel-title">OER in HE  and Beyond</span>
@@ -95,6 +95,7 @@
 							<?php cf_presentations(array(344)); ?>
 						</td>
 						<td>
+							<span class="panel-title">Open for Participation</span>
 						</td>
 					</tr>
 					<tr>

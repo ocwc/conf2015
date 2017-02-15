@@ -39,11 +39,11 @@
 						<td class="text-center" colspan="6">
 							Welcome &amp; Keynote
 							<p class="text-left gala-dinner-description">
-   								Opening Remarks: Open Education Consortium President  (10) <br />
-                                Introductions: Laura Czerniewicz (5)<br />
-                                Welcome: Dr Max Price (10) <br />
-                                Keynote: Narend Baijnath: The End of the OER Crusade: Towards a New Evangelism (30)<br />
-                                Concluding Remarks: Program Chair: Glenda Cox ( 5)<br />
+   								Opening Remarks: Open Education Consortium President<br />
+                                Introductions: Laura Czerniewicz<br />
+                                Welcome: Dr Max Price<br />
+                                Keynote: Narend Baijnath: The End of the OER Crusade: Towards a New Evangelism<br />
+                                Concluding Remarks: Program Chair: Glenda Cox<br />
                             </p>
 						</td>
 					</tr>
@@ -115,7 +115,7 @@
 					<tr class="td-5">
 						<td>15.30&nbsp-&nbsp17.00</td>
 						<td>
-							<span class="panel-title">Open Educational Practice</span>
+							<span class="panel-title">Open Policy</span>
 							<?php cf_presentations(array(437, 358)); ?>
 						</td>
 						<td>
@@ -131,7 +131,7 @@
 							<?php cf_presentations(array(398, 403, 412)); ?>
 						</td>
 						<td>
-							<?php cf_presentations(array(427)); ?>
+							<?php cf_presentations(array(427, 569)); ?>
 						</td>
 						<td>
 							<?php cf_presentations(array(352)); ?>

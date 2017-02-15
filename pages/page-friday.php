@@ -34,6 +34,7 @@
 					<tr class="td-5">
 						<td>09.00 - 10.30</td>
 						<td>
+							<span class="panel-title">Open for Participation</span>
 						</td>
 						<td>
 							<?php cf_presentations(array(345)); ?>
@@ -61,8 +62,12 @@
 					</tr>
 					<tr class="td-5">
 						<td>11:00-12:30</td>
-						<td></td>
-						<td></td>
+						<td>
+							<span class="panel-title">Open for Participation</span>
+						</td>
+						<td>
+							<span class="panel-title">Open for Participation</span>
+						</td>
 						<td>
 							<span class="panel-title">Open Education Policy, Social Justice and Ethics</span>
 							<?php cf_presentations(array(444, 410, 447, 406)); ?>

@@ -19,13 +19,15 @@
 			<table class="table table-striped">
 				<caption>Thursday, 9 March</caption>
 				<thead>
-					<th></th>
-					<th class="room-col">Auditorium</th>
-					<th class="room-col">Room&nbsp;2</th>
-					<th class="room-col">Room&nbsp;3</th>
-					<th class="room-col">Room&nbsp;4</th>
-					<th class="room-col">Room&nbsp;5</th>
-					<th class="room-col">Room&nbsp;6</th>
+					<tr>
+							<th class="time-col"></th>
+							<th class="room-col">Auditorium</th>
+							<th class="room-col">Room&nbsp;1.41</th>
+							<th class="room-col">Room&nbsp;1.61</th>
+							<th class="room-col">Room&nbsp;1.63</th>
+							<th class="room-col">Room&nbsp;2.61</th>
+							<th class="room-col">Room&nbsp;2.64</th>
+					</tr>
 				</thead>
 				<tbody>
 					<tr>

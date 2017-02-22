@@ -62,7 +62,7 @@
 						</td>
 						<td>
 							<span class="panel-title">Public/Organizational Change</span>
-							<?php cf_presentations(array(416, 381, 371, 417, 456, 562)); ?>
+							<?php cf_presentations(array(416, 381, 371, 456, 604, 562)); ?>
 						</td>
 						<td>
 							<span class="panel-title">Opening Higher Education</span>

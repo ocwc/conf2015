@@ -34,6 +34,9 @@
 					<tr class="td-5">
 						<td>09.00 - 10.30</td>
 						<td>
+							<span class="panel-title">Community of Practice</span>
+							<?php cf_presentations(array(392)); ?>
+
 							<span class="panel-title">Open for Participation</span>
 						</td>
 						<td>

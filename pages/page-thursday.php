@@ -68,7 +68,7 @@
 						</td>
 						<td>
 							<span class="panel-title">Open Business Models</span>
-							<?php cf_presentations(array(431, 432, 389, 348)); ?>
+							<?php cf_presentations(array(417, 431, 432, 389, 348)); ?>
 						</td>
 					</tr>
 					<tr>
@@ -127,7 +127,10 @@
 						</td>
 						<td>
 							<span class="panel-title">OER and Technology</span>
-							<?php cf_presentations(array(443, 414, 375)); ?>
+							<?php cf_presentations(array(443)); ?>
+
+							<span class="panel-title">OER and Science</span>
+							<?php cf_presentations(array(414, 375)); ?>
 						</td>
 					</tr>
 					<tr>

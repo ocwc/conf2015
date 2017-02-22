@@ -138,7 +138,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>18.00</td>
+						<td>17.00</td>
 						<td class="text-center" colspan="6">Free time</td>
 					</tr>
 				</tbody>

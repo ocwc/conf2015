@@ -37,8 +37,8 @@
 					<tr>
 						<td>9.00&nbsp-&nbsp10.00</td>
 						<td class="text-center" colspan="6">
-							Welcome &amp; Keynote
-							<p class="text-left gala-dinner-description">
+							<p class="text-left announcements-description">
+								Welcome &amp; Keynote<br />
    								Opening Remarks: Open Education Consortium President<br />
                                 Introductions: Laura Czerniewicz<br />
                                 Welcome: Dr Max Price<br />

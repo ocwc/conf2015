@@ -39,7 +39,7 @@
 						<td class="text-center" colspan="6">
 							<p class="text-left announcements-description">
 								Announcements &amp; Keynote Panel (Open Perspectives)<br />
-								Chair: Cheryl Hodgkinson- Williams<br />
+								Chair: Cheryl Hodgkinson-Williams<br />
 								Panelists: Patricia Arinto, Mark Horner and Carina Bossu
 							</p>
 						</td>

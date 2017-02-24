@@ -10,16 +10,17 @@
 <?php if ( have_posts() ) : ?>
 	<div class="container">
 		<?php while ( have_posts() ) : the_post(); ?>
-			<article id="post-<?php the_ID(); ?>" <?php post_class('col-sm-10 col-sm-offset-1'); ?>>
+			<article id="post-<?php the_ID(); ?>">
 				<header class="entry-header">
-					<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
+					<?php //the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 				</header><!-- .entry-header -->
 
 				<div class="entry-content">
 					<?php the_content(); ?>
 
-					<?php get_template_part('partials/home', 'sponsors'); ?>
+					
 				</div>
+				<?php get_template_part('partials/home', 'sponsors'); ?>
 			</article>
 		<?php endwhile; ?>
 	</div>

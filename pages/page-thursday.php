@@ -21,7 +21,7 @@
 				<thead>
 					<tr>
 							<th class="time-col"></th>
-							<th class="room-col">Auditorium</th>
+							<th class="room-col">Auditorium 2</th>
 							<th class="room-col">Room&nbsp;1.41</th>
 							<th class="room-col">Room&nbsp;1.61</th>
 							<th class="room-col">Room&nbsp;1.63</th>
@@ -37,6 +37,7 @@
 					<tr>
 						<td>&nbsp9.00&nbsp-&nbsp10.00</td>
 						<td class="text-center" colspan="6">
+							<p class="text-left">[Venue: Auditorium 2]</p>
 							<p class="text-left announcements-description">
 								Announcements &amp; Keynote Panel (Open Perspectives)<br />
 								Chair: Cheryl Hodgkinson-Williams<br />
@@ -60,7 +61,7 @@
 							<?php cf_presentations(array(342)); ?>
 						</td>
 						<td>
-							<span class="panel-title">OERzing Student Experience</span>
+							<span class="panel-title">OER and Student Experience</span>
 							<?php cf_presentations(array(377, 380, 396, 426)); ?>
 						</td>
 						<td>
@@ -69,7 +70,9 @@
 						</td>
 						<td>
 							<span class="panel-title">Open Business Models</span>
-							<?php cf_presentations(array(417, 431, 432, 389, 348)); ?>
+							<?php cf_presentations(array(417)); ?>
+							<span class="panel-title">OER and Technology</span>
+							<?php cf_presentations(array(431, 432, 389, 348)); ?>
 						</td>
 					</tr>
 					<tr>

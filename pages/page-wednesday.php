@@ -21,7 +21,7 @@
 				<thead>
 						<tr>
 								<th class="time-col"></th>
-								<th class="room-col">Auditorium</th>
+								<th class="room-col">Auditorium 2</th>
 								<th class="room-col">Room&nbsp;1.41</th>
 								<th class="room-col">Room&nbsp;1.61</th>
 								<th class="room-col">Room&nbsp;1.63</th>
@@ -37,11 +37,12 @@
 					<tr>
 						<td>9.00&nbsp-&nbsp10.00</td>
 						<td class="text-center" colspan="6">
+							<p class="text-left">[Venue: Auditorium 2]</p>
 							<p class="text-left announcements-description">
 								Welcome &amp; Keynote<br />
    								Opening Remarks: Open Education Consortium President<br />
                                 Introductions: Laura Czerniewicz<br />
-                                Welcome: Dr Max Price<br />
+                                Welcome: Dr Max Price - Vice Chancellor of the University of Cape Town<br />
                                 Keynote: Narend Baijnath: The End of the OER Crusade: Towards a New Evangelism<br />
                                 Concluding Remarks: Program Chair: Glenda Cox<br />
                             </p>

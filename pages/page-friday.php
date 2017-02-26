@@ -18,7 +18,7 @@
 			    <thead>
 					<tr>
 							<th class="time-col"></th>
-							<th class="room-col">Auditorium</th>
+							<th class="room-col">Auditorium 2</th>
 							<th class="room-col">Room&nbsp;1.41</th>
 							<th class="room-col">Room&nbsp;1.61</th>
 							<th class="room-col">Room&nbsp;1.63</th>

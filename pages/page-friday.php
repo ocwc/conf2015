@@ -43,7 +43,7 @@
 							<?php cf_presentations(array(345)); ?>
 						</td>
 						<td>
-							<span class="panel-title">OER across the globe</span>
+							<span class="panel-title">OER Across the Globe</span>
 							<?php cf_presentations(array(382, 445, 387)); ?>
 						</td>
 						<td>
@@ -94,6 +94,7 @@
 					<tr class="td-5">
 						<td>13:45-15.30</td>
 						<td class="text-center declaration" colspan="6">
+							<p class="text-left">[Venue: Auditorium 2]</p>
 							The Cape Town Open Education Declaration +10 Panel and Celebration<br />
 							Chair: Phillip Schmidt<br />
 							Panelists: Delia Browne, Sanjaya Mishra, Richard Baraniuk and Alek Tarkowski<br />

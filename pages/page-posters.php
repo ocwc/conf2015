@@ -16,11 +16,13 @@
 
 		<div class="col-sm-12 row">
 			<table class="table table-striped">
+				<?php /*
 			    <thead>
 			        <tr>
 			            <th class="room-col text-center" colspan="3">Hall 1</th>
 			        </tr>
 			    </thead>
+			    */ ?>
 
 			    <tbody>
 			    	<tr class="td-3">

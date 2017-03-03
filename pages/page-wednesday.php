@@ -44,7 +44,7 @@
                                 Introductions: Laura Czerniewicz<br />
                                 Welcome: Dr Max Price - Vice Chancellor of the University of Cape Town<br />
                                 Keynote: Narend Baijnath: The End of the OER Crusade: Towards a New Evangelism<br />
-                                Concluding Remarks: Program Chair: Glenda Cox<br />
+                                Program Chair: Glenda Cox<br />
                             </p>
 						</td>
 					</tr>

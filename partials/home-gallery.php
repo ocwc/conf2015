@@ -15,6 +15,7 @@
         <a
           class="home-gallery-item"
           title="<?php the_sub_field('attribution'); ?>"
+          data-url="<?php the_sub_field('flickr_url'); ?>"
           href="<?php echo $image['sizes']['large']; ?>"
           >
           

@@ -15,7 +15,12 @@ jQuery(document).ready(function($) {
           enabled: true
       },
       image: {
-        titleSrc: 'title'
+          titleSrc: function (item) {
+              var url = jQuery(item.el).data('url'),
+                  title = jQuery(item.el).attr('title');
+
+              return '<a href="' + url + '">' + title + '</a>';
+          }
       },
       mainClass: 'mfp-with-zoom',
       zoom: {
